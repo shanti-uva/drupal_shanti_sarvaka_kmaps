@@ -1,4 +1,4 @@
-name = Shanti Sarvaka STARTERKIT
+name = Shanti Sarvaka Kmaps
 description = A sub-theme of the Drupal 7 Shanti Sarvaka Theme for the KMaps Subject/Places sites
 core = 7.x
 base theme = shanti_sarvaka
