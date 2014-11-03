@@ -1,0 +1,13 @@
+/* custom theme colors */
+.titlearea {background: #dc3c47; } 
+.basebg { background-color: #dc3c47; } 
+.basecolor { color: #dc3c47; }   
+ul.ss-full-tabs>li.active>a:after {
+  border-color: #dc3c47;
+  border-top-color: #dc3c47;
+} 
+i.thumbtype { background-color: rgba(220,60,71, 0.8); }
+.breadwrap ol li .icon{ background:#dc3c47;}
+.ss-full-tabs.nav-tabs>li.active,
+.ss-full-tabs.nav-tabs>li.active:hover{ background:#dc3c47;}
+.shanticon-twitter,.shanticon-facebook,.shanticon-email,.shanticon-google{ color:#dc3c47;}
