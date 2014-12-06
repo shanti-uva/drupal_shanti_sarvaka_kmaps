@@ -11,3 +11,22 @@ i.thumbtype { background-color: rgba(220,60,71, 0.8); }
 .ss-full-tabs.nav-tabs>li.active,
 .ss-full-tabs.nav-tabs>li.active:hover{ background:#dc3c47;}
 .shanticon-twitter,.shanticon-facebook,.shanticon-email,.shanticon-google{ color:#dc3c47;}
+
+/* Pager settings fix for kmaps */
+ {
+  display: inline;
+}
+li.pager-current.widget > form,
+li.pager-current.widget > form div,
+li.pager-current.widget > form input {
+  display: inline;
+}
+
+li.pager-current.widget > form input.form-control {
+  width: 100px;
+}
+
+.pager {
+  float: inherit;
+  text-align: center;
+}
