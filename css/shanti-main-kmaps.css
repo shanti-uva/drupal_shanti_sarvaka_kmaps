@@ -30,3 +30,7 @@ li.pager-current.widget > form input.form-control {
   float: inherit;
   text-align: center;
 }
+
+h6.custom-inline {
+  display: inline;
+}
