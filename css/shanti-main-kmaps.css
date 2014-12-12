@@ -39,3 +39,7 @@ h6.custom-inline {
 .content-section {
   padding: 0;
 }
+
+.content-section.equal-height .tab-content {
+  padding: 0.72rem 1.8rem 0;
+}
