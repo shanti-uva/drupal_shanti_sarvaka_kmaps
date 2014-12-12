@@ -34,3 +34,8 @@ li.pager-current.widget > form input.form-control {
 h6.custom-inline {
   display: inline;
 }
+
+/* Extra fixes for overrides from main sarvaka theme */
+.content-section {
+  padding: 0;
+}
