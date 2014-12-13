@@ -1,21 +1,37 @@
 /* custom theme colors */
-.titlearea {background: #dc3c47; } 
-.basebg { background-color: #dc3c47; } 
-.basecolor { color: #dc3c47; }   
+.titlearea,
+.carousel-control,
+.breadcrumb .icon,
+.nav-justified>li.active a,
+.nav-justified>li.active a:hover,
+.nav-justified>li.active a:focus{ background:#dc3c47;}
+.nav-justified>li.active:before{ color:#dc3c47;}
+/*--- END custom colors ---*/
+
+/* older method of colors
+.titlearea {background: #dc3c47; }
+.basebg { background-color: #dc3c47; }
+.basecolor { color: #dc3c47; }
 ul.ss-full-tabs>li.active>a:after {
   border-color: #dc3c47;
   border-top-color: #dc3c47;
-} 
+}
 i.thumbtype { background-color: rgba(220,60,71, 0.8); }
 .breadwrap ol li .icon{ background:#dc3c47;}
 .ss-full-tabs.nav-tabs>li.active,
 .ss-full-tabs.nav-tabs>li.active:hover{ background:#dc3c47;}
 .shanticon-twitter,.shanticon-facebook,.shanticon-email,.shanticon-google{ color:#dc3c47;}
+*/
 
-/* Pager settings fix for kmaps */
+
+/* hiding language dropdown */
+.navbar-default .navbar-nav>.highlight:last-child{ display:none;}
+
+
+/* Pager settings fix for kmaps
  {
   display: inline;
-}
+} */
 li.pager-current.widget > form,
 li.pager-current.widget > form div,
 li.pager-current.widget > form input {
