@@ -4,8 +4,16 @@
 .breadcrumb .icon,
 .nav-justified>li.active a,
 .nav-justified>li.active a:hover,
-.nav-justified>li.active a:focus{ background:#dc3c47;}
-.nav-justified>li.active:before{ color:#dc3c47;}
+.nav-justified>li.active a:focus{ background:#4CA6FB;}
+.nav-justified>li.active:before{ color:#4CA6FB;}
+
+.page-subjects .titlearea,
+.page-subjects .carousel-control,
+.page-subjects .breadcrumb .icon,
+.page-subjects .nav-justified>li.active a,
+.page-subjects .nav-justified>li.active a:hover,
+.page-subjects .nav-justified>li.active a:focus{ background:#dc3c47;}
+.page-subjects .nav-justified>li.active:before{ color:#dc3c47;}
 /*--- END custom colors ---*/
 
 /* older method of colors
