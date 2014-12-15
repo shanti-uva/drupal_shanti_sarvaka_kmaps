@@ -32,10 +32,6 @@ i.thumbtype { background-color: rgba(220,60,71, 0.8); }
 */
 
 
-/* hiding language dropdown */
-.navbar-default .navbar-nav>.highlight:last-child{ display:none;}
-
-
 /* Pager settings fix for kmaps
  {
   display: inline;
@@ -55,11 +51,9 @@ li.pager-current.widget > form input.form-control {
   text-align: center;
 }
 
-h6.custom-inline {
-  display: inline;
-}
 
-/* Extra fixes for overrides from main sarvaka theme */
+
+/* Extra fixes for overrides from main sarvaka theme 
 .content-section {
   padding: 0;
 }
@@ -67,3 +61,5 @@ h6.custom-inline {
 .content-section.equal-height .tab-content {
   padding: 0.72rem 1.8rem 0;
 }
+
+*/
