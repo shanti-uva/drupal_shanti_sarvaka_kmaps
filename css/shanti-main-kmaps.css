@@ -2,34 +2,51 @@
 .titlearea,
 .carousel-control,
 .breadcrumb .icon,
+.bx-controls-direction a,
 .nav-justified>li.active a,
 .nav-justified>li.active a:hover,
-.nav-justified>li.active a:focus{ background:#4CA6FB;}
-.nav-justified>li.active:before{ color:#4CA6FB;}
+.nav-justified>li.active a:focus{ background:#4CA6FB !important;}
+.nav-justified>li.active:before,
+.carousel-feature-slides li.active div a:before{ color:#4CA6FB;}
+.carousel-feature-slides li div a:hover,
+.carousel-feature-slides li div a:focus,
+.carousel-feature-slides li.active div a{ border-color: #4CA6FB;}
+.content-resources .nav-pills li.active{border-left:10px solid #4CA6FB;}
 
 .page-subjects .titlearea,
 .page-subjects .carousel-control,
 .page-subjects .breadcrumb .icon,
+.page-subjects .bx-controls-direction a,
 .page-subjects .nav-justified>li.active a,
 .page-subjects .nav-justified>li.active a:hover,
-.page-subjects .nav-justified>li.active a:focus{ background:#dc3c47;}
-.page-subjects .nav-justified>li.active:before{ color:#dc3c47;}
+.page-subjects .nav-justified>li.active a:focus{ background:#dc3c47 !important;}
+.page-subjects .nav-justified>li.active:before,
+.page-subjects .carousel-feature-slides li.active div a:before{ color:#dc3c47;}
+.page-subjects .carousel-feature-slides li div a:hover,
+.page-subjects .carousel-feature-slides li div a:focus,
+.page-subjects .carousel-feature-slides li.active div a{ border-color: #dc3c47;}
+.page-subjects .content-resources .nav-pills li.active{border-left:10px solid #dc3c47;}
 /*--- END custom colors ---*/
 
-/* older method of colors
-.titlearea {background: #dc3c47; }
-.basebg { background-color: #dc3c47; }
-.basecolor { color: #dc3c47; }
-ul.ss-full-tabs>li.active>a:after {
-  border-color: #dc3c47;
-  border-top-color: #dc3c47;
-}
-i.thumbtype { background-color: rgba(220,60,71, 0.8); }
-.breadwrap ol li .icon{ background:#dc3c47;}
-.ss-full-tabs.nav-tabs>li.active,
-.ss-full-tabs.nav-tabs>li.active:hover{ background:#dc3c47;}
-.shanticon-twitter,.shanticon-facebook,.shanticon-email,.shanticon-google{ color:#dc3c47;}
-*/
+/**** kmaps side-col ****/
+.content-resources{padding-left:0;padding-right:0;margin-left:-15px;width:13.5em;background:#fff;min-height:700px;height:100%;background-image:-webkit-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-moz-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-ms-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-o-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);}
+.content-resources .nav-pills{font-weight:bold;text-transform:uppercase;margin:0;}
+.content-resources .nav-pills li{margin:0;padding:0 0 0 1px;font-size:1em;line-height:1em;height:2.75em;position: relative;white-space:nowrap;border-left:10px solid transparent;}
+.content-resources .nav-pills li.active{ /* see custom theme colors */}
+.content-resources .nav-pills li a{display:block;padding:1px 0 0 15px;background:#fff;font-size:.75em;line-height:3.68em;height:3.63em;border:none;border-radius:0;border-bottom:1px solid #e0e0e0;-webkit-transition:background 200ms ease 0;-moz-transition:background 200ms ease 0;-o-transition:background 200ms ease 0;transition:background 200ms ease 0;font-family:'museo-sans-700',helvetica,arial,sans-serif;font-weight:bold;}
+.content-resources .nav-pills li:first-child a{ border-top:1px solid #e0e0e0;}
+.content-resources .nav-pills li a,
+.content-resources .nav-pills li a:hover,
+.content-resources .nav-pills li a:focus{color:#777;}
+.content-resources .nav-pills li a:hover,
+.content-resources .nav-pills li a:focus{color:#333;background:#f7f7f7;}
+.content-resources .nav-pills li.active a{border-left-color: #4CA6FB;color:#333;background:#eee;border-top-color:transparent;border-right-color:transparent;}
+.content-resources .nav-pills li a .icon{font-family:'shanticon';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:.5em;font-size:1.68em;position:relative;top:4px;}
+.content-resources .nav-pills li a .icon:before{position:relative;top:0;}
+.content-resources .nav-pills > li > a > .badge{margin-left:7px;position:relative;top:-1px;font-size:.82em;font-family:sans-serif;line-height:1em;height:1.63em;text-shadow:0 1px 1px #444;display:inline-block;color:#fff;background:#777;}
+.content-resources .nav-pills > .active > a > .badge{background:#505050;}
+.content-resources .nav-pills > li > a > .badge:empty{display:none;}
+.content-resources .nav-pills > li > a:hover .badge{background:#505050;}
 
 
 /* Pager settings fix for kmaps
