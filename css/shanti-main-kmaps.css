@@ -10,7 +10,9 @@
 .carousel-feature-slides li.active div a:before{ color:#4CA6FB;}
 .carousel-feature-slides li div a:hover,
 .carousel-feature-slides li div a:focus,
-.carousel-feature-slides li.active div a{ border-color: #4CA6FB;}
+.carousel-feature-slides li.active div a,
+#tab-main .each-photo a.thumbnail:hover,
+#tab-main .each-text a.thumbnail:hover{ border-color: #4CA6FB;}
 .content-resources .nav-pills li.active{border-left:10px solid #4CA6FB;}
 
 .page-subjects .titlearea,
@@ -24,8 +26,11 @@
 .page-subjects .carousel-feature-slides li.active div a:before{ color:#dc3c47;}
 .page-subjects .carousel-feature-slides li div a:hover,
 .page-subjects .carousel-feature-slides li div a:focus,
-.page-subjects .carousel-feature-slides li.active div a{ border-color: #dc3c47;}
+.page-subjects .carousel-feature-slides li.active div a,
+.page-subjects #tab-main .each-photo a.thumbnail:hover,
+.page-subjects #tab-main .each-text a.thumbnail:hover{ border-color: #dc3c47;}
 .page-subjects .content-resources .nav-pills li.active{border-left:10px solid #dc3c47;}
+
 /*--- END custom colors ---*/
 
 /**** kmaps side-col ****/
@@ -61,7 +66,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 #tab-main .each-photo,
 #tab-main .each-text { width: 100px; float: left; margin-right: 15px; margin-bottom: 10px;}
 #tab-main .each-photo a.thumbnail:hover,
-#tab-main .each-text a.thumbnail:hover{border-color: #DC3C47;}
+#tab-main .each-text a.thumbnail:hover { /* see custom theme colors */}
 
 #photo-pagination{ float: left; margin-right: 10px; margin-top: 10px;}
 #photo-pagination li{ display: inline; padding: 0 5px;}
