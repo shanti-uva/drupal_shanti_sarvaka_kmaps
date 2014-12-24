@@ -52,7 +52,7 @@
 .content-resources .nav-pills li.active > a > .badge{background:#505050;}
 .content-resources .nav-pills li > a > .badge:empty{display:none;}
 .content-resources .nav-pills li > a:hover .badge{background:#505050;}
-.content-resources .nav-pills li .ajax-progress { position: absolute;right:0;top:0;}
+.content-resources .nav-pills li .ajax-progress { position: absolute;right:-10px;;top:-10px;}
 
 li.pager-current.widget > form,
 li.pager-current.widget > form div,
