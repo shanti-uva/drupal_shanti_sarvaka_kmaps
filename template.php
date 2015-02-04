@@ -19,9 +19,7 @@ function sarvaka_kmaps_breadcrumb($variables) {
   $app = variable_get('kmaps_explorer_app', '');
   $breadcrumbs = is_array($variables['breadcrumb']) ? $variables['breadcrumb'] : array();
   $output = '<ol class="breadcrumb">';
-  if(isset($variables['is_front']) && !$variables['is_front']) {
-    array_unshift($breadcrumbs, '<a href="' . base_path() . $app . '">' . theme_get_setting('shanti_sarvaka_breadcrumb_intro') . '</a>');
-  }
+  array_unshift($breadcrumbs, '<a href="' . base_path() . $app . '">' . theme_get_setting('shanti_sarvaka_breadcrumb_intro') . '</a>');
   if(count($breadcrumbs) > 1) {
     $breadcrumbs[0] = str_replace('</a>', ':</a>', $breadcrumbs[0]);
   }
