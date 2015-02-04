@@ -44,7 +44,7 @@
 .content-resources .nav-pills li a:hover,
 .content-resources .nav-pills li a:focus{color:#777;}
 .content-resources .nav-pills li a:hover,
-.content-resources .nav-pills li a:focus{color:#333;background:#f7f7f7;}
+.content-resources .nav-pills li a:focus{color:#333;background:#eee;}
 .content-resources .nav-pills li.active a{color:#333;background:#eee;border-top-color:transparent;border-right-color:transparent;}
 .content-resources .nav-pills li a .icon{font-family:'shanticon';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:.5em;font-size:1.68em;position:relative;top:4px;}
 .content-resources .nav-pills li a .icon:before{position:relative;top:0;}
@@ -52,7 +52,7 @@
 .content-resources .nav-pills li.active > a > .badge{background:#505050;}
 .content-resources .nav-pills li > a > .badge:empty{display:none;}
 .content-resources .nav-pills li > a:hover .badge{background:#505050;}
-.content-resources .nav-pills li .ajax-progress { position: absolute;right:-10px;;top:-10px;}
+.content-resources .nav-pills li .ajax-progress { position: absolute;right:0.1em;top:0.62em;}
 
 li.pager-current.widget > form,
 li.pager-current.widget > form div,
