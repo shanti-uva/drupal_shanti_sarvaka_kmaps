@@ -34,7 +34,7 @@
 /*--- END custom colors ---*/
 
 /**** kmaps side-col ****/
-.content-resources{padding-left:0;padding-right:0;margin-left:-15px;min-width:14em;max-width:16em;background:#fff;min-height:700px;height:100%;background-image:-webkit-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-moz-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-ms-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-o-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);}
+.content-resources{padding-left:0;padding-right:0;margin-left:-15px;width:13.5em;background:#fff;min-height:700px;height:100%;background-image:-webkit-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-moz-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-ms-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-o-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);}
 .content-resources .nav-pills{font-weight:bold;text-transform:uppercase;margin:0;}
 .content-resources .nav-pills li{margin:0;padding:0 0 0 1px;font-size:1em;line-height:1em;height:2.75em;position: relative;white-space:nowrap;border-left:10px solid transparent;}
 .content-resources .nav-pills li.active{ /* see custom theme colors */}
@@ -52,7 +52,7 @@
 .content-resources .nav-pills li.active > a > .badge{background:#505050;}
 .content-resources .nav-pills li > a > .badge:empty{display:none;}
 .content-resources .nav-pills li > a:hover .badge{background:#505050;}
-.content-resources .nav-pills li .ajax-progress { font-size:1.5rem;position: absolute;right:0.1em;top:0.62em;}
+.content-resources .nav-pills li .ajax-progress { position: absolute;right:0.1em;top:0.62em;}
 
 li.pager-current.widget > form,
 li.pager-current.widget > form div,
@@ -61,7 +61,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 
 @media screen and (max-width: 767px) {
 
-  .content-resources { width:14em;}
+  .content-resources { width:13.5em;}
   .content-resources ul{ margin-top:25px;}
 
 	.content-resources ul.nav-pills li{ font-size: 1em; line-height: 1em; height: 2.63em;}
@@ -72,30 +72,6 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 	.content-resources ul.nav-pills li a .icon{ position:relative; top:4px;}
 	
 }	
-
-@media screen and (max-width: 1150px) {
-	
-  /* content resources column */
-  .row-offcanvas { position: relative;-webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;transition: all .3s ease-out;}
-  .row-offcanvas-left { left: 0;}
-  .row-offcanvas-left .sidebar-offcanvas { left: -14em; /* 6 columns */}
-  .row-offcanvas-left.active { left: 14em; /* 6 columns */ }
-  .sidebar-offcanvas { position: absolute; top: 0; width: 14em; /* 6 columns */}
-	
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 	
 
 .pager { float: inherit;text-align: center;}
