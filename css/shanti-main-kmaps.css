@@ -96,12 +96,6 @@ li.pager-current.widget > form input{ display: inline;}
 li.pager-current.widget > form input.form-control { width: 100px;}
 
 @media screen and (max-width: 767px) {
-
-
-	
-}	
-
-@media screen and (max-width: 1150px) {
 	
   .content-resources { width:14em;}
   .content-resources ul{ margin-top:25px;}
@@ -120,6 +114,12 @@ li.pager-current.widget > form input.form-control { width: 100px;}
   .row-offcanvas-left .sidebar-offcanvas { left: -14em; /* 6 columns */}
   .row-offcanvas-left.active { left: 14em; /* 6 columns */ }
   .sidebar-offcanvas { position: absolute; top: 0; width: 14em; /* 6 columns */}
+
+	
+}	
+
+@media screen and (max-width: 1150px) {
+
 	
 }
 
