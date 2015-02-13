@@ -101,6 +101,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 
 @media screen and (max-width: 992px) {
 
+	.content-section.equal-height{ padding-left:10px;}
 	.content-resources { width:18.6rem; margin-left:-1rem;padding-top:25px;}
   .content-resources ul{ }
 
