@@ -101,7 +101,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 
 @media screen and (max-width: 992px) {
 
-	.content-resources { width:18.6rem; margin-left:-1rem;padding-top:25px;}
+	.content-resources { width:18.6rem; margin-left:-1rem;padding-top:2.5rem;}
 
 	.content-section.equal-height{ padding-left:10px;}
 	.content-section.equal-height > .tab-content{ 
@@ -130,17 +130,17 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 	.view-resources.btn-default .icon { display:none;}
 	.view-resources.btn-default .icon:before{ font-family:'shanticon'; content: '\e610';}
 	.view-resources.btn-default .header{ }
-	.view-resources.btn-default .fa { float:left; font-size:1.5em; margin-right:1rem; position:relative; top: 0.7rem; }
+	.view-resources.btn-default .fa { float:left; font-size:1.5em; margin-right:1rem; position:relative; top: 0.3rem; }
 	.view-resources.btn-default .fa:before { content: '\f138'; }
 	.view-resources.btn-default:hover .fa:before,
 	.view-resources.btn-default:focus .fa:before { content:'\f13a'; }
 	.view-resources.btn-default span { float:left; }
-	.view-resources.btn-default .badge { float:right; font-size: .68em; background:transparent; border:1px solid #ddd; padding:0.4rem 0.9rem; margin-right:1.2rem; margin-top:1px; height:1.88em; line-height: .75em; font-weight:normal; -webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out; }
+	.view-resources.btn-default .badge { float:right; font-size: .68em; background:transparent; border:1px solid #ddd; padding:0.4rem 0.9rem; margin-right:1.2rem; margin-top:2rem; height:1.88em; line-height: .75em; font-weight:normal; -webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out; }
 	.view-resources.btn-default:hover,
 	.view-resources.btn-default:focus { background: #444; color:#fff;}
 	
-	.row-offcanvas-left.active .view-resources.btn-default{ width:200px; padding-left:35px; text-align:left; position:relative; left:-218px;}
-  .row-offcanvas-left.active .view-resources.btn-default .icon{ color:#fff; font-size:1.12em; width:10px; height:10px; /* display:inline; */ position:absolute; top:2px; right:5px; }
+	.row-offcanvas-left.active .view-resources.btn-default{ width:200px; padding-left:3rem; text-align:left; position:relative; left:-218px;}
+  .row-offcanvas-left.active .view-resources.btn-default .icon{ color:#fff; font-size:1.12em; width:1rem; height:1rem; /* display:inline; */ position:absolute; top:2rem; right:6rem; }
 	.row-offcanvas-left.active .view-resources.btn-default .badge { color:transparent; border-color:transparent; }
 
 }
