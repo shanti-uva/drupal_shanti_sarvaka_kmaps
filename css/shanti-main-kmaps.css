@@ -101,7 +101,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 
 @media screen and (max-width: 992px) {
 
-	.content-resources { width:14em; margin-left:-1rem;padding-top:25px;}
+	.content-resources { width:18.6rem; margin-left:-1rem;padding-top:25px;}
   .content-resources ul{ }
 
 	.content-resources ul.nav-pills li{ font-size: 1em; line-height: 1em; height: 2.63em;}
@@ -115,15 +115,15 @@ li.pager-current.widget > form input.form-control { width: 100px;}
   /* content resources column */
   .row-offcanvas { position: relative;-webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;transition: all .3s ease-out;}
   .row-offcanvas-left { left: 0;}
-  .row-offcanvas-left .sidebar-offcanvas { left: -14em; /* 6 columns */}
-  .row-offcanvas-left.active { left: 14em; /* 6 columns */ }
-  .sidebar-offcanvas { position: absolute; top: 0; width: 14em; /* 6 columns */}
+  .row-offcanvas-left .sidebar-offcanvas { left: -18.6rem; /* 6 columns */}
+  .row-offcanvas-left.active { left: 18.6rem; /* 6 columns */ }
+  .sidebar-offcanvas { position: absolute; top:0; width:18.6rem; /* 6 columns */}
   
 	/* toggle button for sidebar resources, xtra widths for overflow during animation */
   .view-resources.btn-default { width:230px; display:block !important; padding:4px 8px 2px 60px; position:relative; top:-0.75rem; left: -67px; z-index:10; font-size:.75em; line-height:1.75em; height:2.25em; background-image:none; border:none; border-radius:0; background:#555; text-shadow:none; -webkit-box-shadow:none;box-shadow:none; font-weight:normal; color:#fff; font-family:'museo-sans-500',helvetica,arial,sans-serif; -webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;transition: all .3s ease-out; }
   
   /* toggle resource column */
-  .row-offcanvas-left.active .view-resources.btn-default{ position:relative;left:-267px;}
+  .row-offcanvas-left.active .view-resources.btn-default{ position:relative;left:-267px;  width:200px; padding-left:35px; text-align:left; position:relative; left:-218px;}
   
 	.view-resources.btn-default.show { width:200px; padding-left:35px; text-align:left; position:relative; left:-218px;}
 	.view-resources.btn-default .icon { display:none;}
