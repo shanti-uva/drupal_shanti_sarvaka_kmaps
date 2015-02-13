@@ -70,7 +70,7 @@ ul.related-audio-video.shanti-gallery{ margin-top:2rem;}
 
 
 /**** kmaps side-col ****/
-.content-resources{padding-left:0;padding-right:0;margin-left:0;padding-top:25px;min-width:14em;max-width:16em;background:#fff;min-height:700px;height:100%;background-image:-webkit-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-moz-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-ms-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-o-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);}
+.content-resources{padding-left:0;padding-right:0;padding-top:25px;min-width:14em;max-width:16em;background:#fff;min-height:700px;height:100%;background-image:-webkit-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-moz-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-ms-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-o-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);}
 .content-resources .nav-pills{font-weight:bold;text-transform:uppercase;margin:0;}
 .content-resources .nav-pills li{margin:0;padding:0 0 0 1px;font-size:1em;line-height:1em;height:2.75em;position: relative;white-space:nowrap;border-left:10px solid transparent;}
 .content-resources .nav-pills li.active{ /* see custom theme colors */}
