@@ -130,12 +130,12 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 	.view-resources.btn-default .icon { display:none;}
 	.view-resources.btn-default .icon:before{ font-family:'shanticon'; content: '\e610';}
 	.view-resources.btn-default .header{ }
-	.view-resources.btn-default .fa { float:left; font-size:1.5em; margin-right:1rem; position:relative; top: 0.3rem; }
+	.view-resources.btn-default .fa { float:left; font-size:1.5em; margin-right:1rem; position:relative; top: 0.7rem; }
 	.view-resources.btn-default .fa:before { content: '\f138'; }
 	.view-resources.btn-default:hover .fa:before,
 	.view-resources.btn-default:focus .fa:before { content:'\f13a'; }
 	.view-resources.btn-default span { float:left; }
-	.view-resources.btn-default .badge { float:right; font-size: .68em; background:transparent; border:1px solid #ddd; padding:4rem 9rem; margin-right:1.2rem; margin-top:1px; height:1.88em; line-height: .75em; font-weight:normal; -webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out; }
+	.view-resources.btn-default .badge { float:right; font-size: .68em; background:transparent; border:1px solid #ddd; padding:0.4rem 0.9rem; margin-right:1.2rem; margin-top:1px; height:1.88em; line-height: .75em; font-weight:normal; -webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out; }
 	.view-resources.btn-default:hover,
 	.view-resources.btn-default:focus { background: #444; color:#fff;}
 	
