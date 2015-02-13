@@ -99,16 +99,16 @@ li.pager-current.widget > form input.form-control { width: 100px;}
  	
 }	
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
 
-	 .content-resources { width:14em; margin-left:-1.5rem;padding-top:25px;}
+	.content-resources { width:14em; margin-left:-1.5rem;padding-top:25px;}
   .content-resources ul{ }
 
 	.content-resources ul.nav-pills li{ font-size: 1em; line-height: 1em; height: 2.63em;}
   .content-resources ul.nav-pills li a{ font-size: 0.75em; line-height: 3.63em; height:3.5em; padding:0 0 0 10px; }
   /* .content-resources ul.nav-pills li.active { }
   .content-resources ul.nav-pills li.active a { } */
-	.content-resources ul.nav-pills li.active:first-child a { margin-top:0; }
+	.content-resources ul.nav-pills li.active:first-child a { margin-top:0;}
 	.content-resources ul.nav-pills li a .icon{ position:relative; top:4px;}
 	
 	 
