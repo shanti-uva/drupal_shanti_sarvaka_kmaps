@@ -97,7 +97,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 
 @media screen and (max-width: 767px) {
 	
-  .content-resources { width:14em; margin-left:-15px !important;}
+  .content-resources { width:14em; margin-left: -2rem !important;}
   .content-resources ul{ margin-top:25px;;}
 
 	.content-resources ul.nav-pills li{ font-size: 1em; line-height: 1em; height: 2.63em;}
