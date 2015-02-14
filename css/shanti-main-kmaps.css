@@ -102,7 +102,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 @media screen and (max-width: 992px) {
 
 	.content-section.equal-height{ padding-left:10px;}
-	.content-section.equal-height > .tab-content{ padding-top: 0rem;padding-bottom: 5rem;margin-top:-1rem;}
+	.content-section.equal-height > .tab-content{ padding-top: 0rem;padding-bottom: 5rem;}
 
 	.content-resources { width:19.6rem; margin-left:-1rem;padding-top:2.5rem;}
 	.content-resources ul.nav-pills li{ font-size: 1em; line-height: 1em; height: 2.63em;}
