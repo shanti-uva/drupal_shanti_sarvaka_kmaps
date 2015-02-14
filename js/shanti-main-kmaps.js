@@ -8,7 +8,7 @@ Drupal.behaviors.kmapsOffCanvasToggle = {
   }
 }
 
-******/
+
 
 Drupal.behaviors.kmapsOffCanvasButton = {
   attach: function (context, settings) {
@@ -17,3 +17,5 @@ Drupal.behaviors.kmapsOffCanvasButton = {
 		}
   }
 }
+
+******/
