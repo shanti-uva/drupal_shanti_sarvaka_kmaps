@@ -132,7 +132,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 	.view-resources.btn-default:hover,
 	.view-resources.btn-default:focus { background: #444; color:#fff;}
 	
-	.row-offcanvas-left.active .view-resources.btn-default{ width:200px; padding-left:3rem; text-align:left; position:relative; left:-218px;}
+	.row-offcanvas-left.active .view-resources.btn-default{ width:200px; padding-left:3.5rem; text-align:left; position:relative; left:-220px;}
   .row-offcanvas-left.active .view-resources.btn-default .icon{ color:#fff; font-size:1.12em; width:1rem; height:1rem; position:absolute; top:2rem; right:6rem; }
 	.row-offcanvas-left.active .view-resources.btn-default .badge { color:transparent; border-color:transparent; }
   .row-offcanvas-left.active .feature-carousel-tabpanel{ margin-top:1rem;}
