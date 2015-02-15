@@ -94,6 +94,8 @@ li.pager-current.widget > form div,
 li.pager-current.widget > form input{ display: inline;}
 li.pager-current.widget > form input.form-control { width: 100px;}
 
+
+
 @media screen and (max-width: 767px) {
 	
  	
@@ -161,7 +163,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
   .max-col-widths .sidebar-offcanvas { position: absolute; top:0; width:18.6rem; /* 6 columns */}
   
 	/* toggle button for sidebar resources, xtra widths for overflow during animation */
-  .max-col-widths .view-resources.btn-default { width:230px; display:inline-block !important; padding:4px 8px 2px 60px; margin-bottom: 0.5rem !important;position:relative; top:-0.8rem; left: -67px; z-index:10; font-size:.75em; line-height:2em; height:2.5em; background-image:none; border:none; border-radius:0; background:#555; text-shadow:none; -webkit-box-shadow:none;box-shadow:none; font-weight:normal; color:#fff; font-family:'museo-sans-500',helvetica,arial,sans-serif; -webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;transition: all .3s ease-out; }
+  .max-col-widths .view-resources.btn-default { width:230px; display:inline-block !important; padding:4px 8px 2px 60px; margin-bottom: -1rem !important;position:relative; top:-0.8rem; left: -67px; z-index:10; font-size:.75em; line-height:2em; height:2.5em; background-image:none; border:none; border-radius:0; background:#555; text-shadow:none; -webkit-box-shadow:none;box-shadow:none; font-weight:normal; color:#fff; font-family:'museo-sans-500',helvetica,arial,sans-serif; -webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;transition: all .3s ease-out; }
   .max-col-widths .has-tabs .view-resources.btn-default { margin-top:-0.9rem;}
 
 	.max-col-widths .view-resources.btn-default .icon { display:inline-block;}
@@ -180,7 +182,6 @@ li.pager-current.widget > form input.form-control { width: 100px;}
   .max-col-widths .row-offcanvas-left.active .view-resources.btn-default .icon{ color:#fff; font-size:1.12em; width:1rem; height:1rem; position:absolute; top:2rem; right:6rem; }
 	.max-col-widths .row-offcanvas-left.active .view-resources.btn-default .badge { color:transparent; border-color:transparent; }
   .max-col-widths .row-offcanvas-left.active .feature-carousel-tabpanel{ margin-top:1rem;}
-
 
 }
 
