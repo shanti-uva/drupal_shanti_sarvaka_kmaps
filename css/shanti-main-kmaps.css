@@ -38,7 +38,7 @@
 
 .content-section { padding-left:20px;padding-right:10px;}
 .av-main-video-section,
-.av-main-transcript-section{ padding-right:0;}
+.av-main-transcript-section{ padding-right:12px;}
 
 .pager { float: inherit; text-align: center;}
 
