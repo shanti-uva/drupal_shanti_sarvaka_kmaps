@@ -145,6 +145,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 	
 	.max-col-widths .content-section.equal-height{ padding-left:0;width:100%;}
 	.av-main-transcript-section{ padding-right:10px;}
+  .content-section.equal-height > .tab-content{ padding-top:0;}
 	
   .max-col-widths .content-resources { width:19.6rem; margin-left:-1rem;padding-top:2.5rem;}
 	.max-col-widths .content-resources ul.nav-pills li{ font-size: 1em; line-height: 1em; height: 2.63em;}
