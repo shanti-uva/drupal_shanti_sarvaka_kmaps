@@ -141,7 +141,44 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 }
 
 
+@media screen and (max-width: 1200px) {
+	
+  .max-col-widths .content-resources { width:19.6rem; margin-left:-1rem;padding-top:2.5rem;}
+	.max-col-widths .content-resources ul.nav-pills li{ font-size: 1em; line-height: 1em; height: 2.63em;}
+  .max-col-widths .content-resources ul.nav-pills li a{ font-size: 0.75em; line-height: 3.63em; height:3.5em; padding:0 0 0 10px; }
+	.max-col-widths .content-resources ul.nav-pills li.active:first-child a { margin-top:0;}
+	.max-col-widths .content-resources ul.nav-pills li a .icon{ position:relative; top:4px;}
+	 
+  /* content resources column */
+  .max-col-widths .row-offcanvas { position: relative;-webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;transition: all .3s ease-out;}
+  .max-col-widths .row-offcanvas-left { left: 0;}
+  .max-col-widths .row-offcanvas-left .sidebar-offcanvas { left: -17.6rem; /* 6 columns */}
+  .max-col-widths .row-offcanvas-left.active { left: 18.6rem; /* 6 columns */ }
+  .max-col-widths .sidebar-offcanvas { position: absolute; top:0; width:18.6rem; /* 6 columns */}
+  
+	/* toggle button for sidebar resources, xtra widths for overflow during animation */
+  .max-col-widths .view-resources.btn-default { width:230px; display:inline-block !important; padding:4px 8px 2px 60px; margin-bottom: 0.5rem !important;position:relative; top:-0.8rem; left: -67px; z-index:10; font-size:.75em; line-height:2em; height:2.5em; background-image:none; border:none; border-radius:0; background:#555; text-shadow:none; -webkit-box-shadow:none;box-shadow:none; font-weight:normal; color:#fff; font-family:'museo-sans-500',helvetica,arial,sans-serif; -webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;transition: all .3s ease-out; }
+  .max-col-widths .has-tabs .view-resources.btn-default { margin-top:-0.9rem;}
 
+	.max-col-widths .view-resources.btn-default .icon { display:inline-block;}
+	.max-col-widths .view-resources.btn-default .icon:before{ font-family:'shanticon'; content: '\e610';}
+	.max-col-widths .view-resources.btn-default .header{ }
+	.max-col-widths .view-resources.btn-default .fa { float:left; font-size:1.5em; margin-right:1.3rem; position:relative; top:0.2rem; }
+	.max-col-widths .view-resources.btn-default .fa:before { content: '\f138';}
+	.max-col-widths .view-resources.btn-default:hover .fa:before,
+	.max-col-widths .view-resources.btn-default:focus .fa:before { content:'\f13a';}
+	.max-col-widths .view-resources.btn-default span { float:left;}
+	.max-col-widths .view-resources.btn-default .badge { float:right; font-size: .68em; background:transparent; border:1px solid #ddd; padding:0.4rem 0.9rem; margin-right:1.2rem; margin-top:0.3rem; height:1.88em; line-height: .75em; font-weight:normal; -webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out; }
+	.max-col-widths .view-resources.btn-default:hover,
+	.max-col-widths .view-resources.btn-default:focus { background: #444; color:#fff;}
+	
+	.max-col-widths .row-offcanvas-left.active .view-resources.btn-default{ width:200px; padding-left:3.5rem; text-align:left; position:relative; left:-220px; z-index:10;}
+  .max-col-widths .row-offcanvas-left.active .view-resources.btn-default .icon{ color:#fff; font-size:1.12em; width:1rem; height:1rem; position:absolute; top:2rem; right:6rem; }
+	.max-col-widths .row-offcanvas-left.active .view-resources.btn-default .badge { color:transparent; border-color:transparent; }
+  .max-col-widths .row-offcanvas-left.active .feature-carousel-tabpanel{ margin-top:1rem;}
+
+
+}
 
 
 
