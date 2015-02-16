@@ -97,6 +97,9 @@ li.pager-current.widget > form input{ display: inline;}
 li.pager-current.widget > form input.form-control { width: 100px;}
 
 
+.openlayermap #sidebar_wrapper{ position:absolute;z-index:100;}
+
+
 
 @media screen and (max-width: 767px) {
 	
