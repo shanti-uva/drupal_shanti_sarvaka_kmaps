@@ -1,3 +1,6 @@
+
+/***
+
 (function ($) {		
 	
 	Drupal.behaviors.kmapsOffCanvasToggle = {
@@ -19,3 +22,5 @@
 	};
 
 }(jQuery));
+
+**/
