@@ -105,6 +105,8 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 
 
 
+@media screen and (max-width: 992px) {
+
 .content-section.equal-height{ padding-left:10px;}
 .content-section.equal-height > .tab-content{ padding-top: 0rem;padding-bottom: 5rem;}
 
@@ -141,10 +143,10 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 .row-offcanvas-left.active .view-resources.btn-default .badge { color:transparent; border-color:transparent; }
 .row-offcanvas-left.active .feature-carousel-tabpanel{ margin-top:1rem;}
 
+}
 
 
-
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
 	
 	.max-col-widths .content-section.equal-height{ padding-left:0;width:100%;}
 	.max-col-widths .av-main-transcript-section{ padding-right:14px;}
