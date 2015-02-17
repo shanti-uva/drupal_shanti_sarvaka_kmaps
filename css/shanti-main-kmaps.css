@@ -97,7 +97,7 @@ li.pager-current.widget > form div,
 li.pager-current.widget > form input{ display: inline;}
 li.pager-current.widget > form input.form-control { width: 100px;}
 
-.openlayermap{ margin-top:-4rem !important;margin-bottom:1rem;}
+.openlayermap{ margin-top:1rem !important; margin-bottom:1rem;}
 .openlayermap #sidebar_wrapper{ position:absolute;z-index:100;display:none !important;}
 
 div.main-overview-image{ margin-bottom:1.5rem;}
