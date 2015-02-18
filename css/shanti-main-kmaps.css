@@ -126,6 +126,7 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 .content-resources ul.nav-pills li.active:first-child a { margin-top:0;}
 .content-resources ul.nav-pills li a .icon{ position:relative; top:4px;}
 
+
 /* toggle button for sidebar resources, xtra widths for overflow during animation */
 .view-resources.btn-default {  background:#444; width:220px; display:inline-block !important; padding:4px 8px 2px 15px; position:relative; top:-0.85rem; left: -40px; z-index:10; font-size:0.88em; line-height:2.2rem; height:2.2em; background-image:none; border:none; border-radius:0; text-shadow:none; -webkit-box-shadow:none;box-shadow:none; font-weight:normal; color:#fff; font-family:'museo-sans-500',helvetica,arial,sans-serif; -webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out; }
 	.has-tabs .view-resources.btn-default { margin-top:-1rem;}
@@ -140,6 +141,11 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 .view-resources.btn-default:focus .icon:before { }
 
 .row-offcanvas-left.active .view-resources.btn-default .icon { color:#ccc; font-size: 0.88em; position:relative; top:0.4rem;}
+.row-offcanvas-left.active .view-resources.btn-default .icon:before,
+.row-offcanvas-left.active .view-resources.btn-default .icon:after{ background:#e0e0e0; position:absolute;top: 0.5rem;left:.5rem; width:1.5rem;height:0.15rem; content: ''; -webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);transform:rotate(45deg);}
+.row-offcanvas-left.active .view-resources.btn-default .icon:after{ -webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);transform:rotate(-45deg);}
+.row-offcanvas-left.active .view-resources.btn-default:hover .icon:before,
+.row-offcanvas-left.active .view-resources.btn-default:hover .icon:after{ background:#fff;}
 
 .view-resources.btn-default .badge { border:1px solid #ddd; font-size: .62em; padding:0.2rem 0.5rem 0; line-height:1; position:relative; top:-0.4rem; background:transparent; font-weight:normal; }
 
@@ -154,14 +160,6 @@ div.main-overview-image{ margin-bottom:1.5rem;}
  
 }
 
-
-
-.row-offcanvas-left.active .view-resources.btn-default .icon:before,
-.row-offcanvas-left.active .view-resources.btn-default .icon:after{ background:#e0e0e0; position:absolute;top: 0.5rem;left:.5rem; width:1.5rem;height:0.15rem; content: ''; -webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);transform:rotate(45deg);}
-.row-offcanvas-left.active .view-resources.btn-default .icon:after{ -webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);transform:rotate(-45deg);}
-
-.row-offcanvas-left.active .view-resources.btn-default:hover .icon:before,
-.row-offcanvas-left.active .view-resources.btn-default:hover .icon:after{ background:#fff;}
 
 
 
