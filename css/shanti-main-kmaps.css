@@ -134,7 +134,7 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 .view-resources.btn-default:hover,
 .view-resources.btn-default:focus { background: #000; color:#fff;}
 
-.view-resources.btn-default .icon { background:transparent; line-height:1; float:right; font-size:1.38em; position:relative; width:2rem; top:-0.2rem; -webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;transition: all .3s ease-out;}
+.view-resources.btn-default .icon { background:transparent; line-height:1; float:right; font-size:1.38em; position:relative; width:2rem; top:-0.2rem; -webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out;}
 .view-resources.btn-default .icon:before { font-family:'shanticon'; content: "\e63e";}
 .view-resources.btn-default:hover .icon:before,
 .view-resources.btn-default:focus .icon:before { }
