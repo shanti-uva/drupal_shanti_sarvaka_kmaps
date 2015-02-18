@@ -140,9 +140,6 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 .view-resources.btn-default:focus .icon:before { }
 
 .row-offcanvas-left.active .view-resources.btn-default .icon { color:#ccc; font-size: 0.88em; position:relative; top:0.4rem;}
-.row-offcanvas-left.active .view-resources.btn-default .icon:before { font-family:'shanticon'; content: "\e629";}
-.row-offcanvas-left.active .view-resources.btn-default:hover .icon,
-.row-offcanvas-left.active .view-resources.btn-default:focus .icon { color:#fff;}
 
 .view-resources.btn-default .badge { border:1px solid #ddd; font-size: .62em; padding:0.2rem 0.5rem 0; line-height:1; position:relative; top:-0.4rem; background:transparent; font-weight:normal; }
 
@@ -156,6 +153,15 @@ div.main-overview-image{ margin-bottom:1.5rem;}
   .max-col-widths .content-section.equal-height > .tab-content{ padding-top:0;}
  
 }
+
+
+
+.row-offcanvas-left.active .view-resources.btn-default .icon:before,
+.row-offcanvas-left.active .view-resources.btn-default .icon:after{ background:#aaa; position:absolute;top: 0.75rem;left:.15rem; width:1.3rem;height:1px; content: ''; -webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);transform:rotate(45deg);}
+.row-offcanvas-left.active .view-resources.btn-default .icon:after{ -webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);transform:rotate(-45deg);}
+
+
+
 
 
 
