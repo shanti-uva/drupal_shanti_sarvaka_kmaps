@@ -122,14 +122,14 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 .content-resources ul.nav-pills li a .icon{ position:relative; top:4px;}
  
 /* content resources column */
-.row-offcanvas { position: relative;-webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;transition: all .3s ease-out;}
+.row-offcanvas { position: relative;-webkit-transition: all .1s ease-out;-moz-transition: all .1s ease-out;transition: all .1s ease-out;}
 .row-offcanvas-left { left: 0;}
 .row-offcanvas-left .sidebar-offcanvas { left: -17.6rem; /* 6 columns */}
 .row-offcanvas-left.active { left: 18.6rem; /* 6 columns */ }
 .sidebar-offcanvas { position: absolute; top:0; width:18.6rem; /* 6 columns */}
 
 /* toggle button for sidebar resources, xtra widths for overflow during animation */
-.view-resources.btn-default { width:220px; display:inline-block !important; padding:4px 8px 2px 50px;position:relative; top:-0.8rem; left: -67px; z-index:10; font-size:0.88em; line-height:1.8rem; height:2em; background-image:none; border:none; border-radius:0; background:#444; text-shadow:none; -webkit-box-shadow:none;box-shadow:none; font-weight:normal; color:#fff; font-family:'museo-sans-500',helvetica,arial,sans-serif; -webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;transition: all .3s ease-out; }
+.view-resources.btn-default { width:220px; display:inline-block !important; padding:4px 8px 2px 50px;position:relative; top:-0.8rem; left: -67px; z-index:10; font-size:0.88em; line-height:1.8rem; height:2em; background-image:none; border:none; border-radius:0; background:#444; text-shadow:none; -webkit-box-shadow:none;box-shadow:none; font-weight:normal; color:#fff; font-family:'museo-sans-500',helvetica,arial,sans-serif; -webkit-transition: all .1s ease-out;-moz-transition: all .1s ease-out;transition: all .1s ease-out; }
 	.has-tabs .view-resources.btn-default { margin-top:-1rem;}
 .view-resources.btn-default:hover,
 .view-resources.btn-default:focus { background: #606060; color:#fff;}
@@ -142,7 +142,7 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 /*.view-resources.btn-default:hover .icon:before,
 .view-resources.btn-default:focus .icon:before { content:'\f13a';}*/
 /*.view-resources.btn-default span { float:left;}*/
-.view-resources.btn-default .badge { border:1px solid #ddd; font-size: .62em; padding:0.2rem 0.5rem 0; line-height:1; position:relative; top:-0.4rem; background:transparent; font-weight:normal; -webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out; }
+.view-resources.btn-default .badge { border:1px solid #ddd; font-size: .62em; padding:0.2rem 0.5rem 0; line-height:1; position:relative; top:-0.4rem; background:transparent; font-weight:normal; }
 
 
 
