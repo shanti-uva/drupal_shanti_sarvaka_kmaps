@@ -140,7 +140,7 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 .view-resources.btn-default:hover .icon:before,
 .view-resources.btn-default:focus .icon:before { }
 
-.row-offcanvas-left.active .view-resources.btn-default{ position:relative;left:-290px;padding-left:70px;}
+.row-offcanvas-left.active .view-resources.btn-default{ position:relative;left:-285px;padding-left:170px;}
 .row-offcanvas-left.active .view-resources.btn-default .icon { color:#ccc; font-size: 0.88em; position:relative; top:0.4rem;}
 .row-offcanvas-left.active .view-resources.btn-default .icon:before,
 .row-offcanvas-left.active .view-resources.btn-default .icon:after{ background:#e0e0e0; position:absolute;top: 0.5rem;left:.5rem; width:1.5rem;height:0.2rem; content: ''; -webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);transform:rotate(45deg);}
