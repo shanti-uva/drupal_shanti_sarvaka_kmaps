@@ -133,9 +133,9 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 .view-resources.btn-default .icon:before{ font-family:'shanticon'; content: '\e610';}
 .view-resources.btn-default .header{ } */
 .view-resources.btn-default .icon { float:left; font-size:1.5em; margin-right:1.3rem; position:relative; top:0.2rem; }
-.view-resources.btn-default .icon:before { content: '\f138';}
-.view-resources.btn-default:hover .icon:before,
-.view-resources.btn-default:focus .icon:before { content:'\f13a';}
+.view-resources.btn-default .icon:before { font-family:'shanticon'; content: "\e63d";}
+/*.view-resources.btn-default:hover .icon:before,
+.view-resources.btn-default:focus .icon:before { content:'\f13a';}*/
 /*.view-resources.btn-default span { float:left;}*/
 .view-resources.btn-default .badge { font-size: .82em; background:transparent; font-weight:normal; -webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out; }
 
