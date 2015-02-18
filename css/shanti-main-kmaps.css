@@ -124,7 +124,7 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 .sidebar-offcanvas { position: absolute; top:0; width:18.6rem; /* 6 columns */}
 
 /* toggle button for sidebar resources, xtra widths for overflow during animation */
-.view-resources.btn-default { width:230px; display:inline-block !important; padding:4px 8px 2px 60px;position:relative; top:-0.8rem; left: -67px; z-index:10; font-size:.75em; line-height:2em; height:2.5em; background-image:none; border:none; border-radius:0; background:#444; text-shadow:none; -webkit-box-shadow:none;box-shadow:none; font-weight:normal; color:#fff; font-family:'museo-sans-500',helvetica,arial,sans-serif; -webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;transition: all .3s ease-out; }
+.view-resources.btn-default { width:230px; display:inline-block !important; padding:4px 8px 2px 60px;position:relative; top:-0.8rem; left: -67px; z-index:10; font-size:0.75em; line-height:1.88em; height:2.5em; background-image:none; border:none; border-radius:0; background:#444; text-shadow:none; -webkit-box-shadow:none;box-shadow:none; font-weight:normal; color:#fff; font-family:'museo-sans-500',helvetica,arial,sans-serif; -webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;transition: all .3s ease-out; }
 	.has-tabs .view-resources.btn-default { margin-top:-0.9rem;}
 .view-resources.btn-default:hover,
 .view-resources.btn-default:focus { background: #606060; color:#fff;}
@@ -132,7 +132,7 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 /* .view-resources.btn-default .icon { float:right; display:inline-block;display:none;}
 .view-resources.btn-default .icon:before{ font-family:'shanticon'; content: '\e610';}
 .view-resources.btn-default .header{ } */
-.view-resources.btn-default .icon { float:left; font-size:1.5em; margin-right:1.3rem; position:relative; top:0.2rem; }
+.view-resources.btn-default .icon { background:transparent; line-height:1; float:left; font-size:1.5em; margin-right:0.7rem; position:relative; top:0.1rem; }
 .view-resources.btn-default .icon:before { font-family:'shanticon'; content: "\e63d";}
 /*.view-resources.btn-default:hover .icon:before,
 .view-resources.btn-default:focus .icon:before { content:'\f13a';}*/
@@ -174,10 +174,12 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 	.max-col-widths .view-resources.btn-default .icon { float:right; display:inline-block;}
 	.max-col-widths .view-resources.btn-default .icon:before{ font-family:'shanticon'; content: '\e610';}
 	.max-col-widths .view-resources.btn-default .header{ }
+	
 	.max-col-widths .view-resources.btn-default .fa { float:left; font-size:1.5em; margin-right:1.3rem; position:relative; top:0.2rem; }
 	.max-col-widths .view-resources.btn-default .fa:before { content: '\f138';}
 	.max-col-widths .view-resources.btn-default:hover .fa:before,
 	.max-col-widths .view-resources.btn-default:focus .fa:before { content:'\f13a';}
+	
 	.max-col-widths .view-resources.btn-default span { float:left;}
 	.view-resources.btn-default .badge { font-size: .82em; background:transparent; font-weight:normal; -webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out; }
 	.max-col-widths .view-resources.btn-default:hover,
