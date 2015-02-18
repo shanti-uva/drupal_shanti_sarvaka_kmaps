@@ -142,7 +142,7 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 /*.view-resources.btn-default:hover .icon:before,
 .view-resources.btn-default:focus .icon:before { content:'\f13a';}*/
 /*.view-resources.btn-default span { float:left;}*/
-.view-resources.btn-default .badge { font-size: .62em; padding:0.2rem 0.5rem 0; line-height:1; position:relative; top:-0.4rem; background:transparent; font-weight:normal; -webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out; }
+.view-resources.btn-default .badge { border:1px solid #ddd; font-size: .62em; padding:0.2rem 0.5rem 0; line-height:1; position:relative; top:-0.4rem; background:transparent; font-weight:normal; -webkit-transition: all .2s ease-out;-moz-transition: all .2s ease-out;transition: all .2s ease-out; }
 
 
 
