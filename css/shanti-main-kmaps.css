@@ -112,7 +112,7 @@ div.main-overview-image{ margin-bottom:1.5rem;}
 /* content resources column */
 .row-offcanvas { position: relative;-webkit-transition: all .1s ease-out;-moz-transition: all .1s ease-out;transition: all .1s ease-out;}
 .row-offcanvas-left { left: 0;}
-.row-offcanvas-left .sidebar-offcanvas { left: -17.6rem; /* 6 columns */}
+.row-offcanvas-left .sidebar-offcanvas { left: -18rem; /* 6 columns */}
 .row-offcanvas-left.active { left: 18.6rem; /* 6 columns */ }
 .sidebar-offcanvas { position: absolute; top:0; width:18.6rem; /* 6 columns */}
 
