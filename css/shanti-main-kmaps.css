@@ -118,7 +118,7 @@ div.olControlCustomToggle.olControlNoSelect{ width:13rem;}
 .row-offcanvas-left.active { left: 18.6rem; /* 6 columns */ }
 .sidebar-offcanvas { position: absolute; top:0; width:18.6rem; /* 6 columns */}
 
-.content-section.equal-height > .tab-content{ margin-top:-3rem;} /* important player */
+.content-section.equal-height > .tab-content{ margin-top:-1rem;} /* important player */
 
 .content-section.equal-height{ padding-left:10px;}
 .content-section.equal-height > .tab-content{ padding-top: 0rem;padding-bottom: 5rem;}
