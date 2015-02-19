@@ -74,9 +74,9 @@
 /**** kmaps side-col ****/
 .content-resources{padding-left:0;padding-right:0;padding-top:0;margin-left:-1.5rem;max-width:16em;background:#fff;min-height:700px;height:100%;background-image:-webkit-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-moz-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-ms-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:-o-linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);background-image:linear-gradient(left,#ccc 0,#ccc 9px,#fff 10px);}
 .content-resources .nav-pills{font-weight:bold;text-transform:uppercase;margin:0;}
-.content-resources .nav-pills li{ border-bottom:1px solid #ccc; border-left:10px solid transparent; margin:0;padding:0;font-size:1em;line-height:1em;height:2.75em;position: relative;white-space:nowrap;}
+.content-resources .nav-pills li{ border-left:10px solid transparent; margin:0;padding:0;font-size:1em;line-height:1em;height:2.75em;position: relative;white-space:nowrap;}
 .content-resources .nav-pills li.active{ /* see custom theme colors */}
-.content-resources .nav-pills li a{display:block;padding:0 0 0 1.2rem;background:#fff;font-size:.75em;line-height:3.68em;height:3.63em;border:none;border-radius:0; /*border-bottom:1px solid #e0e0e0;*/ -webkit-transition:background 200ms ease;-moz-transition:background 200ms ease;-o-transition:background 200ms ease;transition:background 200ms ease;font-family:'museo-sans-700',helvetica,arial,sans-serif;font-weight:bold;}
+.content-resources .nav-pills li a{ display:block;padding:0 0 0 1.2rem;background:#fff;font-size:.75em;line-height:3.68em;height:3.63em;border:none;border-radius:0; border-bottom:1px solid #e0e0e0; -webkit-transition:background 200ms ease;-moz-transition:background 200ms ease;-o-transition:background 200ms ease;transition:background 200ms ease;font-family:'museo-sans-700',helvetica,arial,sans-serif;font-weight:bold;}
 .content-resources .nav-pills li:first-child a{ /*border-top:1px solid #e0e0e0;*/}
 .content-resources .nav-pills li a,
 .content-resources .nav-pills li a:hover,
