@@ -125,7 +125,7 @@ div.olControlCustomToggle.olControlNoSelect{ width:160px;font-size:1.12em;} /* o
 .content-section.equal-height{ padding-left:10px;}
 .content-section.equal-height > .tab-content{ padding-top: 0rem;padding-bottom: 5rem;}
 
-.content-resources { width:18.6rem; padding-top: 2.8rem;}
+.content-resources { width:19.5rem; padding-top: 2.8rem;}
 .content-resources ul.nav-pills li{ font-size: 1em; line-height:1em; height: 2.75em;}
 .content-resources ul.nav-pills li a{ font-size: 0.68em; line-height:4em; height:4em; padding:0 0 0 10px; }
 .content-resources ul.nav-pills li.active:first-child a { margin-top:0;}
