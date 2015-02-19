@@ -92,6 +92,8 @@
 .content-resources .nav-pills li > a:hover .badge{background:#505050;}
 .content-resources .nav-pills li .ajax-progress { font-size:1.5rem;position: absolute;left:1em;top:0.56em;}
 
+.content-resources .nav-pills li.active:before{ width:1.2rem; height:auto; display:inline-block;content:'';background:#f00;position:relative;top:0;left:0;}
+
 li.pager-current.widget > form,
 li.pager-current.widget > form div,
 li.pager-current.widget > form input{ display: inline;}
