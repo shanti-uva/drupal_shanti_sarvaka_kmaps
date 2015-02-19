@@ -158,10 +158,10 @@ div.olControlCustomToggle.olControlNoSelect{ width:160px;font-size:1.12em;}
 
 @media screen and (max-width: 1200px) {
 	
-	/*.max-col-widths .content-section.equal-height{ padding-left:0;width:100%;}
+	.max-col-widths .content-section.equal-height{ padding-left:0;width:100%;}
 	.max-col-widths .av-main-transcript-section{ padding-right:14px;}
   .max-col-widths .content-section.equal-height > .tab-content{ padding-top:0;}
-  */
+  
  
 }
 
