@@ -90,7 +90,7 @@
 .content-resources .nav-pills li.active > a > .badge{background:#505050;}
 .content-resources .nav-pills li > a > .badge:empty{display:none;}
 .content-resources .nav-pills li > a:hover .badge{background:#505050;}
-.content-resources .nav-pills li .ajax-progress { font-size:1.5rem;position: absolute;right:0.2rem;top:1.2rem;}
+.content-resources .nav-pills li .ajax-progress { position: absolute;right:0.2rem;top:1.5rem;}
 
 
 li.pager-current.widget > form,
