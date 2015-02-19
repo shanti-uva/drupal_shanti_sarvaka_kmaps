@@ -90,8 +90,9 @@
 .content-resources .nav-pills li.active > a > .badge{background:#505050;}
 .content-resources .nav-pills li > a > .badge:empty{display:none;}
 .content-resources .nav-pills li > a:hover .badge{background:#505050;}
-.content-resources .nav-pills li .ajax-progress { font-size:2rem;position: absolute;left:0.7em;top:0.5em;background-image:none;}
-.content-resources .nav-pills li .ajax-progress:before{ }
+.content-resources .nav-pills li .ajax-progress { font-size:2rem;position: absolute;left:0.7em;top:0.5em;background-image:none;content:'';}
+.content-resources .nav-pills li .ajax-progress:before,
+.content-resources .nav-pills li .ajax-progress:after{ content:'';}
 
 li.pager-current.widget > form,
 li.pager-current.widget > form div,
