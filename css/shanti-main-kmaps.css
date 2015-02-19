@@ -104,7 +104,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 #controlPanelWrapper{ float:left;width:100%;left:0;}
 div.main-overview-image{ margin-bottom:1.5rem;}
 
-div.olControlCustomToggle.olControlNoSelect{ width:13rem;}
+div.olControlCustomToggle.olControlNoSelect{ width:160px;font-size:1.12em;}
 
 
 
@@ -158,9 +158,10 @@ div.olControlCustomToggle.olControlNoSelect{ width:13rem;}
 
 @media screen and (max-width: 1200px) {
 	
-	.max-col-widths .content-section.equal-height{ padding-left:0;width:100%;}
+	/*.max-col-widths .content-section.equal-height{ padding-left:0;width:100%;}
 	.max-col-widths .av-main-transcript-section{ padding-right:14px;}
   .max-col-widths .content-section.equal-height > .tab-content{ padding-top:0;}
+  */
  
 }
 
