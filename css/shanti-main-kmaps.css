@@ -85,7 +85,7 @@
 .content-resources .nav-pills li a:focus{color:#333;background:#eee;}
 .content-resources .nav-pills li.active a{color:#333;background:#eee;border-top-color:transparent;border-right-color:transparent;}
 .content-resources .nav-pills li a .icon{font-family:'shanticon';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:.5em;font-size:1.68em;position:relative;top:4px;}
-.content-resources .nav-pills li a .icon:before{position:relative;top:0;}
+.content-resources .nav-pills li a .icon:before{position:relative;top:0;font-size:1.75rem;}
 .content-resources .nav-pills li > a > .badge{margin-left:7px;position:relative;top:-1px;font-size:.82em;font-family:sans-serif;line-height:1em;height:1.63em;text-shadow:0 1px 1px #444;display:inline-block;color:#fff;background:#777;}
 .content-resources .nav-pills li.active > a > .badge{background:#505050;}
 .content-resources .nav-pills li > a > .badge:empty{display:none;}
