@@ -141,6 +141,8 @@ div.olControlCustomToggle.olControlNoSelect{ width:160px;font-size:1.12em;} /* o
 .view-resources.btn-default:hover,
 .view-resources.btn-default:focus { background: #000; color:#fff;}
 
+.view-resources.btn-default em{ font-size:120%;font-style:normal;}
+
 .view-resources.btn-default .icon { background:transparent; line-height:1; float:right; font-size:1.25em; position:relative; width:2rem; top:0;}
 .view-resources.btn-default .icon:before { font-family:'shanticon'; content: "\e63e";}
 .view-resources.btn-default:hover .icon:before,
