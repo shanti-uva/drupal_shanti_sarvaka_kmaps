@@ -110,9 +110,9 @@ div.olControlCustomToggle.olControlNoSelect{ width:160px;font-size:1.12em;} /* o
 
 
 
-.modal img{margin-bottom:10px;}
+.modal img{margin-bottom:1rem;}
 .modal-header{ min-height:5.5rem;}
-.modal-header button.close{ color:#777; font-size:4em !important; position:relative; top:-10px;}
+.modal-header button.close{ color:#777; font-size:3.5em !important; position:relative; top:-1.7rem;}
 
 /* --- gmaps-buttons is example of class set on div wrapper ---*/
 .btn-group-gmaps{ display:inline-block;	position:absolute;bottom:60px;left:80px;-moz-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.6);box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.6);}
