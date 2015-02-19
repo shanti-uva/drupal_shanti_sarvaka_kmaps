@@ -146,7 +146,7 @@ div.olControlCustomToggle.olControlNoSelect{ width:160px;font-size:1.12em;} /* o
 .view-resources.btn-default:focus .icon:before { }
 
 .row-offcanvas-left.active .content-resources{ width: 18.5rem;}
-.row-offcanvas-left.active .view-resources.btn-default{ width:370px; position:relative; left:-385px;padding-left:200px;}
+.row-offcanvas-left.active .view-resources.btn-default{ width:370px; position:relative; left:-392px;padding-left:195px;}
 .row-offcanvas-left.active .view-resources.btn-default .icon { color:#ccc; font-size: 0.88em; position:relative; top:0.4rem;}
 .row-offcanvas-left.active .view-resources.btn-default .icon:before,
 .row-offcanvas-left.active .view-resources.btn-default .icon:after{ background:#e0e0e0; position:absolute;top: 0.5rem;left:.5rem; width:1.5rem;height:0.2rem; content: ''; -webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);transform:rotate(45deg);}
