@@ -101,7 +101,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 
 /* Overview page styles in KMaps */
 .openlayermap{ margin-top:1rem !important; margin-bottom:1rem;}
-.openlayermap #sidebar_wrapper{ position:absolute;z-index:100;}
+.openlayermap #sidebar_wrapper{ position:absolute;z-index:100;display:none;}
 #controlPanelWrapper{ float:left;width:100%;left:0;}
 div.main-overview-image{ margin-bottom:1.5rem;}
 
