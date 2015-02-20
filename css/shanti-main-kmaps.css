@@ -106,7 +106,7 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 div.main-overview-image{ margin-bottom:1.5rem;}
 
 div.olControlCustomToggle.olControlNoSelect{ width:160px;} /* openLayerMap text */
-div.olControlCustomToggle.olControlNoSelect .custom_toggle_text{ font-size:1.12em; white-space:nowrap;}
+div.olControlCustomToggle.olControlNoSelect .custom_toggle_text{ font-size:0.75em; white-space:nowrap;}
 
 
 
