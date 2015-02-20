@@ -105,8 +105,8 @@ li.pager-current.widget > form input.form-control { width: 100px;}
 #controlPanelWrapper{ float:left;width:100%;left:0;}
 div.main-overview-image{ margin-bottom:1.5rem;}
 
-div.olControlCustomToggle.olControlNoSelect{ width:160px;} /* openLayerMap text */
-div.olControlCustomToggle.olControlNoSelect .custom_toggle_text{ font-size:0.75em; white-space:nowrap;}
+div.olControlCustomToggle.olControlNoSelect{ width:160px !important;} /* openLayerMap text */
+div.olControlCustomToggle.olControlNoSelect .custom_toggle_text{ width:160px !important;font-size:0.75em; white-space:nowrap;}
 
 
 
