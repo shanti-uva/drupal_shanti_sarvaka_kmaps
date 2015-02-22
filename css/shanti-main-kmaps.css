@@ -124,6 +124,7 @@ div.olControlCustomToggle.olControlNoSelect .custom_toggle_text{ width:160px !im
 
 
 
+
 @media screen and (min-width: 992px) {
 	.content-section.equal-height > .tab-content{ padding-top:2.5rem;}
 }
@@ -138,7 +139,7 @@ div.olControlCustomToggle.olControlNoSelect .custom_toggle_text{ width:160px !im
 .row-offcanvas-left.active { left: 18.6rem; /* 6 columns */ }
 .sidebar-offcanvas { position: absolute; top:0; width:18.6rem; /* 6 columns */}
 
-.content-section.equal-height > .tab-content{ margin-top:-1rem;} /* important player */
+.content-section.equal-height > .tab-content{ padding-top:2.5rem;}
 
 .content-section.equal-height > .tab-content h6:first-child{ margin-top:0;}
 
