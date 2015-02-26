@@ -162,7 +162,7 @@ div.olControlCustomToggle.olControlNoSelect .custom_toggle_text{ width:160px !im
 	
 	
 	/* hide the related resources button */ 
-	body.front .breadcrumb{ display:none;}
+	body.front .breadcrumb{ display:none !important;}
 	body.front .view-resources.btn-default{ display:none !important;}
 	
 	
