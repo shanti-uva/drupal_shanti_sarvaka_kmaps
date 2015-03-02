@@ -161,10 +161,9 @@ div.olControlCustomToggle.olControlNoSelect .custom_toggle_text{ width:160px !im
 	/* .row-offcanvas-left.active .view-resources.btn-default{ padding-left:5rem; text-align:left; position:relative; left: -232px; z-index:10;} */
 	
 	
-	/* hide the related resources button */ 
-	body.front .breadcrumb{ display:none !important;}
-	body.front .view-resources.btn-default{ display:none !important;}
-	
+/* homepage hide the sidecolumn (resources) button */ 
+body.front .view-resources.btn-default{ display:none !important;}
+body.front .breadcrumb{ display:none !important;}
 	
 	
 .view-resources.btn-default:hover,
