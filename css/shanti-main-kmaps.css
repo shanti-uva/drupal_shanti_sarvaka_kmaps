@@ -24,7 +24,7 @@
 .main-content .selectpicker .caret:before,
 .view-section ul.fancytree-container .glyphicon,
 .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
-.input-section .input-group .btn.btn-default .icon::before,
+/*.input-section .input-group .btn.btn-default .icon::before,*/
 .input-section .input-group .btn.btn-default:hover,
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
@@ -59,7 +59,7 @@
 .page-subjects .main-content .selectpicker .caret:before,
 .page-subjects .view-section ul.fancytree-container .glyphicon,
 .page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
-.page-subjects .input-section .input-group .btn.btn-default .icon::before,
+/*.page-subjects .input-section .input-group .btn.btn-default .icon::before,*/
 .page-subjects .input-section .input-group .btn.btn-default:hover,
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
