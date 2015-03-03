@@ -6,15 +6,17 @@
 .bx-controls-direction a,
 .nav-justified>li.active a,
 .nav-justified>li.active a:hover,
-.nav-justified>li.active a:focus{ background:#4CA6FB !important;}
+.nav-justified>li.active a:focus{ background:#4CA6FB !important;background: rgba(63, 137, 206, 0.83) !important;}
 .nav-justified>li.active:before,
-.carousel-feature-slides li.active div a:before{ color:#4CA6FB;}
+.view-section ul.fancytree-container .glyphicon,
+.view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
+.carousel-feature-slides li.active div a:before{ color:#4CA6FB;color:rgba(63, 137, 206, 0.83);}
 .carousel-feature-slides li div a:hover,
 .carousel-feature-slides li div a:focus,
 .carousel-feature-slides li.active div a,
 #tab-main .each-photo a.thumbnail:hover,
-#tab-main .each-text a.thumbnail:hover{ border-color: #4CA6FB;}
-.content-resources .nav-pills li.active{border-left:10px solid #4CA6FB;}
+#tab-main .each-text a.thumbnail:hover{ border-color: #4CA6FB; border-color:rgba(63, 137, 206, 0.83);}
+.content-resources .nav-pills li.active{ border-left:10px solid #4CA6FB; border-left:10px solid rgba(63, 137, 206, 0.83);}
 
 .input-section .toggle-link,
 .input-section .toggle-link:hover,
@@ -22,16 +24,14 @@
 .input-section .toggle-link:hover .icon::before,
 .input-section .selectpicker .caret:before,
 .main-content .selectpicker .caret:before,
-.view-section ul.fancytree-container .glyphicon,
-.view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
 /*.input-section .input-group .btn.btn-default .icon::before,*/
 .input-section .input-group .btn.btn-default:hover,
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
-.view-section .nav-tabs>li.active>a:focus{ color: #3f89ce;}
+.view-section .nav-tabs>li.active>a:focus{ color: #3f89ce;color:rgba(55, 119, 179, 0.83);}
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
-.view-section .nav-tabs>li.active>a:focus{ border-top:2px solid #3f89ce;}
+.view-section .nav-tabs>li.active>a:focus{ border-top:2px solid #3f89ce;border-top:2px solid rgba(55, 119, 179, 0.83);}
 
 
 /* Theme Colors Subjects */
