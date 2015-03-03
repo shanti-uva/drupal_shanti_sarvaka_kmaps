@@ -15,6 +15,18 @@
 #tab-main .each-text a.thumbnail:hover{ border-color: #4CA6FB;}
 .content-resources .nav-pills li.active{border-left:10px solid #4CA6FB;}
 
+.main-content .selectpicker .caret:before,
+.view-section ul.fancytree-container .glyphicon,
+.view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
+.view-section .nav-tabs>li.active>a, 
+.view-section .nav-tabs>li.active>a:hover, 
+.view-section .nav-tabs>li.active>a:focus{ color: #4CA6FB;}
+.view-section .nav-tabs>li.active>a, 
+.view-section .nav-tabs>li.active>a:hover, 
+.view-section .nav-tabs>li.active>a:focus{ border-top:2px solid #4CA6FB;}
+
+
+
 .page-subjects .titlearea,
 .page-subjects .carousel-control,
 .page-subjects .breadcrumb .icon,
@@ -30,6 +42,16 @@
 .page-subjects #tab-main .each-photo a.thumbnail:hover,
 .page-subjects #tab-main .each-text a.thumbnail:hover{ border-color: #dc3c47;}
 .page-subjects .content-resources .nav-pills li.active{border-left:10px solid #dc3c47;}
+
+.page-subjects .main-content .selectpicker .caret:before,
+.page-subjects .view-section ul.fancytree-container .glyphicon,
+.page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
+.page-subjects .view-section .nav-tabs>li.active>a, 
+.page-subjects .view-section .nav-tabs>li.active>a:hover, 
+.page-subjects .view-section .nav-tabs>li.active>a:focus{ color: #dc3c47;}
+.page-subjects .view-section .nav-tabs>li.active>a, 
+.page-subjects .view-section .nav-tabs>li.active>a:hover, 
+.page-subjects .view-section .nav-tabs>li.active>a:focus{ border-top:2px solid #dc3c47;}
 
 /*.has-tabs div.banner-tabs{ background: #4CA6FB !important;}
 .page-subjects .has-tabs div.banner-tabs{ background: #dc3c47 !important;}*/
