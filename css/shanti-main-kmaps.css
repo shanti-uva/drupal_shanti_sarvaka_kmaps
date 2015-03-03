@@ -61,7 +61,7 @@
 .page-subjects .input-section .input-group .btn.btn-default:hover,
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
-.page-subjects .view-section .nav-tabs>li.active>a:focus{ color: #dc3c47; !important;}
+.page-subjects .view-section .nav-tabs>li.active>a:focus{ color: #dc3c47 !important;}
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
 .page-subjects .view-section .nav-tabs>li.active>a:focus{ border-top:2px solid #dc3c47;}
