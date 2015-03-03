@@ -20,10 +20,10 @@
 .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
-.view-section .nav-tabs>li.active>a:focus{ color: #4CA6FB;}
+.view-section .nav-tabs>li.active>a:focus{ color: #3f89ce;}
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
-.view-section .nav-tabs>li.active>a:focus{ border-top:2px solid #4CA6FB;}
+.view-section .nav-tabs>li.active>a:focus{ border-top:2px solid #3f89ce;}
 
 
 
