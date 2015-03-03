@@ -15,6 +15,7 @@
 #tab-main .each-text a.thumbnail:hover{ border-color: #4CA6FB;}
 .content-resources .nav-pills li.active{border-left:10px solid #4CA6FB;}
 
+.input-section .toggle-link,
 .main-content .selectpicker .caret:before,
 .view-section ul.fancytree-container .glyphicon,
 .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
@@ -43,6 +44,7 @@
 .page-subjects #tab-main .each-text a.thumbnail:hover{ border-color: #dc3c47;}
 .page-subjects .content-resources .nav-pills li.active{border-left:10px solid #dc3c47;}
 
+.page-subjects .input-section .toggle-link,
 .page-subjects .main-content .selectpicker .caret:before,
 .page-subjects .view-section ul.fancytree-container .glyphicon,
 .page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
