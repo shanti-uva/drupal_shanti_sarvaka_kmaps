@@ -19,6 +19,7 @@
 .main-content .selectpicker .caret:before,
 .view-section ul.fancytree-container .glyphicon,
 .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
+.input-section .input-group .btn.btn-default .icon::before,
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
 .view-section .nav-tabs>li.active>a:focus{ color: #3f89ce;}
@@ -48,6 +49,7 @@
 .page-subjects .main-content .selectpicker .caret:before,
 .page-subjects .view-section ul.fancytree-container .glyphicon,
 .page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
+.input-section .input-group .btn.btn-default .icon::before,
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
 .page-subjects .view-section .nav-tabs>li.active>a:focus{ color: #dc3c47;}
