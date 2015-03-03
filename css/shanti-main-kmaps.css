@@ -41,14 +41,16 @@
 .page-subjects .bx-controls-direction a,
 .page-subjects .nav-justified>li.active a,
 .page-subjects .nav-justified>li.active a:hover,
-.page-subjects .nav-justified>li.active a:focus{ background:#dc3c47 !important;}
+.page-subjects .nav-justified>li.active a:focus{ background:#dc3c47 !important; background: rgba(220, 60, 71, 0.83) !important;}
 .page-subjects .nav-justified>li.active:before,
-.page-subjects .carousel-feature-slides li.active div a:before{ color:#dc3c47;}
+.page-subjects .view-section ul.fancytree-container .glyphicon,
+.page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon
+.page-subjects .carousel-feature-slides li.active div a:before{ color:#dc3c47;color:rgba(220, 60, 71, 0.83);}
 .page-subjects .carousel-feature-slides li div a:hover,
 .page-subjects .carousel-feature-slides li div a:focus,
 .page-subjects .carousel-feature-slides li.active div a,
 .page-subjects #tab-main .each-photo a.thumbnail:hover,
-.page-subjects #tab-main .each-text a.thumbnail:hover{ border-color: #dc3c47;}
+.page-subjects #tab-main .each-text a.thumbnail:hover{ border-color: #dc3c47; border-color:rgba(220, 60, 71, 0.83);}
 .page-subjects .content-resources .nav-pills li.active{border-left:10px solid #dc3c47;}
 
 .page-subjects .input-section a.toggle-link,
@@ -57,16 +59,13 @@
 .page-subjects .input-section .toggle-link:hover .icon::before,
 .page-subjects .input-section .selectpicker .caret:before,
 .page-subjects .main-content .selectpicker .caret:before,
-.page-subjects .view-section ul.fancytree-container .glyphicon,
-.page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
-/*.page-subjects .input-section .input-group .btn.btn-default .icon::before,*/
 .page-subjects .input-section .input-group .btn.btn-default:hover,
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
-.page-subjects .view-section .nav-tabs>li.active>a:focus{ color: #dc3c47;}
+.page-subjects .view-section .nav-tabs>li.active>a:focus{ color: #dc3c47;color:rgba(220, 60, 71, 0.83);}
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
-.page-subjects .view-section .nav-tabs>li.active>a:focus{ border-top:2px solid #dc3c47;}
+.page-subjects .view-section .nav-tabs>li.active>a:focus{ border-top:2px solid #dc3c47; border-top:2px solid rgba(220, 60, 71, 0.83);}
 
 /*.has-tabs div.banner-tabs{ background: #4CA6FB !important;}
 .page-subjects .has-tabs div.banner-tabs{ background: #dc3c47 !important;}*/
