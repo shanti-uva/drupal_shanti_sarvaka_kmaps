@@ -20,6 +20,7 @@
 .input-section .toggle-link:hover,
 .input-section .toggle-link .icon::before,
 .input-section .toggle-link:hover .icon::before,
+.input-section .selectpicker .caret:before,
 .main-content .selectpicker .caret:before,
 .view-section ul.fancytree-container .glyphicon,
 .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
@@ -27,7 +28,7 @@
 .input-section .input-group .btn.btn-default:hover,
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
-.view-section .nav-tabs>li.active>a:focus{ color: #3f89ce !important;}
+.view-section .nav-tabs>li.active>a:focus{ color: #3f89ce;}
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
 .view-section .nav-tabs>li.active>a:focus{ border-top:2px solid #3f89ce;}
@@ -54,6 +55,7 @@
 .page-subjects .input-section a.toggle-link:hover,
 .page-subjects .input-section .toggle-link .icon::before,
 .page-subjects .input-section .toggle-link:hover .icon::before,
+.page-subjects .input-section .selectpicker .caret:before,
 .page-subjects .main-content .selectpicker .caret:before,
 .page-subjects .view-section ul.fancytree-container .glyphicon,
 .page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
@@ -61,7 +63,7 @@
 .page-subjects .input-section .input-group .btn.btn-default:hover,
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
-.page-subjects .view-section .nav-tabs>li.active>a:focus{ color: #dc3c47 !important;}
+.page-subjects .view-section .nav-tabs>li.active>a:focus{ color: #dc3c47;}
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
 .page-subjects .view-section .nav-tabs>li.active>a:focus{ border-top:2px solid #dc3c47;}
