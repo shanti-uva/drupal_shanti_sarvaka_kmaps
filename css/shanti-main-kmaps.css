@@ -31,9 +31,9 @@
 .view-section .nav-tabs>li.active>a:focus{ color: #3f89ce;color:rgba(55, 119, 179, 0.83);}
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
-.view-section .nav-tabs>li.active>a:focus,
+.view-section .nav-tabs>li.active>a:focus{ border-top-color: #3f89ce;border-top-color: rgba(55, 119, 179, 0.83);}
 .transcripts-apachesolr-search-snippet .tiers strong,
-.transcripts-apachesolr-search-snippet .tiers mark{ border-color:#3f89ce !important;border-color:rgba(55, 119, 179, 0.83) !important;  /*border-top:2px solid #3f89ce;border-top:2px solid rgba(55, 119, 179, 0.83);*/}
+.transcripts-apachesolr-search-snippet .tiers mark{ border-bottom-color:#3f89ce;border-bottom-color:rgba(55, 119, 179, 0.83);}
 
 
 /* Theme Colors Subjects */
@@ -67,9 +67,9 @@
 .page-subjects .view-section .nav-tabs>li.active>a:focus{ color: #dc3c47;color:rgba(220, 60, 71, 0.83);}
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
-.page-subjects .view-section .nav-tabs>li.active>a:focus,
+.page-subjects .view-section .nav-tabs>li.active>a:focus{ border-top-color: #dc3c47; border-top-color: rgba(220, 60, 71, 0.83);}
 .transcripts-apachesolr-search-snippet .tiers strong,
-.transcripts-apachesolr-search-snippet .tiers mark{  border-color:#dc3c47 !important;border-color: rgba(220, 60, 71, 0.83) !important;       /*border-top:2px solid #dc3c47; border-top:2px solid rgba(220, 60, 71, 0.83);*/}
+.transcripts-apachesolr-search-snippet .tiers mark{  border-bottom-color:#dc3c47;border-bottom-color: rgba(220, 60, 71, 0.83);}
 
 /*.has-tabs div.banner-tabs{ background: #4CA6FB !important;}
 .page-subjects .has-tabs div.banner-tabs{ background: #dc3c47 !important;}*/
