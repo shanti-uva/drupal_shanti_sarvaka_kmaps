@@ -23,8 +23,8 @@
 .input-section .toggle-link .icon::before,
 .input-section .toggle-link:hover .icon::before,
 .input-section .selectpicker .caret:before,
-.main-content .selectpicker .caret:before,
-/*.input-section .input-group .btn.btn-default .icon::before,*/
+/*.main-content .selectpicker .caret:before,*/
+.input-section .input-group .btn.btn-default .icon::before,
 .input-section .input-group .btn.btn-default:hover,
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
@@ -32,8 +32,8 @@
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
 .view-section .nav-tabs>li.active>a:focus{ border-top-color: #3f89ce;border-top-color: rgba(55, 119, 179, 0.83);}
-.transcripts-apachesolr-search-snippet .tiers strong,
-.transcripts-apachesolr-search-snippet .tiers mark{ border-bottom-color:#3f89ce;border-bottom-color:rgba(55, 119, 179, 0.83);}
+/*.transcripts-apachesolr-search-snippet .tiers strong,*/
+mark{ border-bottom-color:#3f89ce;border-bottom-color:rgba(55, 119, 179, 0.83);}
 
 
 /* Theme Colors Subjects */
@@ -60,7 +60,7 @@
 .page-subjects .input-section .toggle-link .icon::before,
 .page-subjects .input-section .toggle-link:hover .icon::before,
 .page-subjects .input-section .selectpicker .caret:before,
-.page-subjects .main-content .selectpicker .caret:before,
+/*.page-subjects .main-content .selectpicker .caret:before,*/
 .page-subjects .input-section .input-group .btn.btn-default:hover,
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
@@ -68,8 +68,8 @@
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
 .page-subjects .view-section .nav-tabs>li.active>a:focus{ border-top-color: #dc3c47; border-top-color: rgba(220, 60, 71, 0.83);}
-.transcripts-apachesolr-search-snippet .tiers strong,
-.transcripts-apachesolr-search-snippet .tiers mark{  border-bottom-color:#dc3c47;border-bottom-color: rgba(220, 60, 71, 0.83);}
+/*.page-subjects .transcripts-apachesolr-search-snippet .tiers strong,*/
+mark{  border-bottom-color:#dc3c47;border-bottom-color: rgba(220, 60, 71, 0.83);}
 
 /*.has-tabs div.banner-tabs{ background: #4CA6FB !important;}
 .page-subjects .has-tabs div.banner-tabs{ background: #dc3c47 !important;}*/
