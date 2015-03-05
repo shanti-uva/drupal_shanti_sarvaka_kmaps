@@ -24,6 +24,7 @@
 .input-section .toggle-link:hover .icon::before,
 .input-section .selectpicker .caret:before,
 /*.main-content .selectpicker .caret:before,*/
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a i.check-mark,
 .input-section .input-group .btn.btn-default .icon::before,
 .input-section .input-group .btn.btn-default:hover,
 .view-section .nav-tabs>li.active>a, 
@@ -61,6 +62,7 @@
 .page-subjects .input-section .toggle-link:hover .icon::before,
 .page-subjects .input-section .selectpicker .caret:before,
 /*.page-subjects .main-content .selectpicker .caret:before,*/
+.page-subjects .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a i.check-mark,
 .page-subjects .input-section .input-group .btn.btn-default .icon:before,
 .page-subjects .input-section .input-group .btn.btn-default:hover,
 .page-subjects .view-section .nav-tabs>li.active>a, 
