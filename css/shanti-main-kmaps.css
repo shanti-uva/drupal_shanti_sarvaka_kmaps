@@ -6,7 +6,7 @@
 .bx-controls-direction a,
 .nav-justified>li.active a,
 .nav-justified>li.active a:hover,
-.nav-justified>li.active a:focus{ background:#4CA6FB !important;background: rgba(63, 137, 206, 0.83) !important;}
+.nav-justified>li.active a:focus{ background:#4CA6FB !important;}
 .nav-justified>li.active:before,
 .view-section ul.fancytree-container .glyphicon,
 .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
@@ -44,7 +44,7 @@
 .page-subjects .bx-controls-direction a,
 .page-subjects .nav-justified>li.active a,
 .page-subjects .nav-justified>li.active a:hover,
-.page-subjects .nav-justified>li.active a:focus{ background:#dc3c47 !important; background: rgba(220, 60, 71, 0.83) !important;}
+.page-subjects .nav-justified>li.active a:focus{ background:#dc3c47 !important;}
 .page-subjects .nav-justified>li.active:before,
 .page-subjects .view-section ul.fancytree-container .glyphicon,
 .page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
