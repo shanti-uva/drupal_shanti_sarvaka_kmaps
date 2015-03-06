@@ -8,6 +8,8 @@
 .nav-justified>li.active a:hover,
 .nav-justified>li.active a:focus{ background:#4CA6FB !important;}
 .nav-justified>li.active:before,
+.menu-main-desk .levelHolderClass.rtl .backItemClass a,
+.menu-main-desk .levelHolderClass.rtl .backItemClass a:active,
 .view-section ul.fancytree-container .glyphicon,
 .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
 .carousel-feature-slides li.active div a:before{ color:#4CA6FB;color:rgba(63, 137, 206, 0.83);}
@@ -25,6 +27,7 @@
 .input-section .selectpicker .caret:before,
 /*.main-content .selectpicker .caret:before,*/
 .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a i.check-mark,
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:focus .check-mark,
 .input-section .input-group .btn.btn-default:hover,
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
@@ -45,6 +48,8 @@
 .page-subjects .nav-justified>li.active a:hover,
 .page-subjects .nav-justified>li.active a:focus{ background:#dc3c47 !important;}
 .page-subjects .nav-justified>li.active:before,
+.menu-main-desk .levelHolderClass.rtl .backItemClass a,
+.menu-main-desk .levelHolderClass.rtl .backItemClass a:active,
 .page-subjects .view-section ul.fancytree-container .glyphicon,
 .page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
 .page-subjects .carousel-feature-slides li.active div a:before{ color:#dc3c47;color:rgba(220, 60, 71, 0.83);}
@@ -62,6 +67,7 @@
 .page-subjects .input-section .selectpicker .caret:before,
 /*.page-subjects .main-content .selectpicker .caret:before,*/
 .page-subjects .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a i.check-mark,
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:focus .check-mark,
 .page-subjects .input-section .input-group .btn.btn-default:hover,
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
