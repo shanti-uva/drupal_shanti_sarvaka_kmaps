@@ -1,5 +1,5 @@
 /* custom theme colors */
-/* Theme Colors Places */
+/* Colors Places */
 .titlearea,
 .carousel-control,
 .breadcrumb .icon,
@@ -12,6 +12,8 @@
 .menu-main-desk .levelHolderClass.rtl .backItemClass a:active,
 .view-section ul.fancytree-container .glyphicon,
 .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
+.view-section .fancytree-node.fancytree-active > .glyphicon,
+.view-section .fancytree-node.fancytree-selected > .glyphicon,
 .carousel-feature-slides li.active div a:before{ color:#4CA6FB;color:rgba(63, 137, 206, 0.83);}
 .carousel-feature-slides li div a:hover,
 .carousel-feature-slides li div a:focus,
@@ -43,7 +45,7 @@ ul ul ul,
 ul ul ul ul { -webkit-margin-before: 0;}
 
 
-/* Theme Colors Subjects */
+/* Colors Subjects */
 .page-subjects .titlearea,
 .page-subjects .carousel-control,
 .page-subjects .breadcrumb .icon,
@@ -56,6 +58,8 @@ ul ul ul ul { -webkit-margin-before: 0;}
 .page-subjects .menu-main-desk .levelHolderClass.rtl .backItemClass a:active,
 .page-subjects .view-section ul.fancytree-container .glyphicon,
 .page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
+.page-subjects .view-section .fancytree-node.fancytree-active > .glyphicon,
+.page-subjects .view-section .fancytree-node.fancytree-selected > .glyphicon,
 .page-subjects .carousel-feature-slides li.active div a:before{ color:#dc3c47;color:rgba(220, 60, 71, 0.83);}
 .page-subjects .carousel-feature-slides li div a:hover,
 .page-subjects .carousel-feature-slides li div a:focus,
