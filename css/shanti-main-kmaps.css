@@ -6,17 +6,15 @@
 .bx-controls-direction a,
 .nav-justified>li.active a,
 .nav-justified>li.active a:hover,
-.nav-justified>li.active a:focus{ background:#4CA6FB !important;}
+.nav-justified>li.active a:active{ background:#4CA6FB !important;}
 .nav-justified>li.active:before,
-.menu-main-desk .levelHolderClass.rtl .backItemClass a,
-.menu-main-desk .levelHolderClass.rtl .backItemClass a:active,
 .view-section ul.fancytree-container .glyphicon,
 .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
 .view-section .fancytree-node.fancytree-active > .glyphicon,
 .view-section .fancytree-node.fancytree-selected > .glyphicon,
 .carousel-feature-slides li.active div a:before{ color:#4CA6FB;color:rgba(63, 137, 206, 0.83);}
 .carousel-feature-slides li div a:hover,
-.carousel-feature-slides li div a:focus,
+.carousel-feature-slides li div a:active,
 .carousel-feature-slides li.active div a,
 #tab-main .each-photo a.thumbnail:hover,
 #tab-main .each-text a.thumbnail:hover{ border-color: #4CA6FB; border-color:rgba(63, 137, 206, 0.83);}
@@ -29,14 +27,14 @@
 .input-section .selectpicker .caret:before,
 /*.main-content .selectpicker .caret:before,*/
 .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
-.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:focus .check-mark,
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
 .input-section .input-group .btn.btn-default:hover,
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
-.view-section .nav-tabs>li.active>a:focus{ color: #3f89ce;color:rgba(55, 119, 179, 0.83);}
+.view-section .nav-tabs>li.active>a:active{ color: #3f89ce;color:rgba(55, 119, 179, 0.83);}
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
-.view-section .nav-tabs>li.active>a:focus{ border-top-color: #3f89ce;border-top-color: rgba(55, 119, 179, 0.83);}
+.view-section .nav-tabs>li.active>a:active{ border-top-color: #3f89ce;border-top-color: rgba(55, 119, 179, 0.83);}
 /*.transcripts-apachesolr-search-snippet .tiers strong,*/
 /*mark{ border-bottom-color:#3f89ce;border-bottom-color:rgba(55, 119, 179, 0.83);}*/
 ul,
@@ -52,17 +50,15 @@ ul ul ul ul { -webkit-margin-before: 0;}
 .page-subjects .bx-controls-direction a,
 .page-subjects .nav-justified>li.active a,
 .page-subjects .nav-justified>li.active a:hover,
-.page-subjects .nav-justified>li.active a:focus{ background:#dc3c47 !important;}
+.page-subjects .nav-justified>li.active a:active{ background:#dc3c47 !important;}
 .page-subjects .nav-justified>li.active:before,
-.page-subjects .menu-main-desk .levelHolderClass.rtl .backItemClass a,
-.page-subjects .menu-main-desk .levelHolderClass.rtl .backItemClass a:active,
 .page-subjects .view-section ul.fancytree-container .glyphicon,
 .page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
 .page-subjects .view-section .fancytree-node.fancytree-active > .glyphicon,
 .page-subjects .view-section .fancytree-node.fancytree-selected > .glyphicon,
 .page-subjects .carousel-feature-slides li.active div a:before{ color:#dc3c47;color:rgba(220, 60, 71, 0.83);}
 .page-subjects .carousel-feature-slides li div a:hover,
-.page-subjects .carousel-feature-slides li div a:focus,
+.page-subjects .carousel-feature-slides li div a:active,
 .page-subjects .carousel-feature-slides li.active div a,
 .page-subjects #tab-main .each-photo a.thumbnail:hover,
 .page-subjects #tab-main .each-text a.thumbnail:hover{ border-color: #dc3c47; border-color:rgba(220, 60, 71, 0.83);}
@@ -75,14 +71,14 @@ ul ul ul ul { -webkit-margin-before: 0;}
 .page-subjects .input-section .selectpicker .caret:before,
 /*.page-subjects .main-content .selectpicker .caret:before,*/
 .page-subjects .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
-.page-subjects .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:focus .check-mark,
+.page-subjects .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
 .page-subjects .input-section .input-group .btn.btn-default:hover,
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
-.page-subjects .view-section .nav-tabs>li.active>a:focus{ color: #dc3c47;color:rgba(220, 60, 71, 0.83);}
+.page-subjects .view-section .nav-tabs>li.active>a:active{ color: #dc3c47;color:rgba(220, 60, 71, 0.83);}
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
-.page-subjects .view-section .nav-tabs>li.active>a:focus{ border-top-color: #dc3c47; border-top-color: rgba(220, 60, 71, 0.83);}
+.page-subjects .view-section .nav-tabs>li.active>a:active{ border-top-color: #dc3c47; border-top-color: rgba(220, 60, 71, 0.83);}
 /*.page-subjects .transcripts-apachesolr-search-snippet .tiers strong,*/
 /*mark{  border-bottom-color:#dc3c47;border-bottom-color: rgba(220, 60, 71, 0.83);}*/
 
@@ -120,8 +116,8 @@ ul ul ul ul { -webkit-margin-before: 0;}
 #photo-pagination>.active>span,
 #photo-pagination>.active>a:hover,
 #photo-pagination>.active>span:hover,
-#photo-pagination>.active>a:focus,
-#photo-pagination>.active>span:focus{ background-color: #DC3C47;border-color: #DC3C47;color: white;}
+#photo-pagination>.active>a:active,
+#photo-pagination>.active>span:active{ background-color: #DC3C47;border-color: #DC3C47;color: white;}
 
 
 
@@ -135,9 +131,9 @@ ul ul ul ul { -webkit-margin-before: 0;}
 .content-resources .nav-pills li:first-child a{ /*border-top:1px solid #e0e0e0;*/}
 .content-resources .nav-pills li a,
 .content-resources .nav-pills li a:hover,
-.content-resources .nav-pills li a:focus{color:#777;}
+.content-resources .nav-pills li a:active{color:#777;}
 .content-resources .nav-pills li a:hover,
-.content-resources .nav-pills li a:focus{color:#333;background:#eee;}
+.content-resources .nav-pills li a:active{color:#333;background:#eee;}
 .content-resources .nav-pills li.active a{color:#333;background:#eee;}
 .content-resources .nav-pills li a .icon{font-family:'shanticon';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:.5em;font-size:1.68em;position:relative;top:4px;}
 .content-resources .nav-pills li a .icon:before{position:relative;top:0;font-size:1.75rem;}
@@ -222,14 +218,14 @@ body.front .breadcrumb{ display:none !important;}
 	
 	
 .view-resources.btn-default:hover,
-.view-resources.btn-default:focus { background: #000; color:#fff;}
+.view-resources.btn-default:active { background: #000; color:#fff;}
 
 .view-resources.btn-default em{ font-size:120%;font-style:normal;}
 
 .view-resources.btn-default .icon { background:transparent; line-height:1; float:right; font-size:1.25em; position:relative; width:2rem; top:0;}
 .view-resources.btn-default .icon:before { font-family:'shanticon'; content: "\e63e";}
 .view-resources.btn-default:hover .icon:before,
-.view-resources.btn-default:focus .icon:before { }
+.view-resources.btn-default:active .icon:before { }
 
 .row-offcanvas-left.active .content-resources{ width: 18.5rem;}
 .row-offcanvas-left.active .view-resources.btn-default{ position:relative; left: -220px;}
