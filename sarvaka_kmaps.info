@@ -28,13 +28,13 @@ regions[admin_footer]   = Admin Footer
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] =  css/shanti-main-kmaps.css
-stylesheets[all][] =  css/shanti-search-kmaps.css
+;stylesheets[all][] =  css/shanti-search-kmaps.css
 
 ;;;;;;;;;;;;;;;;;;;;;;
 ;;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;;
-scripts[] = js/shanti-main-kmaps.js
-scripts[] = js/shanti-search-kmaps.js
+;scripts[] = js/shanti-main-kmaps.js
+;scripts[] = js/shanti-search-kmaps.js
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Theme Settings   
