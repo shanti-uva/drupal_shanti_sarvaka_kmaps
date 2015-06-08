@@ -1,40 +1,39 @@
 /* custom theme colors */
 /* Colors Places */
-.page-places .titlearea,
-.page-places .carousel-control,
-.page-places .breadcrumb .icon,
-.page-places .bx-controls-direction a,
-.page-places .nav-justified>li.active a,
-.page-places .nav-justified>li.active a:hover,
-.page-places .nav-justified>li.active a:active{ background:#4CA6FB !important;}
-.page-places .nav-justified>li.active::before,
-.page-places .view-section ul.fancytree-container .glyphicon,
-.page-places .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
-.page-places .view-section .fancytree-node.fancytree-active > .glyphicon,
-.page-places .view-section .fancytree-node.fancytree-selected > .glyphicon,
-.page-places .carousel-feature-slides li.active div a::before{ color:#4CA6FB;color:rgba(63, 137, 206, 0.83);}
-.page-places .carousel-feature-slides li div a:hover,
-.page-places .carousel-feature-slides li div a:active,
-.page-places .carousel-feature-slides li.active div a,
-.page-places #tab-main .each-photo a.thumbnail:hover,
-.page-places #tab-main .each-text a.thumbnail:hover{ border-color: #4CA6FB; border-color:rgba(63, 137, 206, 0.83);}
-.page-places .content-resources .nav-pills li.active{ border-left:10px solid #4CA6FB; border-left:10px solid rgba(63, 137, 206, 0.83);}
+.page-places.kmaps .titlearea,
+.page-places.kmaps .carousel-control,
+.page-places.kmaps .breadcrumb .icon,
+.page-places.kmaps .bx-controls-direction a,
+.page-places.kmaps .nav-justified>li.active a,
+.page-places.kmaps .nav-justified>li.active a:hover,
+.page-places.kmaps .nav-justified>li.active a:active{ background:#4CA6FB !important;}
+.page-places.kmaps .nav-justified>li.active::before,
+.page-places.kmaps .view-section ul.fancytree-container .glyphicon,
+.page-places.kmaps .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
+.page-places.kmaps .view-section .fancytree-node.fancytree-active > .glyphicon,
+.page-places.kmaps .view-section .fancytree-node.fancytree-selected > .glyphicon{ color:#4CA6FB;}
+.page-places.kmaps .carousel-feature-slides li div a:hover,
+.page-places.kmaps .carousel-feature-slides li div a:active,
+.page-places.kmaps .carousel-feature-slides li.active div a,
+.page-places.kmaps #tab-main .each-photo a.thumbnail:hover,
+.page-places.kmaps #tab-main .each-text a.thumbnail:hover{ border-color: #4CA6FB;}
+.page-places.kmaps .content-resources .nav-pills li.active{ border-left-color: #4CA6FB;}
 
-.page-places .navbar-brand:hover .site-slogan,
-.page-places .input-section .toggle-link,
-.page-places .input-section .toggle-link:hover,
-.page-places .input-section .toggle-link .icon:::before,
-.page-places .input-section .toggle-link:hover .icon::before,
-.page-places .input-section .selectpicker .caret::before,
-.page-places .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
-.page-places .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
-.page-places .input-section .input-group .btn.btn-default:hover,
-.page-places .view-section .nav-tabs>li.active>a, 
-.page-places .view-section .nav-tabs>li.active>a:hover, 
-.page-places .view-section .nav-tabs>li.active>a:active{ color: #3f89ce !important;color:rgba(55, 119, 179, 0.83);}
-.page-places .view-section .nav-tabs>li.active>a, 
-.page-places .view-section .nav-tabs>li.active>a:hover, 
-.page-places .view-section .nav-tabs>li.active>a:active{ border-top-color: #3f89ce;border-top-color: rgba(55, 119, 179, 0.83);}
+.page-places.kmaps .navbar-brand:hover .site-slogan,
+.page-places.kmaps .input-section .toggle-link,
+.page-places.kmaps .input-section .toggle-link:hover,
+.page-places.kmaps .input-section .toggle-link .icon:::before,
+.page-places.kmaps .input-section .toggle-link:hover .icon::before,
+.page-places.kmaps .input-section .selectpicker .caret::before,
+.page-places.kmaps .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
+.page-places.kmaps .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
+.page-places.kmaps .input-section .input-group .btn.btn-default:hover,
+.page-places.kmaps .view-section .nav-tabs>li.active>a, 
+.page-places.kmaps .view-section .nav-tabs>li.active>a:hover, 
+.page-places.kmaps .view-section .nav-tabs>li.active>a:active{ color: #3f89ce !important;color:rgba(55, 119, 179, 0.83) !important;}
+.page-places.kmaps .view-section .nav-tabs>li.active>a, 
+.page-places.kmaps .view-section .nav-tabs>li.active>a:hover, 
+.page-places.kmaps .view-section .nav-tabs>li.active>a:active{ border-top-color: #3f89ce;border-top-color: rgba(55, 119, 179, 0.83);}
 
 
 /* Colors Subjects */
