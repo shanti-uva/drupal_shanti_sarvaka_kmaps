@@ -22,7 +22,7 @@
 .page-places.kmaps .navbar-brand:hover .site-slogan,
 .page-places.kmaps .input-section .toggle-link,
 .page-places.kmaps .input-section .toggle-link:hover,
-.page-places.kmaps .input-section .toggle-link .icon:::before,
+.page-places.kmaps .input-section .toggle-link .icon::before,
 .page-places.kmaps .input-section .toggle-link:hover .icon::before,
 .page-places.kmaps .input-section .selectpicker .caret::before,
 .page-places.kmaps .input-section .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
