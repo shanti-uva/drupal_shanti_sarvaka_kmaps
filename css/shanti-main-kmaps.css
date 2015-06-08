@@ -11,7 +11,8 @@
 .page-places.kmaps .view-section ul.fancytree-container .glyphicon,
 .page-places.kmaps .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
 .page-places.kmaps .view-section .fancytree-node.fancytree-active > .glyphicon,
-.page-places.kmaps .view-section .fancytree-node.fancytree-selected > .glyphicon{ color:#4CA6FB;}
+.page-places.kmaps .view-section .fancytree-node.fancytree-selected > .glyphicon,
+.page-places.kmaps .carousel-feature-slides li.active div a::before{ color:#4CA6FB;}
 .page-places.kmaps .carousel-feature-slides li div a:hover,
 .page-places.kmaps .carousel-feature-slides li div a:active,
 .page-places.kmaps .carousel-feature-slides li.active div a,
@@ -29,7 +30,7 @@
 .page-places.kmaps .input-section .input-group .btn.btn-default:hover,
 .page-places.kmaps .view-section .nav-tabs>li.active>a, 
 .page-places.kmaps .view-section .nav-tabs>li.active>a:hover, 
-.page-places.kmaps .view-section .nav-tabs>li.active>a:active{ color: #3f89ce;color:rgba(55, 119, 179, 0.83);}
+.page-places.kmaps .view-section .nav-tabs>li.active>a:active{ color: #3f89ce !important;color:rgba(55, 119, 179, 0.83) !important;}
 .page-places.kmaps .view-section .nav-tabs>li.active>a, 
 .page-places.kmaps .view-section .nav-tabs>li.active>a:hover, 
 .page-places.kmaps .view-section .nav-tabs>li.active>a:active{ border-top-color: #3f89ce;border-top-color: rgba(55, 119, 179, 0.83);}
