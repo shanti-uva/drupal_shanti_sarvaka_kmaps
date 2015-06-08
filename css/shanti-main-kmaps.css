@@ -6,7 +6,7 @@
 .page-places .bx-controls-direction a,
 .page-places .nav-justified>li.active a,
 .page-places .nav-justified>li.active a:hover,
-.page-places .nav-justified>li.active a:active{ background:#4CA6FB;}
+.page-places .nav-justified>li.active a:active{ background:#4CA6FB !important;}
 .page-places .nav-justified>li.active::before,
 .page-places .view-section ul.fancytree-container .glyphicon,
 .page-places .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
@@ -43,7 +43,7 @@
 .page-subjects .bx-controls-direction a,
 .page-subjects .nav-justified>li.active a,
 .page-subjects .nav-justified>li.active a:hover,
-.page-subjects .nav-justified>li.active a:active{ background:#dc3c47;}
+.page-subjects .nav-justified>li.active a:active{ background:#dc3c47 !important;}
 .page-subjects .navbar-brand:hover .site-slogan,
 .page-subjects .nav-justified>li.active::before,
 .page-subjects .view-section ul.fancytree-container .glyphicon,
