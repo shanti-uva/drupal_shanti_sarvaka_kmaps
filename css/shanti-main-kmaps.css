@@ -6,7 +6,7 @@
 .page-places.kmaps .bx-controls-direction a,
 .page-places.kmaps .nav-justified>li.active a,
 .page-places.kmaps .nav-justified>li.active a:hover,
-.page-places.kmaps .nav-justified>li.active a:active{ background:#4CA6FB !important;}
+.page-places.kmaps .nav-justified>li.active a:active{ background:#4CA6FB;}
 .page-places.kmaps .nav-justified>li.active::before,
 .page-places.kmaps .view-section ul.fancytree-container .glyphicon,
 .page-places.kmaps .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
@@ -17,7 +17,6 @@
 .page-places.kmaps .carousel-feature-slides li.active div a,
 .page-places.kmaps #tab-main .each-photo a.thumbnail:hover,
 .page-places.kmaps #tab-main .each-text a.thumbnail:hover{ border-color: #4CA6FB;}
-.page-places.kmaps .content-resources .nav-pills li.active{ border-left-color: #4CA6FB;}
 
 .page-places.kmaps .navbar-brand:hover .site-slogan,
 .page-places.kmaps .input-section .toggle-link,
@@ -25,16 +24,16 @@
 .page-places.kmaps .input-section .toggle-link .icon:::before,
 .page-places.kmaps .input-section .toggle-link:hover .icon::before,
 .page-places.kmaps .input-section .selectpicker .caret::before,
-.page-places.kmaps .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
-.page-places.kmaps .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
+.page-places.kmaps .input-section .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
+.page-places.kmaps .input-section .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
 .page-places.kmaps .input-section .input-group .btn.btn-default:hover,
 .page-places.kmaps .view-section .nav-tabs>li.active>a, 
 .page-places.kmaps .view-section .nav-tabs>li.active>a:hover, 
-.page-places.kmaps .view-section .nav-tabs>li.active>a:active{ color: #3f89ce !important;color:rgba(55, 119, 179, 0.83) !important;}
+.page-places.kmaps .view-section .nav-tabs>li.active>a:active{ color: #3f89ce;color:rgba(55, 119, 179, 0.83);}
 .page-places.kmaps .view-section .nav-tabs>li.active>a, 
 .page-places.kmaps .view-section .nav-tabs>li.active>a:hover, 
 .page-places.kmaps .view-section .nav-tabs>li.active>a:active{ border-top-color: #3f89ce;border-top-color: rgba(55, 119, 179, 0.83);}
-
+.page-places.kmaps .content-resources .nav-pills li.active{ border-left-color: #3f89ce;border-left-color: rgba(55, 119, 179, 0.83);}
 
 /* Colors Subjects */
 .page-subjects .titlearea,
@@ -43,7 +42,7 @@
 .page-subjects .bx-controls-direction a,
 .page-subjects .nav-justified>li.active a,
 .page-subjects .nav-justified>li.active a:hover,
-.page-subjects .nav-justified>li.active a:active{ background:#dc3c47 !important;}
+.page-subjects .nav-justified>li.active a:active{ background:#dc3c47;}
 .page-subjects .navbar-brand:hover .site-slogan,
 .page-subjects .nav-justified>li.active::before,
 .page-subjects .view-section ul.fancytree-container .glyphicon,
@@ -63,8 +62,8 @@
 .page-subjects .input-section .toggle-link .icon::before,
 .page-subjects .input-section .toggle-link:hover .icon::before,
 .page-subjects .input-section .selectpicker .caret::before,
-.page-subjects .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
-.page-subjects .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
+.page-subjects .input-section .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
+.page-subjects .input-section .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
 .page-subjects .input-section .input-group .btn.btn-default:hover,
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
