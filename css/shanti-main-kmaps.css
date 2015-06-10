@@ -20,7 +20,7 @@
 .page-places .carousel-feature-slides li div a:active,
 .page-places .carousel-feature-slides li.active div a,
 .page-places #tab-main .each-photo a.thumbnail:hover,
-.page-places #tab-main .each-text a.thumbnail:hover{ border-color: #4ca6fb !important;}
+.page-places #tab-main .each-text a.thumbnail:hover{ border-color: #479beb !important;}
 .page-places .input-section .toggle-link,
 .page-places .input-section .toggle-link:hover,
 .page-places .input-section .toggle-link .icon::before,
@@ -29,11 +29,11 @@
 .page-places .input-group .btn.btn-default:hover,
 .page-places .view-section .nav-tabs>li.active>a, 
 .page-places .view-section .nav-tabs>li.active>a:hover, 
-.page-places .view-section .nav-tabs>li.active>a:active{ color: #3f89ce !important;color:rgba(55, 119, 179, 0.83) !important;}
+.page-places .view-section .nav-tabs>li.active>a:active{ color: #479beb !important;}
 .page-places .view-section .nav-tabs>li.active>a, 
 .page-places .view-section .nav-tabs>li.active>a:hover, 
-.page-places .view-section .nav-tabs>li.active>a:active{ border-top-color: #3f89ce !important;border-top-color: rgba(55, 119, 179, 0.83) !important;}
-.page-places .content-resources .nav-pills li.active{ border-left-color: #3f89ce !important;border-left-color: rgba(55, 119, 179, 0.83) !important;}
+.page-places .view-section .nav-tabs>li.active>a:active{ border-top-color: #479beb !important;}
+.page-places .content-resources .nav-pills li.active{ border-left-color: #479beb !important;}
 .page-places .navbar-brand:active .site-slogan{ color:#444 !important;}
 
 
