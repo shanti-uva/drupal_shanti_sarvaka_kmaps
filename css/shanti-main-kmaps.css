@@ -26,7 +26,6 @@
 .page-places .input-section .toggle-link .icon::before,
 .page-places .input-section .toggle-link:hover .icon::before,
 .page-places .input-section .selectpicker .caret::before,
-.page-places .input-group .btn.btn-default:hover,
 .page-places .view-section .nav-tabs>li.active>a, 
 .page-places .view-section .nav-tabs>li.active>a:hover, 
 .page-places .view-section .nav-tabs>li.active>a:active{ color: #479beb !important;}
@@ -60,7 +59,6 @@
 .page-subjects .input-section .selectpicker .caret::before,
 .page-subjects .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a .check-mark,
 .page-subjects .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a:active .check-mark,
-.page-subjects .input-group .btn.btn-default:hover,
 .page-subjects .view-section .nav-tabs>li.active>a, 
 .page-subjects .view-section .nav-tabs>li.active>a:hover, 
 .page-subjects .view-section .nav-tabs>li.active>a:active{ color:#dc3c47 !important;}
