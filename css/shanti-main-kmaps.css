@@ -76,7 +76,7 @@
 /*--- END custom colors ---*/
 
 
-.breadcrumb{ display:none !important;}
+.page-subjects .breadcrumb li a{ display:none !important;}
 
 .not-front .content-section.equal-height > .tab-content{ padding-top:0.5rem;}
 
