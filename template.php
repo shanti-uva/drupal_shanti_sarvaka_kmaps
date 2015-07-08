@@ -32,17 +32,3 @@ function sarvaka_kmaps_breadcrumb($variables) {
   $output .= '</ol>';
   return $output;
 }
-
-
-
-(function ($) { 
-
-    Drupal.behaviors.kmapsSubjectsHomepageBreadcrumbHiding = {
-      attach: function (context, settings) {
-            if($(".feature-slide-detail").length ) {
-              $("ol.breadcrumb").css('display','none');
-            }
-      }
-    };  
-  
-}(jQuery));
