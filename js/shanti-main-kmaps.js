@@ -1,19 +1,6 @@
 
 
 
-(function ($) {	
-
-	  Drupal.behaviors.kmapsSubjectsHomepageBreadcrumbHiding = {
-	    attach: function (context, settings) {
-	          if($(".feature-slide-detail").length ) {
-	            $("ol.breadcrumb").css('display','none');
-	          }
-	    }
-	  };	
-	
-}(jQuery));
-
-
 	/***
 
 	Drupal.behaviors.kmapsOffCanvasToggle = {
