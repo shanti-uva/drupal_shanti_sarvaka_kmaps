@@ -75,8 +75,6 @@
 .page-subjects .navbar-brand:active .site-slogan{ color:#444 !important;}
 /*--- END custom colors ---*/
 
-
-
 .not-front .content-section.equal-height > .tab-content{ padding-top:0.5rem;}
 
-
+.page-subjects .carousel-header a{ display:none;}
