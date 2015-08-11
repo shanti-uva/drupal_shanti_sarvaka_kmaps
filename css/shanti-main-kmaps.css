@@ -85,7 +85,7 @@
 
 .page-places .texts-list li{ line-height:1.75em;} /* opens up list for tibetan characters */
 
-.column ul.split:nth-of-type(1) > li.split{ list-style-type: none;}
+.places-in-places .column > ul > li{ list-style-type: none;}
 
 
 
