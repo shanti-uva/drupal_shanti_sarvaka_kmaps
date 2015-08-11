@@ -78,3 +78,10 @@
 .not-front .content-section.equal-height > .tab-content{ padding-top:0.5rem;}
 
 .page-subjects .carousel-header a{ display:none;}
+
+.atlwdg-trigger.atlwdg-SUBTLE{ position:absolute;right:10rem;border-right:1px solid #ccc;}
+
+.back-to-top{ position:fixed; bottom: 4em;} /* this seperates button from Kmaps EDIT button */
+
+
+
