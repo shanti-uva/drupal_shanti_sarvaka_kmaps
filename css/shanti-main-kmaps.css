@@ -79,7 +79,7 @@
 
 .page-subjects .carousel-header a{ display:none;}
 
-.atlwdg-trigger.atlwdg-SUBTLE{ position:fixed;right:10rem;border-right:1px solid #ccc;box-shadow:none;}
+.atlwdg-trigger.atlwdg-SUBTLE{ position:fixed;right:10rem !important;border-right:1px solid #ccc !important;box-shadow:none !important;}
 
 .back-to-top{ position:fixed; bottom: 4em;} /* this seperates button from Kmaps EDIT button */
 
