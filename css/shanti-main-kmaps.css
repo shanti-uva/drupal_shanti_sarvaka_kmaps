@@ -729,7 +729,7 @@
 @media (min-width:768px) {
   .feature-slide-detail {
     max-height: 28rem;
- /* max-height:33rem; - add/change height for including assets tabs */;
+ /* max-height:33rem; - add/change height for including assets tabs */
   }
 
   .carousel-resource-item span {
