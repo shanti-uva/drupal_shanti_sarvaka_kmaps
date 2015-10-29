@@ -10,6 +10,17 @@
 		} // end context = document
 	};
 
+
+	Drupal.behaviors.shantiKmapsHideBreadcrumbsEarth = {
+		attach: function (context, settings) {
+			if(context == window.document) {
+
+				$(".breadcrumbs a:contains('Earth')").hide();
+
+			}
+		} // end context = document
+	};
+
 }) (jQuery);
 
 
