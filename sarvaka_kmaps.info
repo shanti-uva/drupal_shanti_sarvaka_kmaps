@@ -33,7 +33,7 @@ stylesheets[all][] =  css/shanti-main-kmaps.css
 ;;;;;;;;;;;;;;;;;;;;;;
 ;;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;;
-;scripts[] = js/shanti-main-kmaps.js
+scripts[] = js/shanti-main-kmaps.js
 ;scripts[] = js/shanti-search-kmaps.js
 
 ;;;;;;;;;;;;;;;;;;;;;
