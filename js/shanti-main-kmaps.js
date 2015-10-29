@@ -1,3 +1,18 @@
+(function ($) {
+
+	Drupal.behaviors.shantiKmapsHideBreadcrumbsSubjects = {
+		attach: function (context, settings) {
+			if(context == window.document) {
+
+				$(".page-title-text:contains('Subjects')").hide(".breadcrumb");
+
+			}
+		} // end context = document
+	};
+
+}) (jQuery);
+
+
 
 
 
