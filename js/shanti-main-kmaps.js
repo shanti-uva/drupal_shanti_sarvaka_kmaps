@@ -4,7 +4,9 @@
 		attach: function (context, settings) {
 			if(context == window.document) {
 
+			$(window).load(function() {
 				$(".page-title-text:contains('Subjects')").hide(".breadcrumb");
+			});	
 
 			}
 		} // end context = document
@@ -15,7 +17,9 @@
 		attach: function (context, settings) {
 			if(context == window.document) {
 
+			$(window).load(function() {
 				$(".breadcrumbs a:contains('Earth')").hide();
+			});
 
 			}
 		} // end context = document
