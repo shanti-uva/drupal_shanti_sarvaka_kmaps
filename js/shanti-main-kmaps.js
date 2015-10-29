@@ -5,7 +5,7 @@
 			if(context == window.document) {
 
 			$(window).load(function() {
-				$(".page-title-text:contains('Subjects')").hide(".breadcrumb");
+				$(".front .page-title-text:contains('Subjects')").remove(".breadwrap");
 			});	
 
 			}
@@ -18,7 +18,7 @@
 			if(context == window.document) {
 
 			$(window).load(function() {
-				$(".breadcrumbs a:contains('Earth')").hide();
+				$(".breadcrumbs a:contains('Earth')").parents("li").remove();
 			});
 
 			}
