@@ -18,7 +18,7 @@
 			if(context == window.document) {
 
 			$(window).load(function() {
-				$(".breadcrumbs a:contains('Earth')").parents("li").remove();
+				$(".breadcrumb a:contains('Earth')").parents("li").remove();
 			});
 
 			}
