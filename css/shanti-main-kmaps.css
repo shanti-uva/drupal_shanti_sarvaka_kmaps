@@ -140,7 +140,7 @@
 }
 
 .page-places .breadcrumb li:nth-of-type(2),
-.front.page-subjects .breadwrap{ display:none;}
+.front.page-subjects .breadcrumb{ display:none !important;}
 
 /*-------------------------------------------*/
 /***** START BxSlider Carousel ******/
