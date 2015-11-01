@@ -139,8 +139,8 @@
   list-style-type: none;
 }
 
-
-
+.page-places .breadcrumb li:nth-of-type(2),
+.front.page-subjects .breadwrap{ display:none;}
 
 /*-------------------------------------------*/
 /***** START BxSlider Carousel ******/
