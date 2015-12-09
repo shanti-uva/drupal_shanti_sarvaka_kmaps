@@ -142,6 +142,8 @@
 /* this rmeoves the 2nd (Earth) breadcrumb */
 .kmaps.page-places .breadcrumb li:nth-of-type(2){ display:none !important;}
 
+.breadcrumb li:last-child{ top: 0.08rem; font-size: 1.25em;}
+
 /*-------------------------------------------*/
 /***** START BxSlider Carousel ******/
 /*-------------------------------------------*/
