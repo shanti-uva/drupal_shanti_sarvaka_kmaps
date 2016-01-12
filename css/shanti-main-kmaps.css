@@ -51,10 +51,6 @@
   border-left-color: #479beb !important;
 }
 
-.page-places .navbar-brand:active .site-slogan {
-  color: #444 !important;
-}
-
 
 
 /* Colors Subjects */
@@ -142,7 +138,12 @@
 /* this rmeoves the 2nd (Earth) breadcrumb */
 .kmaps.page-places .breadcrumb li:nth-of-type(2){ display:none !important;}
 
-.breadcrumb li:last-child{ top: 0.08rem; font-size: 1.25em;}
+
+.breadcrumb li:last-child{ 
+  top: -0.05rem;
+  font-size: 1.25em;
+}
+
 
 /*-------------------------------------------*/
 /***** START BxSlider Carousel ******/
@@ -585,10 +586,13 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-weight: bold;
 }
 
 .carousel-feature-slides p strong {
   margin-right: 0.4rem;
+  font-weight: normal;
+  font-weight:500;
 }
 
 .bx-wrapper .bx-viewport {
