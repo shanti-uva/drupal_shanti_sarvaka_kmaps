@@ -155,7 +155,7 @@
 
 .tab-video .content-section .tab-content.container-fluid{
   padding-right:0;
-  margin-right: -0.8rem;
+  margin-right: -5%;
 }
 
 .tab-video section.content-section{
@@ -844,4 +844,25 @@
   }
 }
 /***** END Carousel *****/
+
+
+
+
+
+@media (min-width:1200px) {
+
+  .tab-video .content-section .tab-content.container-fluid{
+    margin-right: -2.5%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
