@@ -14,9 +14,11 @@
 	
 	Drupal.behaviors.kmapsOffCanvasButton = {
 	  attach: function (context, settings) {
+	  	if(context == window.document) {
 			if($(".feature-carousel-tabpanel").length ) {
 				$("body").addClass('carousel');
-			}
+			};
+		}	
 	  }
 	};
 
