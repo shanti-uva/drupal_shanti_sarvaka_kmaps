@@ -16,7 +16,7 @@
 	  attach: function (context, settings) {
 	  	if(context == window.document) {
 			if($(".feature-carousel-tabpanel").length ) {
-				$("body").addClass('carousel');
+				$(".breadcrumb").css('display','none');
 			};
 		}	
 	  }
