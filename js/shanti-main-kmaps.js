@@ -1,4 +1,4 @@
-// (function ($) {
+(function ($) {
 
 	/***
 
@@ -9,18 +9,18 @@
 			});
 	  }
 	};
-	
+	**/
 	
 	
 	Drupal.behaviors.kmapsOffCanvasButton = {
 	  attach: function (context, settings) {
 			if($(".feature-carousel-tabpanel").length ) {
-				$(".btn-default.view-resources").css('display','none !important');
+				$("body").addClass('carousel');
 			}
 	  }
 	};
 
-	**/
+	
 
 
-// }) (jQuery);
+}) (jQuery);
