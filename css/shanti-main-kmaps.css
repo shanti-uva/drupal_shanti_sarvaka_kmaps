@@ -145,6 +145,15 @@
 }
 
 
+.tab-video .main-wrapper,
+.tab-video .content-resources .nav-pills li.active a{
+  background-color:#e0e0e0 !important;
+}
+
+
+
+
+
 /*-------------------------------------------*/
 /***** START BxSlider Carousel ******/
 /*-------------------------------------------*/
