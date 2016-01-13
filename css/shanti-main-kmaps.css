@@ -145,10 +145,26 @@
 }
 
 
+
+
+/*** Video iframe section ***/
 .tab-video .main-wrapper,
 .tab-video .content-resources .nav-pills li.active a{
   background-color:#e0e0e0 !important;
 }
+
+.tab-video .content-section .tab-content.container-fluid{
+  padding-right:0;
+  margin-right: -0.8rem;
+}
+
+.tab-video section.content-section{
+  padding-right:0;
+  margin-right:0;
+}
+
+
+
 
 
 
