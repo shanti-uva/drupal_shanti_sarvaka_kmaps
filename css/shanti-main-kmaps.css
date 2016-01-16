@@ -151,12 +151,16 @@
 
 .tab-video .content-section .tab-content.container-fluid{
   padding-right:0;
-  margin-right: -5%;
+  margin-right: -3%;
 }
 
 .tab-video section.content-section{
   padding-right:0;
   margin-right:0;
+}
+
+.tab-video section.content-section .col-md-9{
+  width: 81%;
 }
 
 
