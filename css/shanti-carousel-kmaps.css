@@ -3,7 +3,8 @@
 /*-------------------------------------------*/
 /***** START BxSlider Carousel ******/
 /*-------------------------------------------*/
-/* BxSlider v4.1.2 - Fully loaded, responsive content slider http://bxslider.com */
+ /** BxSlider v4.1.2 - Fully loaded, responsive content slider 
+** http://bxslider.com / note: override w/rahisified version  */
 .bx-wrapper {
   position: relative;
   margin: 0 auto 60px;
@@ -523,6 +524,16 @@
 .feature-slide.tab-pane.active {
   display: block !important;
 }
+
+
+
+
+.page-subjects .carousel-header a {
+  display: none;
+}
+
+
+
 
 /*----- BEGIN small carousel slides -----*/
 /* .carousel-feature-slides.bx-small-slides li span{ height:75%;}
