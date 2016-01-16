@@ -160,10 +160,24 @@
 }
 
 .tab-video section.content-section .col-md-9{
-  width: 81%;
+  width: 100%;
 }
 
 body.tab-video{
   background: #e0e0e0;
 } 
+
+
+
+
+@media screen and (min-width: 992px) {
+
+  .tab-video section.content-section .col-md-9{
+    width: 81%;
+  }
+}
+
+
+
+
 
