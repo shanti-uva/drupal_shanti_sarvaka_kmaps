@@ -160,9 +160,6 @@
   padding-right: 0;
   margin-right: 0; 
   padding-left: 5px;
-}
-
-.tab-video .content-section.equal-height{
   width: 100% !important;
 }
 
@@ -173,12 +170,10 @@ body.tab-video{
 @media screen and (min-width: 992px) {
 
   .tab-video .content-section.equal-height{
-    width: 80% !important;
-  }
-
-  .tab-video .content-section.equal-height{
     padding-right: 0;
     margin-right: -3%;
+    padding-left:2rem;
+    width: 80% !important;
   }
 }
 
@@ -191,7 +186,7 @@ body.tab-video{
 
 @media screen and (min-width: 1200px) {
 
-  .tab-video section.content-section .col-md-9{
+  .tab-video .content-section.equal-height{
     width: 85% !important;
   }
 }
