@@ -159,7 +159,7 @@
 .tab-video .content-section.equal-height{
   padding-right: 0;
   margin-right: 0; 
-  padding-left: 5px;
+  padding-left: 0;
   width: 100% !important;
 }
 
@@ -172,7 +172,7 @@ body.tab-video{
   .tab-video .content-section.equal-height{
     padding-right: 0;
     margin-right: -3%;
-    padding-left:2rem;
+    padding-left:1rem;
     width: 80% !important;
   }
 }
