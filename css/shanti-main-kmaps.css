@@ -157,6 +157,7 @@
 .tab-video section.content-section{
   padding-right:0;
   margin-right:0;
+  padding-left: 0;
 }
 
 .tab-video section.content-section .col-md-9{
