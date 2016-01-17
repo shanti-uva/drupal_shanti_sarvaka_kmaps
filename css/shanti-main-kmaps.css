@@ -149,19 +149,16 @@
   background-color:#e0e0e0 !important;
 }
 
+/*
 .tab-video .content-section .tab-content.container-fluid{
   padding-right:0;
   margin-right: -3%;
 }
+*/
 
 .tab-video section.content-section{
   padding-right: 0;
   margin-right: 15px; 
-}
-
-.tab-video section.content-section{
-  padding-right:0;
-  margin-right:0;
   padding-left: 0;
 }
 
