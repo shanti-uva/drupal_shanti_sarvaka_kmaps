@@ -144,7 +144,10 @@
 
 
 
-
+.tab-video .main-wrapper.container-fluid{
+  padding-right: 10px;
+  padding-left: 5px;
+}
 
 
 /*** Video iframe section ***/
@@ -159,6 +162,8 @@
   margin-right: -3%;
 }
 */
+
+
 
 .tab-video .content-section.equal-height{
   padding-right: 0;
