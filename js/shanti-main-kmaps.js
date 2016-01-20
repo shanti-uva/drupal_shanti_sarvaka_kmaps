@@ -1,12 +1,12 @@
 (function ($) {
-	
+
 	Drupal.behaviors.kmapsSubjectsHomepage = {
 	  attach: function (context, settings) {
 	  	if(context == window.document) {
 			if($(".feature-carousel-tabpanel").length ) {
 				$(".breadcrumb").css('display','none');
 			};
-		}	
+		}
 	  }
 	};
 
@@ -15,10 +15,10 @@
 	  	if(context == window.document) {
 			if($(".nav-pills a:contains('Audio-Video')").length ) {
 				$("body").addClass("tab-video");
-			});
-		}	
+			}
+		}
 	  }
-	};	
+	};
 
 
 }) (jQuery);
