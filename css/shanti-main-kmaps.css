@@ -188,18 +188,16 @@ body.tab-video{
 @media screen and (min-width: 1100px) {
 
   .tab-video .content-section.equal-height{
-    width: 80% !important;
+    width: 80.5% !important;
   }
 }
 
 @media screen and (min-width: 1200px) {
 
-  section.content-section .tab-content:nth-of-type(1){
-    
-  }
+  section.content-section .tab-content:nth-of-type(1){ }
 
   .tab-video .content-section.equal-height{
-    width: 83.5% !important;
+    width: 84.5% !important;
   }
 }
 
