@@ -179,16 +179,16 @@ body.tab-video{
 @media screen and (min-width: 992px) {
 
   .tab-video .content-section.equal-height{
-    padding-right: 0;
-    padding-left: 0.5rem;
-    width: 77% !important;
+    padding-right: 0 !important;
+    padding-left: 0.5rem !important;
+    width: 78% !important;
   }
 }
 
 @media screen and (min-width: 1100px) {
 
   .tab-video .content-section.equal-height{
-    width: 82% !important;
+    width: 80% !important;
   }
 }
 
@@ -199,7 +199,7 @@ body.tab-video{
   }
 
   .tab-video .content-section.equal-height{
-    width: 84.5% !important;
+    width: 83.5% !important;
   }
 }
 
