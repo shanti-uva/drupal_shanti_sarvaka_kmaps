@@ -13,7 +13,7 @@
 	Drupal.behaviors.kmapsVideoTabID = {
 	  attach: function (context, settings) {
 	  	if(context == window.document) {
-			if($(".nav-pills li.active > a:contains('Audio-Video')").length ) {
+			if($(".nav-pills a:contains('Audio-Video')").length ) {
 				$("body").addClass("tab-video");
 			});
 		}	
