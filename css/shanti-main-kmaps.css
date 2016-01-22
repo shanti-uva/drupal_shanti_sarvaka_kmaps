@@ -51,7 +51,10 @@
   border-left-color: #479beb !important;
 }
 
-.page-places::selection,
+.page-places::selection{
+  background: #fb8c4c !important;
+}
+
 .page-places::-moz-selection {
   background: #fb8c4c !important;
 }
@@ -109,9 +112,12 @@
   color: #444 !important;
 }
 
-.page-subjects::selection,
 .page-subjects::-moz-selection {
   background: #47dc3c!important;
+}
+
+.page-subjects::selection {
+  background: #47dc3c !important;
 }
 /*--- END custom colors ---*/
 
