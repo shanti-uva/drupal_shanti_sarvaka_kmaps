@@ -107,6 +107,7 @@
 }
 /*--- END custom colors ---*/
 
+
 .not-front .content-section.equal-height > .tab-content {
   padding-top: 0.5rem;
 }
@@ -120,12 +121,12 @@
 
 .back-to-top {
   position: fixed;
-  bottom: 4em;
-} /* this seperates button from Kmaps EDIT button */
+  bottom: 4em; /* this seperates button from Kmaps EDIT button */
+} 
 
 .page-places .texts-list li {
-  line-height: 1.75em;
-} /* opens up list for tibetan characters */
+  line-height: 1.75em;  /* opens up list for tibetan characters */
+}
 
 .places-in-places .column > ul > li {
   list-style-type: none;
@@ -142,28 +143,11 @@
 
 
 
-
-
-.tab-video .main-wrapper.container-fluid{
-  /*padding-right: 15px;
-  padding-left: 15px;*/
-}
-
-
-/*** Video iframe section ***/
+/*** Video iframe ***/
 .tab-video .main-wrapper,
 .tab-video .content-resources .nav-pills li.active a{
   background-color:#e0e0e0 !important;
 }
-
-/*
-.tab-video .content-section .tab-content.container-fluid{
-  padding-right:0;
-  margin-right: -3%;
-}
-*/
-
-
 
 .tab-video .content-section.equal-height{
   padding-right: 0;
@@ -200,32 +184,5 @@ body.tab-video{
     padding-left: 0;
   }
 }
-
-
-
-
-
-/*
-.tab-video iframe::-webkit-scrollbar-track{
-  background-color: #e0e0e0 !important;
-  outline: 1px solid #e0e0e0 !important;
-}
-*/
-/*
-
-body::-webkit-scrollbar {
-    width: 0.3rem;
-}
- 
-body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
- 
-body::-webkit-scrollbar-thumb {
-  background-color: #555;
-  outline: 1px solid #555;
-}
-
-*/
 
 
