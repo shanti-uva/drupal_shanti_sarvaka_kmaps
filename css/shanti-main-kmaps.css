@@ -38,7 +38,7 @@
 .page-places .view-section .nav-tabs>li.active>a, 
 .page-places .view-section .nav-tabs>li.active>a:hover, 
 .page-places .view-section .nav-tabs>li.active>a:active {
-  color: #479beb !important;
+  color: #eb8347 !important;
 }
 
 .page-places .view-section .nav-tabs>li.active>a, 
@@ -51,7 +51,10 @@
   border-left-color: #479beb !important;
 }
 
-
+.page-places::selection,
+.page-places::-moz-selection {
+  background: #fb8c4c !important;
+}
 
 /* Colors Subjects */
 .page-subjects .titlearea,
@@ -104,6 +107,11 @@
 
 .page-subjects .navbar-brand:active .site-slogan {
   color: #444 !important;
+}
+
+.page-subjects::selection,
+.page-subjects::-moz-selection {
+  background: #47dc3c!important;
 }
 /*--- END custom colors ---*/
 
