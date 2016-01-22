@@ -51,13 +51,15 @@
   border-left-color: #479beb !important;
 }
 
-.page-places::selection{
+.page-places ::-moz-selection {
   background: #fb8c4c !important;
 }
 
-.page-places::-moz-selection {
+.page-places ::selection{
   background: #fb8c4c !important;
 }
+
+
 
 /* Colors Subjects */
 .page-subjects .titlearea,
@@ -112,11 +114,11 @@
   color: #444 !important;
 }
 
-.page-subjects::-moz-selection {
+.page-subjects ::-moz-selection {
   background: #47dc3c!important;
 }
 
-.page-subjects::selection {
+.page-subjects ::selection {
   background: #47dc3c !important;
 }
 /*--- END custom colors ---*/
