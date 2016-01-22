@@ -38,17 +38,17 @@
 .page-places .view-section .nav-tabs>li.active>a, 
 .page-places .view-section .nav-tabs>li.active>a:hover, 
 .page-places .view-section .nav-tabs>li.active>a:active {
-  color: #4ca6fb !important;
+  color: #418ed7 !important;
 }
 
 .page-places .view-section .nav-tabs>li.active>a, 
 .page-places .view-section .nav-tabs>li.active>a:hover, 
 .page-places .view-section .nav-tabs>li.active>a:active {
-  border-top-color: #479beb !important;
+  border-top-color: #418ed7 !important;
 }
 
 .page-places .content-resources .nav-pills li.active {
-  border-left-color: #479beb !important;
+  border-left-color: #418ed7 !important;
 }
 
 .page-places ::-moz-selection {
