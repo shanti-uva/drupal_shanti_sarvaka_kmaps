@@ -14,16 +14,14 @@
 	  attach: function (context, settings) {
 	  	if(context == window.document) {
 
-			if($(".nav-pills li.active a:contains('Audio-Video')") {
+			if($(".nav-pills li.active a:contains('Audio-Video')").length ) {
 				$("body").addClass("tab-video");
 			
-			} else {
+			} else 
 				
-			// if($(".nav-pills li.active a:not(:contains('Audio-Video'))")) {
-				
-				$("body").removeClass("tab-video");
-			// }	
+			if($(".nav-pills li.active a:not(:contains('Audio-Video'))").length ) {
 
+				$("body").removeClass("tab-video");
 			}
 		  	
 		}
