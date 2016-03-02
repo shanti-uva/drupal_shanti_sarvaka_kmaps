@@ -159,11 +159,12 @@
 
 
 
-/*** Video iframe ***/
+/*** Video iframe 
 .tab-video .main-wrapper,
 .tab-video .content-resources .nav-pills li.active a{
   background-color:#e0e0e0 !important;
 }
+***/
 
 .tab-video .content-section.equal-height{
   padding-right: 0;
@@ -171,10 +172,11 @@
   padding-left: 0;
   width: 100% !important;
 }
-
+/*
 body.tab-video{
   background: #e0e0e0 !important;
 } 
+*/
 
 @media screen and (min-width: 992px) {
 
