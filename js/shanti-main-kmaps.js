@@ -14,6 +14,8 @@
 	  attach: function (context, settings) {
 	  	if(context == window.document) {
 			
+		  $(".nav-pills li a").click( function() {
+
 			if($(".nav-pills li.active a:contains('Audio-Video')").length ) {
 				$("body").addClass("tab-video");
 
@@ -22,6 +24,9 @@
 			if($(".nav-pills li.active a:contains('Images')").length ) {
 				$("body").addClass("tab-images");
 			}
+
+		  });
+		  	
 		}
 	  }
 	};
