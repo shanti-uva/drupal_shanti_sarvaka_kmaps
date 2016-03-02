@@ -14,12 +14,12 @@
 	  attach: function (context, settings) {
 	  	if(context == window.document) {
 			
-			if($(".nav-pills a.active:contains('Audio-Video')").length ) {
+			if($(".nav-pills li.active a:contains('Audio-Video')").length ) {
 				$("body").addClass("tab-video");
 
 			} else {
 
-			if($(".nav-pills a.active:contains('Images')").length ) {
+			if($(".nav-pills li.active a:contains('Images')").length ) {
 				$("body").addClass("tab-images");
 			}
 		}
