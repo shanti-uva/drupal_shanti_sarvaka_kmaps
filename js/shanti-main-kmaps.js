@@ -13,19 +13,18 @@
 	Drupal.behaviors.kmapsVideoTabID = {
 	  attach: function (context, settings) {
 	  	if(context == window.document) {
-			
-		  $(".nav-pills li a").click( function() {
 
-			if($(".nav-pills li.active a:contains('Audio-Video')").length ) {
+			if($(".nav-pills li.active > a:contains('Audio-Video')").length ) {
 				$("body").addClass("tab-video");
-
+			} else {
+				$("body").removeClass("tab-video");
 			}
 
-			if($(".nav-pills li.active a:contains('Images')").length ) {
+			if($(".nav-pills li.active > a:contains('Images')").length ) {
 				$("body").addClass("tab-images");
+			} else {
+				$("body").removeClass("tab-images");
 			}
-
-		  });
 		  	
 		}
 	  }
