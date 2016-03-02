@@ -17,7 +17,7 @@
 			if($(".nav-pills li.active a:contains('Audio-Video')").length ) {
 				$("body").addClass("tab-video");
 
-			} else {
+			}
 
 			if($(".nav-pills li.active a:contains('Images')").length ) {
 				$("body").addClass("tab-images");
