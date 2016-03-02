@@ -17,12 +17,12 @@
 			if($(".nav-pills li.active a:contains('Audio-Video')").length ) {
 				$("body").addClass("tab-video");
 			
-			} else 
+			} else {
 				
 			//if($(".nav-pills li.active a:not(:contains('Audio-Video'))").length ) {
 
 				$("body").removeClass("tab-video");
-			//}
+			}
 		  	
 		}
 	  }
