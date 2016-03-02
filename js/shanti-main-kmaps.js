@@ -14,22 +14,21 @@
 	  attach: function (context, settings) {
 	  	if(context == window.document) {
 
-			if($(".nav-pills li.active > a:contains('Audio-Video')").length ) {
+			if($(".nav-pills li.active a:contains('Audio-Video')") {
 				$("body").addClass("tab-video");
+			
 			} else {
+				
+			// if($(".nav-pills li.active a:not(:contains('Audio-Video'))")) {
+				
 				$("body").removeClass("tab-video");
-			}
+			// }	
 
-			if($(".nav-pills li.active > a:contains('Images')").length ) {
-				$("body").addClass("tab-images");
-			} else {
-				$("body").removeClass("tab-images");
 			}
 		  	
 		}
 	  }
 	};
-
 
 }) (jQuery);
 
