@@ -19,10 +19,10 @@
 			
 			} else 
 				
-			if($(".nav-pills li.active a:not(:contains('Audio-Video'))").length ) {
+			//if($(".nav-pills li.active a:not(:contains('Audio-Video'))").length ) {
 
 				$("body").removeClass("tab-video");
-			}
+			//}
 		  	
 		}
 	  }
