@@ -19,13 +19,11 @@
 				if($(".nav-pills li.active a:contains('Audio-Video')").length > 0 ) {
 					$("body").addClass("tab-video");
 				
-				} else {
+				} else 
 					
-					if($(".nav-pills li.active a:contains('Audio-Video')").length < 0 ) {
+				if($(".nav-pills li.active a:contains('Audio-Video')").length < 0 ) {
 
-						$("body").removeClass("tab-video");
-					}
-
+					$("body").removeClass("tab-video");
 				}
 
 			});
