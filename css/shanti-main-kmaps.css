@@ -172,6 +172,13 @@
   padding-left: 0;
   width: 100% !important;
 }
+
+.og-expander{
+  margin-left:1rem;
+}
+
+
+
 /*
 body.tab-video{
   background: #e0e0e0 !important;
