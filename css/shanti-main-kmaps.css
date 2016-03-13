@@ -157,7 +157,9 @@
   font-size: 1.25em;
 }
 
-
+.carousel-header{
+  max-width:100%;
+}
 
 /*** Video iframe 
 .tab-video .main-wrapper,
