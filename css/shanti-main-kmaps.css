@@ -158,7 +158,13 @@
 }
 
 .carousel-header{
-  max-width:100%;
+  max-width:100%; 
+}
+
+.thumbnail{
+  padding:0;
+  border-radius:0;
+  border:none;
 }
 
 /*** Video iframe 
