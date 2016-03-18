@@ -110,16 +110,17 @@
   border-top-color: #dc3c47 !important;
 }
 
-.page-subjects .navbar-brand:active .site-slogan {
-  color: #444 !important;
-}
-
 .page-subjects ::-moz-selection {
   background: #47dc3c!important;
 }
 
 .page-subjects ::selection {
   background: #47dc3c !important;
+}
+
+.page-places .navbar-brand:active .site-slogan,
+.page-subjects .navbar-brand:active .site-slogan {
+  color: #444 !important;
 }
 /*--- END custom colors ---*/
 
@@ -181,10 +182,6 @@
   width: 100% !important;
 }
 
-.og-expander{
-  margin-left:1rem;
-}
-
 
 
 /*
@@ -192,6 +189,21 @@ body.tab-video{
   background: #e0e0e0 !important;
 } 
 */
+
+
+
+
+/* custom image gallery for kmaps display */
+.og-expander{
+  margin-left:1rem; 
+}
+
+
+
+
+
+
+
 
 @media screen and (min-width: 992px) {
 
