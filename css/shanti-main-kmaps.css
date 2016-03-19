@@ -199,8 +199,8 @@ body.tab-video{
 }
 
 
-.content-section .panel-group{
-  margin-bottom:7rem;
+.content-section .panel-group:last-of-type{
+  margin-bottom:30rem;
 }
 
 
