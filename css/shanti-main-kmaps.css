@@ -199,7 +199,9 @@ body.tab-video{
 }
 
 
-
+.content-section .panel-group{
+  margin-bottom:7rem;
+}
 
 
 
