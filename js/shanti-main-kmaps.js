@@ -10,6 +10,21 @@
 	  }
 	};
 
+
+	Drupal.behaviors.kmapsEqualHeights = {
+  		attach: function (context, settings) {
+			if(context == window.document) {        
+
+			    $(document).on('ajaxSuccess', function(){
+			      $('.equal-height').matchHeight({
+			          target: $('.content-section.equal-height')
+			      });
+			    });   
+
+    		}
+  		} 
+	};
+
 }) (jQuery);
 
 
