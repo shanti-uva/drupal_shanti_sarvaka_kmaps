@@ -205,7 +205,10 @@ body.tab-video{
 }
 
 
-
+.content-section>.tab-content>article h6:first-of-type{
+  text-transform: uppercase;
+  font-size: 90%;
+}
 
 
 @media screen and (min-width: 992px) {
