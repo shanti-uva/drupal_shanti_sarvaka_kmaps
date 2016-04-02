@@ -124,13 +124,13 @@
 }
 /*--- END custom colors ---*/
 
-
+/*
 .feature-type-wrapper{
   padding: 1.5rem 0 0.75rem;
 }
-
-.not-front .content-section.equal-height > .tab-content {
-  /*padding-top: 0.5rem;*/
+*/
+.not-front .content-section.equal-height:first-of-type > .tab-content {
+  padding-top: 0.5rem;
 }
 
 .atlwdg-trigger.atlwdg-SUBTLE {
