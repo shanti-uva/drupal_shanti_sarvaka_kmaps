@@ -187,7 +187,7 @@
   margin-bottom:15rem;
 }
 
-body:not(.front) .content-section.equal-height>.tab-content>article h6{
+body:not(.front) .content-section.equal-height>.tab-content>article h6:first-of-type{
   text-transform: uppercase !important;
   font-size: 90%;
 }
