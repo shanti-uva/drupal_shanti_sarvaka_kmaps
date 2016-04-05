@@ -210,21 +210,25 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
 
 
 
-/**
-* Layout
-*/
-body:not(.front) .content-section.equal-height>.tab-content:nth-of-type(1) { padding-right:15px; }
-body:not(.front) .content-section.equal-height:nth-of-type(2) { width:100%; }
+/** ----------------
+*** Layouts
+* ------------------*/
+body:not(.front) .content-section.equal-height:nth-of-type(2) { width: 100%; }
+body:not(.front) .content-section.equal-height:nth-of-type(2)>.tab-content { padding-right: 5px; }
 
+
+/**
+* Breakpoints 
+*/
 @media screen and (min-width: 992px) {
 
   body:not(.front) .content-section.equal-height>.tab-content:nth-of-type(1){  }
-  body:not(.front) .content-section.equal-height:nth-of-type(2) { width:78%; padding-right:0; }
+  body:not(.front) .content-section.equal-height:nth-of-type(2) { width: 78%; padding-right: 0; }
 }
 
 @media screen and (min-width: 1200px) {
 
-  body:not(.front) .content-section.equal-height:nth-of-type(2) { width:82%; }
+  body:not(.front) .content-section.equal-height:nth-of-type(2) { width: 82%; }
 }
 
 
