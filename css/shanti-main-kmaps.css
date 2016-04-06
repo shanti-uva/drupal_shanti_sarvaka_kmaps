@@ -197,15 +197,26 @@
   margin-bottom:21rem;
 }
 
+
+
+
 .front .content-section.equal-height>.tab-content>article h6:first-of-type{
-  text-transform: uppercase !important;
-  font-size: 0.56em;
+  /*font-size: 0.56em;*/
 }
 
 body:not(.front) .content-section.equal-height>.tab-content>article h6{
   text-transform: uppercase !important;
-  /* font-size: 90%; */
+  /*font-size: 90%;*/
 }
+
+
+.tab-content .places-in-places h6{
+  font-size: 0.88em;
+  border: 2px solid #ddd;
+  background: #fff;
+  padding: 7px 12px 5px;
+}
+
 
 
 
