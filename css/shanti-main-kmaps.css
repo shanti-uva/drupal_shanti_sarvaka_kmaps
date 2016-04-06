@@ -188,6 +188,9 @@
   width: 97.5%;
 }
 
+
+
+
 .content-section .panel-group:last-of-type{
   margin-bottom:21rem;
 }
@@ -197,14 +200,14 @@
 
 
 
-.front .content-section.equal-height>.tab-content>article h6:first-of-type{
-  /*font-size: 0.56em;*/
-}
+.front .content-section.equal-height>.tab-content>article h6:first-of-type{ /*font-size: 0.56em;*/ }
 
 body:not(.front) .content-section.equal-height>.tab-content>article h6{
   text-transform: uppercase !important;
-  /*font-size: 90%;*/
 }
+
+
+
 
 .page-places .texts-list li {
   line-height: 1.75em;  /* opens up list for tibetan characters */
@@ -239,27 +242,25 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
 *** Layouts
 * ------------------*/
 body:not(.front) .content-section.equal-height .content-section.equal-height { width: 100%; padding-right: 1rem;}
-
-
-
 /**
 * Breakpoints 
 */
 @media screen and (min-width: 992px) {
-
   body:not(.front) .content-section.equal-height > .tab-content{  }
   body:not(.front) .content-section.equal-height .content-section.equal-height { width: 78%; padding-right:0;}
 }
 
 @media screen and (min-width: 1100px) {
-
   body:not(.front) .content-section.equal-height .content-section.equal-height { width: 80%; }
 }
 
 @media screen and (min-width: 1200px) {
-
   body:not(.front) .content-section.equal-height .content-section.equal-height { width: 84%; }
 }
+/**
+*** END Layouts */
+
+
 
 
 
