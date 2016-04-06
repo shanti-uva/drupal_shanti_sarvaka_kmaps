@@ -213,7 +213,7 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
 /** ----------------
 *** Layouts
 * ------------------*/
-body:not(.front) .content-section.equal-height .content-section.equal-height { width: 100%; padding-right: 10px;}
+body:not(.front) .content-section.equal-height .content-section.equal-height { width: 100%; padding-right: 1rem;}
 
 
 
@@ -222,8 +222,8 @@ body:not(.front) .content-section.equal-height .content-section.equal-height { w
 */
 @media screen and (min-width: 992px) {
 
-  body:not(.front) .content-section.equal-height>.tab-content:nth-of-type(1){  }
-  body:not(.front) .content-section.equal-height  .content-section.equal-height { width: 78%;}
+  body:not(.front) .content-section.equal-height > .tab-content{  }
+  body:not(.front) .content-section.equal-height .content-section.equal-height { width: 78%; padding-right:0;}
 }
 
 @media screen and (min-width: 1100px) {
