@@ -213,20 +213,21 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
   line-height: 1.75em;  /* opens up list for tibetan characters */
 }
 
+.kmaps-list-columns .column > ul > li,
 .places-in-places .column > ul > li {
   list-style-type: none;
   font-weight:bold;
   margin-top:1rem;
 }
-
+.kmaps-list-columns .column:not(.first),
 .places-in-places .column:not(.first){
   margin-top:4.5rem; 
 }
-
+.kmaps-list-columns .column > ul > li ul li,
 .places-in-places .column > ul > li ul li {
   font-weight:normal;
 }
-
+.kmaps-list-columns h6,
 .places-in-places h6{
   font-size: 0.88em;
   border: 2px solid #ddd;
