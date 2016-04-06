@@ -211,6 +211,11 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
 .places-in-places .column > ul > li {
   list-style-type: none;
   font-weight:bold;
+  margin-top:1rem;
+}
+
+.places-in-places .column:not(.first){
+  margin-top:4.5rem; 
 }
 
 .places-in-places .column > ul > li ul li {
