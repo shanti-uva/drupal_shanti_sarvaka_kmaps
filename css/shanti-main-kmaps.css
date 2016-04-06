@@ -154,13 +154,6 @@
   bottom: 4em; /* this seperates button from Kmaps EDIT button */
 } 
 
-.page-places .texts-list li {
-  line-height: 1.75em;  /* opens up list for tibetan characters */
-}
-
-.places-in-places .column > ul > li {
-  list-style-type: none;
-}
 
 
 
@@ -200,6 +193,8 @@
 
 
 
+
+
 .front .content-section.equal-height>.tab-content>article h6:first-of-type{
   /*font-size: 0.56em;*/
 }
@@ -209,8 +204,20 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
   /*font-size: 90%;*/
 }
 
+.page-places .texts-list li {
+  line-height: 1.75em;  /* opens up list for tibetan characters */
+}
 
-.tab-content .places-in-places h6{
+.places-in-places .column > ul > li {
+  list-style-type: none;
+  font-weight:bold;
+}
+
+.places-in-places .column > ul > li ul li {
+  font-weight:normal;
+}
+
+.places-in-places h6{
   font-size: 0.88em;
   border: 2px solid #ddd;
   background: #fff;
