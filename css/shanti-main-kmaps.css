@@ -206,9 +206,9 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
   font-weight:bold;
   margin-top:1rem;
 }
-.kmaps-list-columns .column:not(.first),
-.places-in-places .column:not(.first){
-  margin-top:4.5rem; 
+.kmaps-list-columns .column:not(.first){
+  /* margin-top:4.5rem; */
+  padding-left: 2rem;
 }
 .kmaps-list-columns .column > ul > li ul li,
 .places-in-places .column > ul > li ul li {
