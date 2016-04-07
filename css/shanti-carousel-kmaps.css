@@ -20,6 +20,7 @@
   margin:0;
   box-shadow: none;
   border-radius:0;
+  border:none;
 }
 
 .bxslider {
@@ -425,11 +426,6 @@
   left: 50%;
   top: -2.2rem;
   margin-left: -1rem;
-}
-
-.carousel-feature-slides img {
-  background: #fff;
-  border-bottom: 1px solid #aaa;
 }
 
 .carousel-feature-slides p {
