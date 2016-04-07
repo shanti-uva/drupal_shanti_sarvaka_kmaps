@@ -197,6 +197,7 @@
 
 .feature-slide .carousel-header {
   margin-top: 0;
+  max-width:100%; 
 }
 
 .feature-slide .carousel-header span {
@@ -292,7 +293,7 @@
 
 .carousel-resource-item h6 {
   color: #888;
-  font-size: 0.68em;
+  font-size: 0.62em;
   margin: 0.4rem 0 0.4rem 0.25rem;
   font-family: 'droidserif',palatino,'Palatino Linotype',georgia,serif;
 }

@@ -167,19 +167,11 @@
   font-size: 1.25em;
 }
 
-.carousel-header{
-  max-width:100%; 
-}
-
 .thumbnail{
   padding:0;
   border-radius:0;
   border:none;
 }
-
-
-
-
 
 
 /* custom image gallery for kmaps display */
@@ -189,8 +181,6 @@
 }
 
 
-
-
 .content-section .panel-group:last-of-type{
   margin-bottom:21rem;
 }
@@ -198,9 +188,6 @@
 
 
 
-
-
-.front .content-section.equal-height>.tab-content>article h6:first-of-type{ /*font-size: 0.56em;*/ }
 
 body:not(.front) .content-section.equal-height>.tab-content>article h6{
   text-transform: uppercase !important;
