@@ -215,7 +215,6 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
   font-weight:normal;
 }
 
-.texts-list h6,
 .kmaps-list-columns h6{
   font-size: 0.82em;
   border: 2px solid #ddd;
