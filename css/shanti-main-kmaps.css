@@ -196,33 +196,36 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
 
 
 
-.page-places .texts-list li {
-  line-height: 1.75em;  /* opens up list for tibetan characters */
-}
 
+.texts-list .column > ul > li,
 .kmaps-list-columns .column > ul > li,
 .places-in-places .column > ul > li {
   list-style-type: none;
   font-weight:bold;
   margin-top:1rem;
 }
+
+.texts-list .column:not(.first),
 .kmaps-list-columns .column:not(.first){
-  /* margin-top:4.5rem; */
   padding-left: 2rem;
 }
-.kmaps-list-columns .column > ul > li ul li,
-.places-in-places .column > ul > li ul li {
+
+.texts-list .column > ul > li ul li,
+.kmaps-list-columns .column > ul > li ul li {
   font-weight:normal;
 }
-.kmaps-list-columns h6,
-.places-in-places h6{
+
+.texts-list h6,
+.kmaps-list-columns h6{
   font-size: 0.82em;
   border: 2px solid #ddd;
   background: #fff;
   padding: 7px 12px 5px;
 }
 
-
+.page-places .texts-list li {
+  line-height: 1.75em;  /* opens up list for tibetan characters */
+}
 
 
 
