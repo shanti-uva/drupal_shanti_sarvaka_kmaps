@@ -231,13 +231,13 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
 /** ----------------
 *** Layouts
 * ------------------*/
-body:not(.front) .content-section.equal-height .content-section.equal-height { width: 100%; padding-right: 1rem; padding-top: 0.5rem; }
+body:not(.front) .content-section.equal-height .content-section.equal-height { width: 100%; padding:0.5rem 2.75rem 0; }
 /**
 * Breakpoints 
 */
 @media screen and (min-width: 992px) {
   body:not(.front) .content-section.equal-height > .tab-content{  }
-  body:not(.front) .content-section.equal-height .content-section.equal-height { width: 77%; /*padding-right:0;*/ }
+  body:not(.front) .content-section.equal-height .content-section.equal-height { width: 77%; }
 }
 
 @media screen and (min-width: 1100px) {
