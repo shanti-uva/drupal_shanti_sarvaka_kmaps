@@ -237,15 +237,15 @@ body:not(.front) .content-section.equal-height .content-section.equal-height { w
 */
 @media screen and (min-width: 992px) {
   body:not(.front) .content-section.equal-height > .tab-content{  }
-  body:not(.front) .content-section.equal-height .content-section.equal-height { width: 78%; padding-right:0; }
+  body:not(.front) .content-section.equal-height .content-section.equal-height { width: 77%; padding-right:0; }
 }
 
 @media screen and (min-width: 1100px) {
-  body:not(.front) .content-section.equal-height .content-section.equal-height { width: 80%; }
+  body:not(.front) .content-section.equal-height .content-section.equal-height { width: 79%; }
 }
 
 @media screen and (min-width: 1200px) {
-  body:not(.front) .content-section.equal-height .content-section.equal-height { width: 84%; }
+  body:not(.front) .content-section.equal-height .content-section.equal-height { width: 83%; }
 }
 /**
 *** END Layouts */
