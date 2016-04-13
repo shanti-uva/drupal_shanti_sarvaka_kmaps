@@ -247,7 +247,7 @@ body:not(.front) .content-section.equal-height .content-section.equal-height { w
 
 @media screen and (min-width: 1200px) {
 
-  body:not(.front) .content-section.equal-height .content-section.equal-height { width: 84.5%; }
+  body:not(.front) .content-section.equal-height .content-section.equal-height { width: 84%; }
 }
 /**
 *** END Layouts */
