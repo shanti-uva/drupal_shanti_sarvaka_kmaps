@@ -231,7 +231,7 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
 /** ----------------
 *** Layouts
 * ------------------*/
-body:not(.front) .content-section.equal-height .content-section.equal-height { width: 100%; /*padding:0.5rem 2.75rem 0; */}
+body:not(.front) .content-section.equal-height .content-section.equal-height { width: 100%; padding-right:0; /*padding:0.5rem 2.75rem 0; */}
 /**
 * Breakpoints 
 */
@@ -245,7 +245,7 @@ body:not(.front) .content-section.equal-height .content-section.equal-height { w
 }
 
 @media screen and (min-width: 1200px) {
-  body:not(.front) .content-section.equal-height .content-section.equal-height { width: 83.3%; }
+  body:not(.front) .content-section.equal-height .content-section.equal-height { width: 84.5%; }
 }
 /**
 *** END Layouts */
