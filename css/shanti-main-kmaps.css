@@ -16,14 +16,13 @@
 .page-places .breadcrumb .icon,
 .page-places .fixed-action-button a,
 .page-places .bx-controls-direction a,
-.page-places .nav-justified>li.active a,
-.page-places .nav-justified>li.active a:hover,
-.page-places .nav-justified>li.active a:active {
+.page-places .nav-tabs.nav-justified>li.active a,
+.page-places .nav-tabs.nav-justified>li.active a:hover,
+.page-places .nav-tabs.nav-justified>li.active a:active {
   background: #4ca6fb !important;
 }
 
 .page-places .navbar-brand:hover .site-slogan,
-.page-places .nav-justified>li.active::before,
 .page-places .view-section ul.fancytree-container .glyphicon,
 .page-places .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
 .page-places .view-section .fancytree-node.fancytree-active > .glyphicon,
@@ -53,14 +52,9 @@
   color: #418ed7 !important;
 }
 
-.page-places .view-section .nav-tabs>li.active>a, 
-.page-places .view-section .nav-tabs>li.active>a:hover, 
-.page-places .view-section .nav-tabs>li.active>a:active {
-  border-top-color: #418ed7 !important;
-}
-
+.page-places .view-section .nav-tabs>li.active,
 .page-places .content-resources .nav-pills li.active {
-  border-left-color: #418ed7 !important;
+  border-color: #418ed7 !important;
 }
 
 .page-places ::-moz-selection {
@@ -69,6 +63,13 @@
 
 .page-places ::selection{
   background: #fb8c4c !important;
+}
+
+@media screen and (min-width: 768px) {
+
+  .nav-tabs.nav-justified>li.active::before{  
+    color: #4ca6fb !important;
+  }
 }
 
 
@@ -80,14 +81,13 @@
 .page-subjects .breadcrumb .icon,
 .page-subjects .fixed-action-button a,
 .page-subjects .bx-controls-direction a,
-.page-subjects .nav-justified>li.active a,
-.page-subjects .nav-justified>li.active a:hover,
-.page-subjects .nav-justified>li.active a:active {
+.page-subjects .nav-tabs.nav-justified>li.active a,
+.page-subjects .nav-tabs.nav-justified>li.active a:hover,
+.page-subjects .nav-tabs.nav-justified>li.active a:active {
   background: #dc3c47 !important;
 }
 
 .page-subjects .navbar-brand:hover .site-slogan,
-.page-subjects .nav-justified>li.active::before,
 .page-subjects .view-section ul.fancytree-container .glyphicon,
 .page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
 .page-subjects .view-section .fancytree-node.fancytree-active > .glyphicon,
@@ -114,14 +114,9 @@
   border-color: #dc3c47 !important;
 }
 
+.page-subjects .view-section .nav-tabs>li.active,
 .page-subjects .content-resources .nav-pills li.active {
-  border-left-color: #dc3c47 !important;
-}
-
-.page-subjects .view-section .nav-tabs>li.active>a, 
-.page-subjects .view-section .nav-tabs>li.active>a:hover, 
-.page-subjects .view-section .nav-tabs>li.active>a:active {
-  border-top-color: #dc3c47 !important;
+  border-color: #dc3c47 !important;
 }
 
 .page-subjects ::-moz-selection {
@@ -135,6 +130,13 @@
 .page-places .navbar-brand:active .site-slogan,
 .page-subjects .navbar-brand:active .site-slogan {
   color: #444 !important;
+}
+
+@media screen and (min-width: 768px) {
+
+  .nav-tabs.nav-justified>li.active::before{  
+    color: #dc3c47 !important;
+  }
 }
 /* ------------------
 * END colors 
