@@ -16,8 +16,8 @@
 			if(context == window.document) {        
 
 			    $(document).on('ajaxSuccess', function(){
-			      $('.equal-height').matchHeight({
-			          target: $('.content-section.equal-height')
+			      $('.equal-height').first().matchHeight({
+			          target: $('.equal-height.col-xs-12');
 			      });
 			    });   
 
