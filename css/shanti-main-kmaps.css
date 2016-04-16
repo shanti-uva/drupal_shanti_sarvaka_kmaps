@@ -188,7 +188,11 @@
 }
 
 
-
+/**
+* this overrides the sarvaka bottom padding-bottom:'7rem' for content since it does not work well for some reason with equal-height in kmaps */
+section.content-section.equal-height{
+  padding-bottom: 0;
+}
 
 
 body:not(.front) .content-section.equal-height>.tab-content>article h6{
