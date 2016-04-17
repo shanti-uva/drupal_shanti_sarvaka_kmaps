@@ -29,10 +29,12 @@
               });
             });  
 
-            $('.panel-header h6 a').bind( 'click', function() {
-                $('.main-col .equal-height').matchHeight({
-                  target: $('.equal-height.col-md-9')
-                }); 
+            $('.panel-header').on( 'click', function() {
+            	$( document ).ready(function() {
+	                $('.main-col .equal-height').matchHeight({
+	                  target: $('.equal-height.col-md-9')
+	                }); 
+            	});
             }); 
 
 	         // $(window).bind('load orientationchange resize', Drupal.behaviors.shantiEqualHeights );  
