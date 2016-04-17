@@ -29,9 +29,9 @@
               });
             });  
 
-            $('.panel-group a').bind( 'click', function() {
+            $('.panel-header h6 a').bind( 'click', function() {
                 $('.main-col .equal-height').matchHeight({
-                  target: $('.equal-height.col-xs-12')
+                  target: $('.equal-height.col-md-9')
                 }); 
             }); 
 
