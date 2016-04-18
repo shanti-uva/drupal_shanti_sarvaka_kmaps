@@ -205,9 +205,9 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
   min-height: 500px;
 }
 
+/* .places-in-places .column > ul > li, */
 .texts-list .column > ul > li,
-.kmaps-list-columns .column > ul > li,
-.places-in-places .column > ul > li {
+.kmaps-list-columns .column > ul > li {
   list-style-type: none;
   font-weight:bold;
   margin-top:1rem;
