@@ -201,7 +201,10 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
 
 
 
-
+.texts-list li,
+.kmaps-list-columns ul li{
+  font-family: 'Helvetica Neue',helvetica,arial,sans-serif;
+}
 
 .texts-list .column:not(.first),
 .kmaps-list-columns .column:not(.first){
@@ -213,8 +216,8 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
   font-weight: bold;
   margin-top: 1rem;
   font-size: 0.88em;
-  font-family: 'Helvetica Neue',helvetica,arial,sans-serif;
   letter-spacing: 0.035em;
+  text-transform: capitalize;
 }
 
 .places-in-places.kmaps-list-columns .column > ul > li ul li {
@@ -234,7 +237,7 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
 }
 
 .texts-list li{
-  letter-spacing: 0.01em;
+  letter-spacing: 0.015em;
   line-height: 1.75em;
 }
 
