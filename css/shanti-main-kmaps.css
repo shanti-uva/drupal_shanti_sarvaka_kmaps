@@ -246,9 +246,11 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
 
 
 
-/** ----------------
-*** Layouts
-* ------------------*/
+/** 
+* -----------------------------------------------------------------
+* Layouts - the width of content-resource column influences these
+* -----------------------------------------------------------------
+*/
 
 body:not(.front) .content-section.equal-height.col-md-9 { width: 100%; padding-right:15px; padding-top:0.5rem; /* padding:0.5rem 2.75rem 0; */ }
 
@@ -256,17 +258,17 @@ body:not(.front) .content-section.equal-height.col-md-9 { width: 100%; padding-r
 *** Breakpoints */
 @media screen and (min-width: 992px) {
 
-  body:not(.front) .content-section.equal-height.col-md-9 { width: 78.2%; padding-right:0; }
+  body:not(.front) .content-section.equal-height.col-md-9 { width: 81%; padding-right:0; }
 }
 
 @media screen and (min-width: 1100px) {
 
-  body:not(.front) .content-section.equal-height.col-md-9 { width: 80.5%; }
+  body:not(.front) .content-section.equal-height.col-md-9 { width: 83%; }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
 
-  body:not(.front) .content-section.equal-height.col-md-9 { width: 84%; }
+  body:not(.front) .content-section.equal-height.col-md-9 { width: 85.5%; }
 }
 /**
 *** END Layouts */
