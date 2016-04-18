@@ -209,17 +209,6 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
   line-height: 1.75em;  /* opens up list for tibetan characters */
 }
 
-/* .places-in-places .column > ul > li, */
-.texts-list .column > ul > li,
-.kmaps-list-columns .column > ul > li {
-  list-style-type: none;
-  font-weight:bold;
-  margin-top:1rem;
-  font-size: 0.88em;
-  font-family: 'Helvetica Neue',helvetica,arial,sans-serif;
-  letter-spacing: 0.035em;
-}
-
 .texts-list .column:not(.first),
 .kmaps-list-columns .column:not(.first){
   padding-left: 2rem;
@@ -229,6 +218,17 @@ body:not(.front) .content-section.equal-height>.tab-content>article h6{
 .kmaps-list-columns .column > ul > li ul li {
   font-weight:normal;
   font-size: 1.06em;
+}
+
+/* .places-in-places .column > ul > li, */
+.texts-list .column > ul > li,
+.kmaps-list-columns .column > ul > li {
+  list-style-type: none;
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: 0.88em;
+  font-family: 'Helvetica Neue',helvetica,arial,sans-serif;
+  letter-spacing: 0.035em;
 }
 
 .kmaps-list-columns h6{
