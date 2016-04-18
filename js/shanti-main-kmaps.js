@@ -17,20 +17,22 @@
 	        // $(document).ajaxSuccess(function() {
 	        $(document).on('ajaxSuccess', function(){
 	          $('.main-col .equal-height').matchHeight({
-	              target: $('.equal-height.col-xs-12')
+	              target: $('.equal-height.col-md-9')
 	          });
 	        });    
 	       
             $('.content-resources a, .og-grid a, .og-grid .og-close').bind( 'click', function() {
               $(document).on('ajaxSuccess', function(){
                 $('.main-col .equal-height').matchHeight({
-                  target: $('.equal-height.col-xs-12')
+                  target: $('.equal-height.col-md-9')
                 }); 
               });
             });  
 
             $('.panel-header a').click(function(){
-        			setTimeout("$('.main-col .equal-height').matchHeight()", 10000);
+        		$('.main-col .equal-height').delay(5000).matchHeight({
+                  target: $('.equal-height.col-md-9')
+                });
             });
 
 	         // $(window).bind('load orientationchange resize', Drupal.behaviors.shantiEqualHeights );  
