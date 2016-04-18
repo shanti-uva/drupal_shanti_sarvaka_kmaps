@@ -30,7 +30,7 @@
             });  
 
             $('.panel-header a').click(function(){
-        			setTimeout("$('.main-col .equal-height').matchHeight({ target: $('.equal-height.col-md-9') }); ", 1500);
+        			setTimeout("$('.main-col .equal-height').matchHeight({ target: $('.equal-height.col-md-9') }); ", 10000);
             });
 
 	         // $(window).bind('load orientationchange resize', Drupal.behaviors.shantiEqualHeights );  
