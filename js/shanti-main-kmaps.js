@@ -30,7 +30,7 @@
             });  
 
             $('.panel-header a').click(function(){
-        		$('.main-col .equal-height').delay(5000).matchHeight({
+        		$('.main-col .equal-height').matchHeight({
                   target: $('.equal-height.col-md-9')
                 });
             });
