@@ -53,13 +53,13 @@
   color: #418ed7 !important;
 }
 
-.page-places .view-section .nav-tabs>li.active,
 .page-places .content-resources .nav-pills li.active {
   border-color: #418ed7 !important;
 }
 
+.page-places .view-section .nav-tabs>li.active,
 .page-places .nav-tabs.nav-justified>li.active{
-  border-top-color: #418ed7 !important;
+  border-top-color: #4ca6fb !important;
 }
 
 .page-places ::-moz-selection {
@@ -120,11 +120,11 @@
   border-color: #dc3c47 !important;
 }
 
-.page-subjects .view-section .nav-tabs>li.active,
 .page-subjects .content-resources .nav-pills li.active {
   border-color: #dc3c47 !important;
 }
 
+.page-subjects .view-section .nav-tabs>li.active,
 .page-subjects .nav-tabs.nav-justified>li.active{
   border-top-color: #dc3c47 !important;
 }
