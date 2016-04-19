@@ -182,9 +182,9 @@
   width: 99%;
 }
 
-
-.content-section .panel-group:last-of-type{
-  margin-bottom:21rem;
+/* adds space below accordions, this helps maintain the sidebar height */
+#accordion .panel-group:last-of-type{
+  margin-bottom:27rem;
 }
 
 

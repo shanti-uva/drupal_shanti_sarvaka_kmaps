@@ -29,9 +29,10 @@
               });
             });  
 
-            $('.panel-header a').click(function(){
-        		
-        		setTimeout("$('.main-col .equal-height').matchHeight({ target: $('.equal-height.col-md-9') })", 10000);
+            $('.panel-header a').bind('click', function(e){
+        		e.preventDefault();
+
+        		setTimeout("$('.main-col .equal-height').matchHeight({ target: $('.equal-height.col-md-9') })", 1500);
 
  //       		$('.main-col .equal-height').matchHeight({
  //                 target: $('.equal-height.col-md-9')
