@@ -183,8 +183,8 @@
 }
 
 /* adds space below accordions, this helps maintain the sidebar height */
-.page-places-overview .panel-group:last-of-type,
-.page-subjects-overview .panel-group:last-of-type{
+.page-places-overview .panel-group,
+.page-subjects-overview .panel-group{
   margin-bottom:27rem;
 }
 
