@@ -16,15 +16,14 @@
 .page-places .breadcrumb .icon,
 .page-places .fixed-action-button a,
 .page-places .bx-controls-direction a,
-.page-places .nav-tabs.nav-justified>li.active a,
-.page-places .nav-tabs.nav-justified>li.active a:hover,
-.page-places .nav-tabs.nav-justified>li.active a:active {
+.page-places .nav-tabs.nav-justified>li.active {
   background: #4ca6fb !important;
 }
 
 .page-places .navbar-brand:hover .site-slogan,
-.page-places .view-section ul.fancytree-container .glyphicon,
-.page-places .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
+.page-places .view-section .fancytree-container .glyphicon,
+.page-places .view-section .fancytree-container .fancytree-node:hover > .glyphicon,
+.page-places .view-section .fancytree-container .fancytree-node:active > .glyphicon,
 .page-places .view-section .fancytree-node.fancytree-active > .glyphicon,
 .page-places .view-section .fancytree-node.fancytree-selected > .glyphicon,
 .page-places .carousel-feature-slides li.active div a::before,
@@ -57,6 +56,10 @@
   border-color: #418ed7 !important;
 }
 
+.page-places .nav-tabs.nav-justified>li.active{
+  border-top-color: #418ed7 !important;
+}
+
 .page-places ::-moz-selection {
   background: #fb8c4c !important;
 }
@@ -81,15 +84,14 @@
 .page-subjects .breadcrumb .icon,
 .page-subjects .fixed-action-button a,
 .page-subjects .bx-controls-direction a,
-.page-subjects .nav-tabs.nav-justified>li.active a,
-.page-subjects .nav-tabs.nav-justified>li.active a:hover,
-.page-subjects .nav-tabs.nav-justified>li.active a:active {
+.page-subjects .nav-tabs.nav-justified>li.active {
   background: #dc3c47 !important;
 }
 
 .page-subjects .navbar-brand:hover .site-slogan,
-.page-subjects .view-section ul.fancytree-container .glyphicon,
-.page-subjects .view-section ul.fancytree-container .fancytree-node:hover > .glyphicon,
+.page-subjects .view-section .fancytree-container .glyphicon,
+.page-subjects .view-section .fancytree-container .fancytree-node:hover > .glyphicon,
+.page-subjects .view-section .fancytree-container .fancytree-node:active > .glyphicon,
 .page-subjects .view-section .fancytree-node.fancytree-active > .glyphicon,
 .page-subjects .view-section .fancytree-node.fancytree-selected > .glyphicon,
 .page-subjects .carousel-feature-slides li.active div a::before,
@@ -117,6 +119,10 @@
 .page-subjects .view-section .nav-tabs>li.active,
 .page-subjects .content-resources .nav-pills li.active {
   border-color: #dc3c47 !important;
+}
+
+.page-subjects .nav-tabs.nav-justified>li.active{
+  border-top-color: #dc3c47 !important;
 }
 
 .page-subjects ::-moz-selection {
