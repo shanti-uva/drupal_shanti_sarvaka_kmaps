@@ -31,12 +31,11 @@
 
             $('.panel-header a').bind('click', function(e){
         		e.preventDefault();
+ //       		setTimeout("$('.main-col .equal-height').matchHeight({ target: $('.equal-height.col-md-9') })", 1500);
 
-        		setTimeout("$('.main-col .equal-height').matchHeight({ target: $('.equal-height.col-md-9') })", 1500);
-
- //       		$('.main-col .equal-height').matchHeight({
- //                 target: $('.equal-height.col-md-9')
- //               });
+        		$('.main-col .equal-height').matchHeight({
+                  target: $('.equal-height.col-md-9')
+                });
             });
 
 	         // $(window).bind('load orientationchange resize', Drupal.behaviors.shantiEqualHeights );  
