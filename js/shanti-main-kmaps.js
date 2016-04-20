@@ -30,8 +30,8 @@
             });  
 
 			$('.panel-body').bind('resize', function(){
-			alert( 'Height changed to' + $(this).height() );
-			}
+				alert( 'Height changed to' + $(this).height() );
+			});
 
 //            $('.panel-header a').bind('click', function(e){
 //        		e.preventDefault();
