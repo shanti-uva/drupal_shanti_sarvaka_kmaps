@@ -29,14 +29,18 @@
               });
             });  
 
-            $('.panel-header a').bind('click', function(e){
-        		e.preventDefault();
- //       		setTimeout("$('.main-col .equal-height').matchHeight({ target: $('.equal-height.col-md-9') })", 1500);
+			$('.panel-body').bind('resize', function(){
+			alert( 'Height changed to' + $(this).height() );
+			}
 
-        		$('.main-col .equal-height').matchHeight({
-                  target: $('.equal-height.col-md-9')
-                });
-            });
+//            $('.panel-header a').bind('click', function(e){
+//        		e.preventDefault();
+//       		setTimeout("$('.main-col .equal-height').matchHeight({ target: $('.equal-height.col-md-9') })", 1500);
+
+//        		$('.main-col .equal-height').matchHeight({
+//                 target: $('.equal-height.col-md-9')
+//                });
+//            });
 
 	         // $(window).bind('load orientationchange resize', Drupal.behaviors.shantiEqualHeights );  
 	    }
