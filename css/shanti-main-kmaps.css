@@ -204,8 +204,8 @@ section.content-section.equal-height{
   /*padding-bottom: 0;*/
 }
 
-
-body:not(.front) .content-section.equal-height>.tab-content>article h6{
+/* body:not(.front) .content-section.equal-height.col-md-9>.tab-content>article h6 */
+.feature-type-wrapper h6{
   text-transform: uppercase !important;
 }
 

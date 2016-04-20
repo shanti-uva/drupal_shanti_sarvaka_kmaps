@@ -29,10 +29,6 @@
               });
             });  
 
-			$('.panel-body').bind('resize', function(){
-				alert( 'Height changed to' + $(this).height() );
-			});
-
 //            $('.panel-header a').bind('click', function(e){
 //        		e.preventDefault();
 //       		setTimeout("$('.main-col .equal-height').matchHeight({ target: $('.equal-height.col-md-9') })", 1500);
