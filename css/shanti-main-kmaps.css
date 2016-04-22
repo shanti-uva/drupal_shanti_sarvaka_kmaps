@@ -171,7 +171,7 @@
 
 
 
-/* this rmeoves the 2nd (Earth) breadcrumb */
+/* this rmeoves the 2nd breadcrumb  (Earth) */
 .kmaps.page-places .breadcrumb li:nth-of-type(2){ display:none !important;}
 
 .breadcrumb li:last-child{ 
@@ -192,17 +192,6 @@
   width: 99%;
 }
 
-/* adds space below accordions, this helps maintain the sidebar height */
-.page-places-overview .content-section.equal-height .panel-group:last-of-type{
-  margin-bottom:2rem;
-}
-
-
-/**
-* this overrides the sarvaka bottom padding-bottom:'7rem' for content since it does not work well for some reason with equal-height in kmaps */
-section.content-section.equal-height{
-  /*padding-bottom: 0;*/
-}
 
 /* body:not(.front) .content-section.equal-height.col-md-9>.tab-content>article h6 */
 .feature-type-wrapper h6{
@@ -320,12 +309,10 @@ section.content-section.equal-height{
 
 
 
-
-
 /** 
-* -----------------------------------------------------------------
-* Layouts - the width of content-resource column influences these
-* -----------------------------------------------------------------
+* ------------------------------------------------------------------------
+* Page Layouts - the width of content-resource column influences these
+* ------------------------------------------------------------------------
 */
 
 body:not(.front) .content-section.equal-height.col-md-9 { width: 100%; padding-right:15px; padding-top:0.5rem; /* padding:0.5rem 2.75rem 0; */ }
@@ -348,54 +335,4 @@ body:not(.front) .content-section.equal-height.col-md-9 { width: 100%; padding-r
 }
 /**
 *** END Layouts */
-
-
-
-
-
-
-/*** Video iframe 
-.tab-video .main-wrapper,
-.tab-video .content-resources .nav-pills li.active a{
-  background-color:#e0e0e0 !important;
-}
-
-.tab-video .content-section.equal-height{
-  padding-right: 0;
-  margin-right: 0; 
-  padding-left: 0;
-  width: 100% !important;
-}
-
-body.tab-video{
-  background: #e0e0e0 !important;
-} 
-*/
-
-/*
-@media screen and (min-width: 992px) {
-
-  .tab-video .content-section.equal-height{
-    padding-right: 0 !important;
-    padding-left: 2rem !important;
-    width: 78% !important;
-  }
-}
-
-@media screen and (min-width: 1100px) {
-
-  .tab-video .content-section.equal-height{
-    width: 80% !important;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-
-  .tab-video .content-section.equal-height{
-    width: 84% !important;
-    padding-right: 1rem;
-    padding-left: 0;
-  }
-}
-*/
 
