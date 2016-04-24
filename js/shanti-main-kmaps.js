@@ -29,27 +29,16 @@
               });
             });
 
+            $('#accordion').on('shown.bs.collapse', function (e) {
+    			$('.main-col .equal-height').matchHeight({
+	              target: $('.equal-height.col-md-9')
+	          	});
+			})
+
 	         // $(window).bind('load orientationchange resize', Drupal.behaviors.shantiEqualHeights );  
 	    }
 	  } 
 	};	
-
-
-	Drupal.behaviors.shantiKmapsEqualHeightsAccordionAction = {
-	  attach: function (context, settings) {
-	  	if(context == window.document) {
-
-	  		var contentHeight = $('.main-wrapper').height();
-
-            $('#accordion').on('shown.bs.collapse', function (e) {
-    			$('.main-col .equal-height').matchHeight({
-	              target: $.contentHeight
-	          	});
-			})
-
-		}
-	  }
-	};
 
 }) (jQuery);
 
