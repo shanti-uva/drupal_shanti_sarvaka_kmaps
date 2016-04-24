@@ -29,28 +29,40 @@
               });
             });
 
-            $('#accordion').on('shown.bs.collapse', function (e) {
-            	e.preventDefault();
-            	
-    			$('.main-col .equal-height').matchHeight({
-	              target: $('.main-wrapper')
-	          	});
-			})
-
-//            $('.panel-header a').bind('click', function(e){
-//        		e.preventDefault();
-//       		setTimeout("$('.main-col .equal-height').matchHeight({ target: $('.equal-height.col-md-9') })", 1500);
-
-//        		$('.main-col .equal-height').matchHeight({
-//                 target: $('.equal-height.col-md-9')
-//                });
-//            });
-
 	         // $(window).bind('load orientationchange resize', Drupal.behaviors.shantiEqualHeights );  
 	    }
 	  } 
 	};	
 
+
+	Drupal.behaviors.shantiKmapsEqualHeightsAccordionAction = {
+	  attach: function (context, settings) {
+	  	if(context == window.document) {
+
+	  		var contentHeight = $('#accordion').on('shown.bs.collapse').height('.main-wrapper');
+
+//            $('#accordion').on('shown.bs.collapse', function (e) {
+    			$('.main-col .equal-height').matchHeight({
+	              target: $( contentHeight )
+	          	});
+//			})
+
+		}
+	  }
+	};
+
 }) (jQuery);
+
+
+/*
+
+            $('#accordion').on('shown.bs.collapse', function (e) {
+
+    			$('.main-col .equal-height').matchHeight({
+	              target: $('.main-wrapper')
+	          	});
+			})
+
+*/
 
 
