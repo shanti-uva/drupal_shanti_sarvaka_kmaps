@@ -17,7 +17,7 @@
 	        // $(document).ajaxSuccess(function() {
 	        $(document).on('ajaxSuccess', function(){
 	          $('.main-col .equal-height').matchHeight({
-	              target: $('.main-wrapper')
+	              target: $('.equal-height.col-md-9')
 	          });
 	        });    
 	       
