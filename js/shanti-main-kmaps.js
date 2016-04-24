@@ -39,7 +39,7 @@
 	  attach: function (context, settings) {
 	  	if(context == window.document) {
 
-	  		var contentHeight = $('#accordion').on('shown.bs.collapse').height('.main-wrapper');
+	  		var contentHeight = $('#accordion').on('shown.bs.collapse').height('.wrap-all');
 
             $('#accordion').on('shown.bs.collapse', function (e) {
     			$('.main-col .equal-height').matchHeight({
