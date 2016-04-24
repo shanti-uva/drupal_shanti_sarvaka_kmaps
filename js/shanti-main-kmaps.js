@@ -43,7 +43,7 @@
 
 //            $('#accordion').on('shown.bs.collapse', function (e) {
     			$('.main-col .equal-height').matchHeight({
-	              target: $( contentHeight )
+	              target: contentHeight
 	          	});
 //			})
 
