@@ -39,13 +39,19 @@
 	  attach: function (context, settings) {
 	  	if(context == window.document) {
 
-	  		var contentHeight = $('.main-wrapper').height();
+	  		var tempScrollTop = $(window).scrollTop();
 
             $('#accordion').on('shown.bs.collapse', function (e) {
+            	
+            	var positionScrollTop = $(window).scrollTop();
+
     			$('.main-col .equal-height').matchHeight({
-	              target: $.contentHeight
+	              target: $('.main-wrapper')
 	          	});
-			})
+
+	          	$(window).scrollTop(positionScrollTop);
+
+			}); return false;
 
 		}
 	  }
