@@ -27,7 +27,13 @@
                   target: $('.equal-height.col-md-9')
                 }); 
               });
-            });  
+            });
+
+            $('#accordion').on('shown.bs.collapse', function (e) {
+    			$('.main-col .equal-height').matchHeight({
+	              target: $('.main-wrapper')
+	          	});
+			})
 
 //            $('.panel-header a').bind('click', function(e){
 //        		e.preventDefault();
