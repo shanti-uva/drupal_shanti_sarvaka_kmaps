@@ -168,7 +168,9 @@
   bottom: 4em; /* this seperates button from Kmaps EDIT button */
 } 
 
-
+#accordion.panel-group{
+  margin-bottom:7rem;
+}
 
 
 /* this rmeoves the 2nd breadcrumb  (Earth) */
