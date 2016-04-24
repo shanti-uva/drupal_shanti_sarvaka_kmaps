@@ -30,6 +30,8 @@
             });
 
             $('#accordion').on('shown.bs.collapse', function (e) {
+            	e.preventDefault();
+            	
     			$('.main-col .equal-height').matchHeight({
 	              target: $('.main-wrapper')
 	          	});
