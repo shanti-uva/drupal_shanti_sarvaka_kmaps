@@ -49,6 +49,7 @@
 
 	          	$(window).scrollTop(positionScrollTop);
 
+	          	return false;
 			});
 
 		}
