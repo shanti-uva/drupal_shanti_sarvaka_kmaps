@@ -39,8 +39,6 @@
 	  attach: function (context, settings) {
 	  	if(context == window.document) {
 
-	  		var tempScrollTop = $(window).scrollTop();
-
             $('#accordion').on('shown.bs.collapse', function (e) {
             	
             	var positionScrollTop = $(window).scrollTop();
@@ -51,11 +49,12 @@
 
 	          	$(window).scrollTop(positionScrollTop);
 
-			}); return false;
+			});
 
 		}
 	  }
 	};
+
 
 }) (jQuery);
 
