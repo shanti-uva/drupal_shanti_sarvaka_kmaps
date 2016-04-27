@@ -21,7 +21,7 @@
 	          });
 	        });    
 	       
-            $('.content-resources a, .og-grid a, .og-grid .og-close').bind( 'click', function() {
+            $('#sidebar-first a, .og-grid a, .og-grid .og-close').bind( 'click', function() {
               $(document).on('ajaxSuccess', function(){
                 $('.main-col .equal-height').matchHeight({
                   target: $('.equal-height.col-md-9')
