@@ -44,8 +44,12 @@
             	var positionScrollTop = $(window).scrollTop();
 
     			$('.main-col .equal-height').matchHeight({
-	              target: $('.main-wrapper')
+	              	target: $('.equal-height.col-md-9')
 	          	});
+
+	          	$('.equal-height.col-md-9').height(function (index, height) {
+				    return (height + 100);
+				});
 
 	          	$(window).scrollTop(positionScrollTop);
 
