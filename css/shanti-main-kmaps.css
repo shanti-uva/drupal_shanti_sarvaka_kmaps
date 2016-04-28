@@ -53,7 +53,7 @@
   color: #418ed7 !important;
 }
 
-.page-places .content-resources .nav-pills li.active {
+.page-places #sidebar-first .nav-pills li.active {
   border-color: #418ed7 !important;
 }
 
@@ -120,7 +120,7 @@
   border-color: #dc3c47 !important;
 }
 
-.page-subjects .content-resources .nav-pills li.active {
+.page-subjects #sidebar-first .nav-pills li.active {
   border-color: #dc3c47 !important;
 }
 
