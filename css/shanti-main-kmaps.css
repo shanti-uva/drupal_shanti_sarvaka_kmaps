@@ -1,16 +1,14 @@
 /**
-* version 1.x - Mandala KMAPS Places-Subjects Development
+* Mandala KMAPS Places-Subjects - Development
 * 
-* shanti-main-kmaps.css
-* -------------------------------------------------------------------
-* University of Virginia / SHANTI MANDALA / Audio-Video
-* -------------------------------------------------------------------
+* version 1.x - shanti-main-kmaps.css
+* -------------------------------------------------
+* University of Virginia / SHANTI MANDALA / KMAPS
+* -------------------------------------------------
 * 
 */
 
-/**
-* PLACES Subtheme Colors 
-*/
+/* BEGIN sub-theme (Places) colors */
 .page-places .titlearea,
 .page-places .carousel-control,
 .page-places .breadcrumb .icon,
@@ -78,9 +76,7 @@
 }
 
 
-/**
-* SUBJECTS Subtheme Colors 
-*/
+/* BEGIN sub-theme (Subjects) colors */
 .page-subjects .titlearea,
 .page-subjects .carousel-control,
 .page-subjects .breadcrumb .icon,
@@ -152,13 +148,6 @@
 * END colors 
 */
 
-
-
 /* this rmeoves the 2nd breadcrumb  (Earth) */
 .kmaps.page-places .breadcrumb li:nth-of-type(2){ display:none !important;}
-
-
-
-
-
 
