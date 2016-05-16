@@ -151,3 +151,9 @@
 /* this rmeoves the 2nd breadcrumb  (Earth) */
 .kmaps.page-places .breadcrumb li:nth-of-type(2){ display:none !important;}
 
+
+/**
+* 
+* END - KMAPS/css/shanti-main-kmaps.css
+*
+*/
