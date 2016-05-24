@@ -151,6 +151,15 @@
 /* this rmeoves the 2nd breadcrumb  (Earth) */
 .kmaps.page-places .breadcrumb li:nth-of-type(2){ display:none !important;}
 
+/* space between Map and accordions on Overview section */
+.panel-group{ margin: 20px 0 80px; }
+
+/* Fix for template issue */
+.row-offcanvas > .content-section > .tab-content.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
 
 /**
 * 
