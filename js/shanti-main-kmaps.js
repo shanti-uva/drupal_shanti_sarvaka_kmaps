@@ -17,7 +17,7 @@
 	        $(window).load(function() {
 		        	function set_equal_heights() {
 			          	$('.main-col .equal-height').matchHeight({
-			              target: $('main-main-wrapper')
+			              target: $('main.main-wrapper')
 			          	});
 		            }; 
 		            window.setTimeout( set_equal_heights, 1000 );	             
@@ -28,7 +28,7 @@
 		        	function click_equal_heights() {
 				            $('#sidebar-first a, .panel-heading a, .og-grid a, .og-grid .og-close').on( 'click', function() {
 				                $('.main-col .equal-height').matchHeight({
-				                  target: $('main-main-wrapper')
+				                  target: $('main.main-wrapper')
 				                });
 				            });
 		            }; 
