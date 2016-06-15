@@ -154,7 +154,7 @@
 /* space between Map and accordions on Overview section */
 .panel-group{ margin: 20px 0 80px; }
 
-
+.tab-content.container-fluid{ padding-bottom:0; }
 
 /**
 * 

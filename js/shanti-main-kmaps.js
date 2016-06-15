@@ -15,15 +15,16 @@
 	    if(context == window.document) {  
 
 	        $(window).load(function() {
-	        	$(document).on('ajaxSuccess', function(){
+	        	// $(document).on('ajaxSuccess', function(){
 		        	// $('.front.logged-in .equal-height, .page-search .equal-height, .page-node-edit.sidebar-second .equal-height').matchHeight({
 		        	function set_equal_heights() {
 			          	$('.main-col .equal-height').matchHeight({
 			              target: $('.equal-height.col-md-9')
 			          	});
-		            };
-	            });
-		             window.setTimeout( set_equal_heights, 1000 );
+		            }; 
+		            window.setTimeout( set_equal_heights, 1000 );
+	            // });
+		             
 	        });
 
 /*	       
