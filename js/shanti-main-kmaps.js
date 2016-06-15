@@ -26,13 +26,13 @@
 
 	        $(window).load(function() {
 		        	function click_equal_heights() {
-				            $('#sidebar-first a, .panel-heading a, .og-grid a, .og-grid .og-close').bind( 'click', function() {
+				            $('#sidebar-first a, .panel-heading a, .og-grid a, .og-grid .og-close').on( 'click', function() {
 				                $('.main-col .equal-height').matchHeight({
 				                  target: $('.equal-height.col-md-9')
 				                });
 				            });
 		            }; 
-		            window.setTimeout( click_equal_heights, 1000 );	             
+		            window.setTimeout( click_equal_heights, 3000 );	             
 	        });
 /*	       
             $('#sidebar-first a, .og-grid a, .og-grid .og-close').bind( 'click', function() {
