@@ -23,18 +23,7 @@
 		            window.setTimeout( set_equal_heights, 1000 );	             
 	        });
 
-
-	        $(window).load(function() {
-		        	function click_equal_heights() {
-				            $('#sidebar-first a, .panel-heading a, .og-grid a, .og-grid .og-close').on( 'click', function() {
-				                $('.main-col .equal-height').matchHeight({
-				                  target: $('main.main-wrapper')
-				                });
-				            });
-		            }; 
-		            window.setTimeout( click_equal_heights, 3000 );	             
-	        });
-/*	       
+      
             $('#sidebar-first a, .og-grid a, .og-grid .og-close').bind( 'click', function() {
               $(document).on('ajaxSuccess', function(){
                 $('.main-col .equal-height').matchHeight({
@@ -42,7 +31,7 @@
                 }); 
               });
             });
-*/
+
 	         // $(window).bind('load orientationchange resize', Drupal.behaviors.shantiEqualHeights );  
 	    }
 	  } 

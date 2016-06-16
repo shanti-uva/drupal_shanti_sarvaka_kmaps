@@ -8,7 +8,9 @@
 * 
 */
 
-/* BEGIN sub-theme (Places) colors */
+/**
+* BEGIN (Places) colors 
+*/
 .page-places .titlearea,
 .page-places .carousel-control,
 .page-places .breadcrumb .icon,
@@ -76,7 +78,9 @@
 }
 
 
-/* BEGIN sub-theme (Subjects) colors */
+/**
+* BEGIN (Subjects) colors 
+*/
 .page-subjects .titlearea,
 .page-subjects .carousel-control,
 .page-subjects .breadcrumb .icon,
@@ -144,9 +148,14 @@
     color: #dc3c47 !important;
   }
 }
-/* ------------------
-* END colors 
-*/
+/** 
+  * ------------------
+  * END colors 
+  * ------------------
+  */
+
+
+
 
 /* this rmeoves the 2nd breadcrumb  (Earth) */
 .kmaps.page-places .breadcrumb li:nth-of-type(2){ display:none !important;}
