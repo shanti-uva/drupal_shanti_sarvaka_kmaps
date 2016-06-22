@@ -41,7 +41,7 @@
 	  attach: function (context, settings) { 
 	    if(context == window.document) { 
 
-	    	$('.row-offcanvas').addClass('row-offcanvas-left');
+	    	// $('.row-offcanvas').addClass('row-offcanvas-left');
 
 	    }
 	  } 
