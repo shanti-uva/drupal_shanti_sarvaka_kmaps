@@ -37,6 +37,17 @@
 	  } 
 	};	
 
+	Drupal.behaviors.kmapsOffcanvasSidebarLeft = {
+	  attach: function (context, settings) { 
+	    if(context == window.document) { 
+
+	    	$('row-offcanvas').addClass('row-offcanvas-left');
+
+	    }
+	  } 
+	};	
+
+
 /*
 	Drupal.behaviors.shantiKmapsEqualHeightsAccordionAction = {
 	  attach: function (context, settings) {
