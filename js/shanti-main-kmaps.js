@@ -14,16 +14,6 @@
 	  attach: function (context, settings) { 
 	    if(context == window.document) {  
 
-      		// $('#sidebar-first a, .og-grid a, .og-grid .og-close').bind( 'click', function() {
-            $('#sidebar-first').on( 'click', 'a.use-ajax', function() {
-              // $(document).on('ajaxSuccess', function(){
-                $('.main-col .equal-height').matchHeight({
-                  target: $('.equal-height.col-md-9')
-                }); 
-              // });
-            });
-
-
 	        $(window).load(function() {
 		        	function set_equal_heights() {
 			          	$('.main-col .equal-height').matchHeight({
@@ -32,7 +22,20 @@
 		            }; 
 		            window.setTimeout( set_equal_heights, 1000 );	             
 	        });
-	        
+
+      		// $('#sidebar-first a, .og-grid a, .og-grid .og-close').bind( 'click', function() {
+            $('#sidebar-first').on( 'click', 'a.use-ajax', function() {
+              // $(document).on('ajaxSuccess', function(){
+
+              	function set_equal_heights_onclick() {
+	                $('.main-col .equal-height').matchHeight({
+	                  target: $('.equal-height.col-md-9')
+	                }); 
+                }; 
+		            window.setTimeout( set_equal_heights_onclick, 1000 );
+              // });
+            });
+
 	         // $(window).bind('load orientationchange resize', Drupal.behaviors.shantiEqualHeights );  
 	    }
 	  } 
