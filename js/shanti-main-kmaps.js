@@ -23,13 +23,13 @@
 		            window.setTimeout( set_equal_heights, 1000 );	             
 	        });
 
-      
-            $('#sidebar-first a, .og-grid a, .og-grid .og-close').bind( 'click', function() {
-              $(document).on('ajaxSuccess', function(){
+      		// $('#sidebar-first a, .og-grid a, .og-grid .og-close').bind( 'click', function() {
+            $('#sidebar-first').on( 'click', 'a.use-ajax', function() {
+              // $(document).on('ajaxSuccess', function(){
                 $('.main-col .equal-height').matchHeight({
                   target: $('.equal-height.col-md-9')
                 }); 
-              });
+              // });
             });
 
 	         // $(window).bind('load orientationchange resize', Drupal.behaviors.shantiEqualHeights );  
