@@ -23,21 +23,17 @@
 		            window.setTimeout( set_equal_heights, 1000 );	             
 	        });
 
-      		// $('#sidebar-first a, .og-grid a, .og-grid .og-close').bind( 'click', function() {
-            $('#sidebar-first').on( 'click', 'a.use-ajax', function() {
-              // $(document).on('ajaxSuccess', function(){
-              	$(window).load(function() {
-	              	function set_equal_heights_onclick() {
+
+ /*           $('#sidebar-first').on( 'click', 'a.use-ajax', function() {
 		                $('.main-col .equal-height').matchHeight({
 		                  target: $('.equal-height.col-md-9')
 		                }); 
-	                }; 
-			            window.setTimeout( set_equal_heights_onclick, 3000 );
-		        });
-              // });
             });
+*/
 
-	         // $(window).bind('load orientationchange resize', Drupal.behaviors.shantiEqualHeights );  
+
+	         // $(window).bind('load orientationchange resize', Drupal.behaviors.shantiEqualHeights );
+
 	    }
 	  } 
 	};
