@@ -32,7 +32,7 @@
 	                  target: $('.equal-height.col-md-9')
 	                }); 
                 }; 
-		            window.setTimeout( set_equal_heights_onclick, 1000 );
+		            window.setTimeout( set_equal_heights_onclick, 5000 );
               // });
             });
 
