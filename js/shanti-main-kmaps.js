@@ -38,7 +38,7 @@
 	  } 
 	};
 	
-/*
+
 	Drupal.behaviors.shantiKmapsEqualHeightsAccordionAction = {
 	  attach: function (context, settings) {
 	  	if(context == window.document) {
@@ -63,7 +63,7 @@
 		}
 	  }
 	};
-*/
+
 
 }) (jQuery);
 
