@@ -51,9 +51,9 @@
 	              	target: $('.equal-height.col-md-9')
 	          	});
 
-	          	$('.equal-height.col-md-9').height(function (index, height) {
-				    return (height + 100);
-				});
+	    //     	$('.equal-height.col-md-9').height(function (index, height) {
+		//		    return (height + 100);
+		//		});
 
 	          	$(window).scrollTop(positionScrollTop);
 
