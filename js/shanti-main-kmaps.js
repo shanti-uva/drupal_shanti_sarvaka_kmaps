@@ -54,9 +54,16 @@
 
 
             $('#sidebar-first a.use-ajax').on( 'click', function() {
-                $('.main-col .equal-height').matchHeight({
-                  target: $('.equal-height.col-md-9')
-                }); 
+              $(window).load(function() {
+		            function set_equal_heights_onclick() {	
+		                
+		                $('.main-col .equal-height').matchHeight({
+		                  target: $('.equal-height.col-md-9')
+		                }); 
+
+	                  	window.setTimeout( set_equal_heights_onclick, 1000 );
+	              	}; 
+		      });      
             });
 
 
