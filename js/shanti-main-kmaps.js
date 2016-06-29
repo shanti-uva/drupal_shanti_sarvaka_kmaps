@@ -24,14 +24,6 @@
 	        });
 
 
- /*           $('#sidebar-first').on( 'click', 'a.use-ajax', function() {
-		                $('.main-col .equal-height').matchHeight({
-		                  target: $('.equal-height.col-md-9')
-		                }); 
-            });
-*/
-
-
 	         // $(window).bind('load orientationchange resize', Drupal.behaviors.shantiEqualHeights );
 
 	    }
@@ -59,6 +51,14 @@
 
 	          	return false;
 			});
+
+
+            $('#sidebar-first a.use-ajax').on( 'click', function() {
+                $('.main-col .equal-height').matchHeight({
+                  target: $('.equal-height.col-md-9')
+                }); 
+            });
+
 
 		}
 	  }
