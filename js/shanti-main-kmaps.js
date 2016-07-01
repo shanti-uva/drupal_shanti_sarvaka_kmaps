@@ -54,19 +54,13 @@
 
 
             $('#sidebar-first a.use-ajax').on( 'click', function() {
-
-		            function set_equal_heights_onclick() {	
 		                
-					$(document).ajaxSuccess(function() {
-			        	// $(document).on('ajaxSuccess', function(){
-			          $('.main-col .equal-height').matchHeight({
-			              target: $('.equal-height.col-md-9')
-			          });
-			        });  
-
-	                  	window.setTimeout( set_equal_heights_onclick, 1000 );
-	              	}; 
-     
+				$(document).ajaxSuccess(function() {
+		        	// $(document).on('ajaxSuccess', function(){
+		          $('.main-col .equal-height').matchHeight({
+		              target: $('.equal-height.col-md-9')
+		          });
+		        });  
             });
 
 
