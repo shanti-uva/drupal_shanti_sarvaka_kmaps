@@ -1,6 +1,6 @@
 (function ($) {
 
-	Drupal.behaviors.shantiKmapsSubjectsHomepage = {
+/*	Drupal.behaviors.shantiKmapsSubjectsHomepage = {
 	  attach: function (context, settings) {
 	  	if(context == window.document) {
 			if($(".feature-carousel-tabpanel").length ) {
@@ -9,7 +9,7 @@
 		}
 	  }
 	};
-
+*/
 	Drupal.behaviors.shantiKmapsEqualHeights = {
 	  attach: function (context, settings) { 
 	    if(context == window.document) {  
