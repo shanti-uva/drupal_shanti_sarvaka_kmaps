@@ -9,7 +9,7 @@
 		}
 	  }
 	};
-
+/*
 	Drupal.behaviors.shantiKmapsEqualHeights = {
 	  attach: function (context, settings) { 
 	    if(context == window.document) {  
@@ -29,6 +29,10 @@
 	    }
 	  } 
 	};
+*/
+
+
+
 	
 /*
 	Drupal.behaviors.shantiKmapsEqualHeightsAccordionAction = {
