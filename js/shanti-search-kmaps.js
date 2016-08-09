@@ -1,3 +1,5 @@
+(function ($) { 
+
   // *** SEARCH *** adapt search panel height to viewport for scrolling treenav area
   Drupal.ShantiSarvaka.searchTabHeightKMaps = function() {    
     var height = $(window).height();
@@ -7,3 +9,5 @@
     $(".view-wrap").css('height', viewheightKMaps);
 
   };
+
+}(jQuery));
