@@ -24,10 +24,13 @@
 
           };
 
-        }
-      }
-  };
+	      Drupal.ShantiSarvaka.searchTabHeightKMaps();
+	       $(window).bind('load orientationchange resize', Drupal.ShantiSarvaka.searchTabHeightKMaps );
 
+
+        }
+       }
+  	};
 
 
 
