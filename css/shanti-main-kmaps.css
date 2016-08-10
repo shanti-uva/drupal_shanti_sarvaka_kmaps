@@ -57,7 +57,10 @@
   border-color: #418ed7 !important;
 }
 
-.page-places .view-section .nav-tabs>li.active,
+.page-places .view-section .nav-tabs>li.active>a, 
+/*.page-places .view-section .nav-tabs>li.active>a:hover, 
+.page-places .view-section .nav-tabs>li.active>a:active,
+.page-places .view-section .nav-tabs>li.active,*/
 .page-places .nav-tabs.nav-justified>li.active{
   border-top-color: #4ca6fb !important;
 }
@@ -124,7 +127,10 @@
   border-color: #dc3c47 !important;
 }
 
-.page-subjects .view-section .nav-tabs>li.active,
+.page-subjects .view-section .nav-tabs>li.active>a, 
+/*.page-subjects .view-section .nav-tabs>li.active>a:hover, 
+.page-subjects .view-section .nav-tabs>li.active>a:active,
+.page-places .view-section .nav-tabs>li.active,*/
 .page-subjects .nav-tabs.nav-justified>li.active{
   border-top-color: #dc3c47 !important;
 }
