@@ -16,7 +16,6 @@
 .page-places .breadcrumb .icon,
 .page-places .fixed-action-button a,
 .page-places .bx-controls-direction a,
-.page-places .texts-list li:hover::before,
 .page-places .nav-tabs.nav-justified>li.active>a,
 .page-places .nav-tabs.nav-justified>li.active>a:focus,
 .page-places .nav-tabs.nav-justified>li.active>a:hover {
@@ -68,6 +67,11 @@
   border-top-color: #4ca6fb !important;
 }
 
+
+.page-places .texts-list li:hover::before{
+  background: #4494e0 !important;
+}
+
 @media screen and (min-width: 768px) {
 
   .nav-tabs.nav-justified>li.active::before{  
@@ -89,7 +93,6 @@
 .page-subjects .breadcrumb .icon,
 .page-subjects .fixed-action-button a,
 .page-subjects .bx-controls-direction a,
-.page-subjects .texts-list li:hover::before,
 .page-subjects .nav-tabs.nav-justified>li.active>a,
 .page-subjects .nav-tabs.nav-justified>li.active>a:focus,
 .page-subjects .nav-tabs.nav-justified>li.active>a:hover {
@@ -144,9 +147,8 @@
   background: #47dc3c !important;
 }
 
-.page-places .navbar-brand:active .site-slogan,
-.page-subjects .navbar-brand:active .site-slogan {
-  color: #444 !important;
+.page-subjects .texts-list li:hover::before{
+  background: #4494e0 !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -155,11 +157,20 @@
     color: #dc3c47 !important;
   }
 }
+
+.page-places .navbar-brand:active .site-slogan,
+.page-subjects .navbar-brand:active .site-slogan {
+  color: #444 !important;
+}
+
 /** 
   * ------------------
   * END colors 
   * ------------------
   */
+
+
+
 
 /* hide mobile button on homepage */
 .front .btn.btn-default.view-offcanvas-sidebar{ display:none !important; }
