@@ -174,7 +174,7 @@
 .kmaps.page-places .breadcrumb li:nth-of-type(2){ display:none !important;}
 
 /* space between Map and accordions on Overview section */
-.panel-group{ margin: 20px 0 70px; }
+.panel-group{ margin: 20px 0 150px; }
 
 .tab-content.container-fluid,
 .no-sidebars article.main-col{ padding-bottom:0; }
