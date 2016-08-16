@@ -16,6 +16,7 @@
 .page-places .breadcrumb .icon,
 .page-places .fixed-action-button a,
 .page-places .bx-controls-direction a,
+.page-places .texts-list li:hover::before,
 .page-places .nav-tabs.nav-justified>li.active>a,
 .page-places .nav-tabs.nav-justified>li.active>a:focus,
 .page-places .nav-tabs.nav-justified>li.active>a:hover {
@@ -88,6 +89,7 @@
 .page-subjects .breadcrumb .icon,
 .page-subjects .fixed-action-button a,
 .page-subjects .bx-controls-direction a,
+.page-subjects .texts-list li:hover::before,
 .page-subjects .nav-tabs.nav-justified>li.active>a,
 .page-subjects .nav-tabs.nav-justified>li.active>a:focus,
 .page-subjects .nav-tabs.nav-justified>li.active>a:hover {
