@@ -139,16 +139,8 @@
   border-top-color: #dc3c47 !important;
 }
 
-.page-subjects ::-moz-selection {
-  background: #47dc3c!important;
-}
-
-.page-subjects ::selection {
-  background: #47dc3c !important;
-}
-
 .page-subjects .texts-list li:hover::before{
-  background: #4494e0 !important;
+  background: #dc3c47 !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -157,6 +149,9 @@
     color: #dc3c47 !important;
   }
 }
+
+.page-subjects ::-moz-selection { background: #47dc3c!important;}
+.page-subjects ::selection { background: #47dc3c !important;}
 
 .page-places .navbar-brand:active .site-slogan,
 .page-subjects .navbar-brand:active .site-slogan {
