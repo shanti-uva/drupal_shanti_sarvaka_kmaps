@@ -64,12 +64,12 @@
 
 .page-places .view-section .nav-tabs>li.active>a,
 .page-places .nav-tabs.nav-justified>li.active{
-  border-top-color: #418ed7 !important;
+  border-top-color: #4ca6fb !important;
 }
 
 
 .page-places .texts-list li:hover::before{
-  background: #4494e0 !important;
+  background: #418ed7 !important;
 }
 
 @media screen and (min-width: 768px) {
