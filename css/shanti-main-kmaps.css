@@ -180,11 +180,19 @@
 .no-sidebars article.main-col{ padding-bottom:0; }
 
 
-/* Typeahead KMaps: reset search button */
-.input-section .kmap-typeahead-picker .searchreset {
-  position: absolute;
-  right: 3.3rem;
-  top: 2.75rem;
+
+/*
+* gallery images
+*/
+.og-details .tab-pane {
+  padding: 1rem 0 0;
+}
+.og-details h3{
+  margin: 0.5em 0;
+}
+.og-details #info li,
+.og-details #download li{
+   margin: 1rem 0 0;
 }
 
 
