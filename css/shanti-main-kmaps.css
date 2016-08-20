@@ -64,9 +64,15 @@
 
 .page-places .view-section .nav-tabs>li.active>a,
 .page-places .nav-tabs.nav-justified>li.active{
-  border-top-color: #4ca6fb !important;
+  /*border-top-color: #4ca6fb !important;*/
+  border-top-color: #418ed7 !important;
 }
 
+.page-places .kmaps-tt-menu .kmaps-tt-suggestion:hover::before,
+.page-places .kmaps-tt-menu .kmaps-tt-suggestion.kmaps-tt-cursor::before{
+    border-color: #418ed7;
+    background-color: #418ed7;
+}
 
 .page-places .texts-list li:hover::before{
   background: #418ed7 !important;
@@ -75,7 +81,8 @@
 @media screen and (min-width: 768px) {
 
   .nav-tabs.nav-justified>li.active::before{  
-    color: #4ca6fb !important;
+    /*color: #4ca6fb !important;*/
+    color: #418ed7 !important;
   }
 }
 
