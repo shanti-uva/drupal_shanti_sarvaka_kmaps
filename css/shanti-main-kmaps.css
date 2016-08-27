@@ -202,6 +202,9 @@
    margin: 1rem 0 0;
 }
 
+article table.pagerer:last-child{
+  margin: 2rem 0 7rem;
+}
 
 /**
 * 
