@@ -15,20 +15,27 @@
         if (context == document) {
           var $extruder = $('#search-flyout .extruder-content');
           var $inputsec = $('#kmaps-search .input-section');
-          var input_height = 225; //height of initial input section including expanded search
+          var input_height; // = 225; //height of initial input section including expanded search
 
           // *** SEARCH *** adapt search panel height to viewport for scrolling treenav area
-          Drupal.ShantiSarvaka.searchTabHeightKMaps = function() {
+          Drupal.ShantiSarvaka.searchTabHeightKMaps = function(e) {
+            console.log(e);
             var extruder_height = $extruder.height();
+            //if ($extruder.css('display', 'block')) {
+            //  console.log('measuring');
+              input_height = $inputsec.height();
+              console.log(input_height);
+            //}
             if ($extruder.css('display', 'block')) {
               input_height = $inputsec.height();
+              console.log(input_height);
             }
             var viewheightKMaps = (extruder_height) - input_height - 75;
             viewheightKMaps = parseInt(viewheightKMaps) + 'px';
             $(".view-wrap").css('height', viewheightKMaps);
           };
 
-          Drupal.ShantiSarvaka.searchTabHeightKMaps();
+          //Drupal.ShantiSarvaka.searchTabHeightKMaps();
           $(window).bind('load orientationchange resize', Drupal.ShantiSarvaka.searchTabHeightKMaps);
         }
        }
