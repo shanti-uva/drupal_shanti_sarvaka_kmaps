@@ -175,10 +175,13 @@
 
 
 /* hide mobile button on homepage */
-.front .btn.btn-default.view-offcanvas-sidebar{ display:none !important; }
+.front .btn.btn-default.view-offcanvas-sidebar,
+.page-user .row-offcanvas .btn.btn-default.view-offcanvas-sidebar{ 
+  display:none !important; 
+}
 
 /* this removes the 2nd breadcrumb  (text: Earth) */
-.kmaps.page-places .breadcrumb li:nth-of-type(2){ display:none !important;}
+.kmaps.page-places .breadcrumb li:nth-of-type(2){ display:none !important; }
 
 /* space between Map and accordions on Overview section */
 .panel-group{ margin: 20px 0 150px; }
